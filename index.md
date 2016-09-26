@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# USF Health Informatics High Performance Computing
+# HII High Performance Computing
 
 ## Connection Information
 
