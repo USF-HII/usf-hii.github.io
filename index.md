@@ -47,10 +47,10 @@ For example:
 
 The example command's output indicates:
 
-- 1 node is partially allocated (mixed) with some resources still available
-- 39 nodes each with 20 cpus and 128GB are completely allocated and not currently available (running other jobs)
-- 2 nodes each with 12 cpus each and 64GB of RAM are idle and available for new jobs
-- 40 nodes each with 16 cpus and 128GB of RAM are idle and available for new jobs
+- 1 node partially allocated with some resources still available (`mixed`)
+- 39 nodes each with 20 cpus and 128GB occupied running other jobs (`allocated`)
+- 2 nodes each with 12 cpus each and 64GB of RAM are idle and available for new jobs (`idle`)
+- 40 nodes each with 16 cpus and 128GB of RAM are idle and available for new jobs (`idle`)
 
 ### Interactive Shell
 
