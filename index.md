@@ -15,7 +15,7 @@ when you are able to access the HII HPC Cluster.
 
 - SFTP: `<netid>@hii.rc.usf.edu` (e.g. `sftp jsmith@hii.rc.usf.edu`)<br/>
 
-Also consider [FileZilla](http://portableapps.com/apps/internet/filezilla_portable) for a graphical file-transfer client.
+Also consider [FileZilla](https://filezilla-project.org/) or [FileZilla Portable](http://portableapps.com/apps/internet/filezilla_portable) for a graphical file-transfer client.
 
 ## HII HPC Cluster
 
@@ -86,10 +86,20 @@ time limit (`--time=<days-HH:MM>`) and memory allocation (`--mem=<mem_spec>`)
 #SBATCH --mail-user=jsmith@not-a-domain.foo  # Send-to address
 
 for i in {1..100000}; do
-  echo $RANDOM >> SomeRandomNumbers.txt
+  echo $RANDOM >> basic-test.data
 done
 
-sort SomeRandomNumbers.txt
+sleep 30
+
+head basic-test.data
+rm basic-test.data
 ```
 
-Submit by running: `sbatch basic-test.sh`
+Submit the job:
+
+hii$ sbatch basic-test.sh
+
+
+hii$ squeue --partition=hii-test --user $USER --format="%.18i %82j %.22T %.10M %.9l %.6D %20R %E"
+
+
