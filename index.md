@@ -40,6 +40,7 @@ Although our partition is part of the USF Research Computing environment, we are
 
 The main partition is `hii02` and should be provided as a command line option (`--partition=hii02` or `-phii02`) for any of your Slurm commands, e.g.:
 
-```srun --partition=hii02 uname -n
-
-svc-3024-4-20.rc.usf.edu```
+```
+srun --partition=hii02 uname -n
+svc-3024-4-20.rc.usf.edu
+```
