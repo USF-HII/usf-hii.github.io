@@ -2,8 +2,9 @@ code {
   padding: 0;
   font-size: 90%;
   color: black;
-  background-color: #a0a0a0;
-  border: 0px solid white;
+  background-color: #c7254e;
+  padding: 2px 4px;
+  border-radius: 4px;
 }
 
 a code {
