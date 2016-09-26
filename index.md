@@ -2,7 +2,14 @@
 layout: page
 ---
 
+# USF Health Informatics High Performance Computing
+
 ## Connection Information
+
+**Note**: You must obtain a USF NetID, visit the
+[USF Research Computing Account Signup Page](https://cwa.rc.usf.edu/cwa_accountsignup/research-computing)
+and then send your NetID to the Data Coordinating Center who will provide you final confirmation
+when you are able to access the HII HPC Cluster.
 
 - SSH: `<netid>@hii.rc.usf.edu`<br/>
   (e.g. `ssh jsmith@hii.rc.usf.edu`)
@@ -10,11 +17,6 @@ layout: page
 - SFTP: `<netid>@hii.rc.usf.edu`<br/>
   (e.g. `sftp jsmith@hii.rc.usf.edu`)<br/>
   (Also consider [FileZilla](http://portableapps.com/apps/internet/filezilla_portable))
-
-**Note**: You must obtain a USF NetID, visit the
-[USF Research Computing Account Signup Page](https://cwa.rc.usf.edu/cwa_accountsignup/research-computing)
-and then send your NetID to the Data Coordinating Center who will provide you final confirmation
-when you are able to access the HII HPC Cluster.
 
 ## HII HPC Cluster
 
@@ -29,7 +31,7 @@ Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 
 To view detailed information on a partition, we suggest the following command:
 
-    hii$ sinfo --partition=<partition> --exact --format= --format="%20P %8D %8c %12m %12a %12T %l"
+    hii$ sinfo --partition=<partition> --exact --format="%20P %8D %8c %12m %12a %12T %l"
 
 An example running `sinfo` against partition `hii02`:
 
@@ -45,7 +47,10 @@ meaning some resources may be available if your job fits within the unused resou
 
 ### Interactive Shell
 
-To gain an interactive session on a compute node with 4 cpus and 24GB of RAM for 8 hours:
+A special Slurm partition named `hii-interactive` is available for running an interactive shell for quick feedback
+while developing/testing software.
+
+Here is an example to gain an interactive session on a compute node with 4 cpus and 24GB of RAM for 8 hours:
 
 ```
 hii$ srun --pty --partition=hii-interactive --cpus=4 --mem=24G --time=0-8:00:00 /bin/bash
