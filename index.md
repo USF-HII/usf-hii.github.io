@@ -1,8 +1,5 @@
 ---
 layout: page
-title: USF-HII HPC Info
-tagline: Information for USF-HII HPC Resources
-description: Information for USF-HII HPC Resources
 ---
 
 # USF Health Informatics Institute HPC Environment Documentation
