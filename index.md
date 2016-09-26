@@ -2,56 +2,50 @@
 layout: page
 ---
 
-# USF Health Informatics Institute HPC Environment Documentation
+## Connection Information
 
-Welcome to the USF Health Informatics Institute HPC Environment.
+- SSH: `<netid>@hii.rc.usf.edu`<br/>
+  (e.g. `ssh jsmith@hii.rc.usf.edu`)
 
-Your NetID has been emailed to you, and you belong to the primary group `hii=ut`.
+- SFTP: `<netid>@hii.rc.usf.edu`<br/>
+  (e.g. `sftp jsmith@hii.rc.usf.edu`)<br/>
+  (Also consider [FileZilla](http://portableapps.com/apps/internet/filezilla_portable))
 
-You can login to the cluster via SSH using your NetID at hii.rc.usf.edu. EG:
+**Note**: You must obtain a USF NetID, visit the
+[USF Research Computing Account Signup Page](https://cwa.rc.usf.edu/cwa_accountsignup/research-computing)
+and then send your NetID to the Data Coordinating Center who will provide you final confirmation
+when you are able to access the HII HPC Cluster.
 
-`$ ssh <netid>@hii.rc.usf.edu`
+## HII HPC Cluster
 
-The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com).
+The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) for scheduling jobs on the cluster.
+For individuals who have prior experience in other HPC scheduling systems there is a [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) available for comparing commands.
 
-The main partition is `hii01` and its status may be viewed using the `sinfo` command:
+Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 
-`$ sinfo --partition=hii02`
+- `hii-test` - Small test partition to develop and test batch jobs
+- `hii-interactive` - Small partition allocated to provide an interactive shell on a compute node for quick-feedback development
+- `hii02` - Large production partition for running computationally-intensive jobs
 
----
+To view detailed information on a partition, we suggest the following command:
 
-## NOTE
+    hii$ sinfo --partition=<partition> --exact --format= --format="%20P %8D %8c %12m %12a %12T %l"
 
-Although our partition is part of the USF Research Computing environment, we are segregated from the main "circe" head node and partition and some exceptions therefore apply:
+An example running `sinfo` against partition `hii02`:
 
-- Some of the documentation at [http://cwa.rc.usf.edu](http://cwa.rc.usf.edu) may be slightly inconsistent.
-  - Substitute `circe.rc.usf.edu` with `hii.rc.usf.edu`
-  - Substitute the Slurm partition `circe` with the Slurm partition `hii02`
-- Some web-based functionality, such as shell, file-transfer, and desktop environments will not function, or will not function correctly.
+    hii$ sinfo --partition=hii02 --exact --format="%20P %8D %8c %12m %12a %12T %l"
+    PARTITION            NODES    CPUS     MEMORY       AVAIL        STATE        TIMELIMIT
+    hii02                1        20       128951       up           mixed        infinite
+    hii02                39       20       128951       up           allocated    infinite
+    hii02                2        12       64380        up           idle         infinite
+    hii02                40       16       129018       up           idle         infinite
 
----
+This shows that there are 39 nodes completely allocated  with 42 nodes fully available and 1 node "mixed"
+meaning some resources may be available if your job fits within the unused resources on the nodes. Memory is measured in MB.
 
-## Recommended Documentation
-- [USF RC Docs](https://cwa.rc.usf.edu/projects/research-computing/wiki)
-- [USF RC Slurm Guide](https://cwa.rc.usf.edu/projects/research-computing/wiki/Guide_to_SLURM)
-- [USF RC Applications](https://cwa.rc.usf.edu/projects/research-computing/wiki/Applications)
-- [USF RC Modules](https://cwa.rc.usf.edu/projects/research-computing/wiki/Modules)
-- [USF RC Apps Queue](https://cwa.rc.usf.edu/projects/research-computing/wiki/AppsQueue)
-- [USF RC Development Tools](https://cwa.rc.usf.edu/projects/research-computing/wiki/DevelopmentTools)
-- [Slurm Rosetta Stone (PDF)](http://slurm.schedmd.com/rosetta.pdf)
+### Interactive Shell
 
-## Cluster Information
-
-The main partition is `hii02` and should be provided as a command line option (`--partition=hii02` or `-phii02`) for any of your Slurm commands, e.g.:
-
-```
-$ srun --partition=hii02 uname -n
-svc-3024-4-20.rc.usf.edu
-```
-
-The additional partitions available are `hii-test` for testing batch jobs and `hii-interactive` for testing interactively on a compute node.
-
-Example to gain an interactive session on a compute node with 4 cpus and 24GB of RAM for 8 hours:
+To gain an interactive session on a compute node with 4 cpus and 24GB of RAM for 8 hours:
 
 ```
 hii$ srun --pty --partition=hii-interactive --cpus=4 --mem=24G --time=0-8:00:00 /bin/bash
@@ -62,28 +56,3 @@ svc-3024-5-6$ exit
 
 The session will terminate when you exit the shell or the time limit you set expires. Please be considerate with your time and resources as we have a limited number of interactive nodes.
 
-You can set the following environmental variables in your `~/.bashrc` so you don't have to provide the `--partition|-p` option:
-
-```sh
-export SLURM_PARTITION=hii02
-export SALLOC_PARTITION=$SLURM_PARTITION
-export SBATCH_PARTITION=$SLURM_PARTITION
-export SINFO_PARTITION=$SLURM_PARTITION
-export SQUEUE_PARTITION=$SLURM_PARTITION
-```
-
-Your personal filesystems include:
-
-- Home: `/home/<NetID First Letter>/<NetID>/`
-- Work: `/hii/work/<NedID First Letter>/<NetID>/`
-  - (Temporary large filesystem for job-output, data eligible for deletion after 180 days)
-
-For example, if John Smith had a NetID `jsmith`, he would own the following directories:
-
-- Home: `/home/j/jsmith/`
-- Work: `/hii/work/j/jsmith/`
-
-Your group filesystems include:
-
-- Group Share: `/shares/hii-ut`
-  - A shared area to save files utilized by your group
