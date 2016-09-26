@@ -76,3 +76,14 @@ Your personal filesystems include:
 
 - Home: `/home/<NetID First Letter>/<NetID>/`
 - Work: `/hii/work/<NedID First Letter>/<NetID>/`
+  - (Temporary large filesystem for job-output, data eligible for deletion after 180 days)
+
+For example, if John Smith had a NetID `jsmith`, he would own the following directories:
+
+- Home: `/home/j/jsmith/`
+- Work: `/hii/work/j/jsmith/`
+
+Your group filesystems include:
+
+- Group Share: `/shares/hii-ut`
+  - A shared area to save files utilized by your group
