@@ -1,3 +1,6 @@
+---
+layout: page
+---
 
 # USF Health Informatics Institute HPC Environment Documentation
 
