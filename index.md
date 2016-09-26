@@ -73,5 +73,6 @@ export SQUEUE_PARTITION=$SLURM_PARTITION
 ```
 
 Your personal filesystems include:
+
 - Home: `/home/<NetID First Letter>/<NetID>/`
 - Work: `/hii/work/<NedID First Letter>/<NetID>/`
