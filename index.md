@@ -20,7 +20,11 @@ Also consider [FileZilla](http://portableapps.com/apps/internet/filezilla_portab
 ## HII HPC Cluster
 
 The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) for scheduling jobs on the cluster.
-For individuals who have prior experience in other HPC scheduling systems there is a [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) available for comparing commands.
+
+- [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf)
+- [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - for individuals who have prior experience in other HPC scheduling systems.
+
+### Partitions
 
 Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 
@@ -28,11 +32,11 @@ Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 - `hii-interactive` - Small partition allocated to provide an interactive shell on a compute node for quick-feedback development
 - `hii02` - Large production partition for running computationally-intensive jobs
 
-To view detailed information on a partition, we suggest the following command:
+To view detailed information on a partition, we suggest the following invocation of the Slurm `sinfo` command:
 
     hii$ sinfo --partition=<partition> --exact --format="%20P %8D %8c %12m %12a %12T %l"
 
-An example running `sinfo` against partition `hii02`:
+For example:
 
     hii$ sinfo --partition=hii02 --exact --format="%20P %8D %8c %12m %12a %12T %l"
     PARTITION            NODES    CPUS     MEMORY       AVAIL        STATE        TIMELIMIT
@@ -41,8 +45,12 @@ An example running `sinfo` against partition `hii02`:
     hii02                2        12       64380        up           idle         infinite
     hii02                40       16       129018       up           idle         infinite
 
-This shows that there are 39 nodes completely allocated  with 42 nodes fully available and 1 node "mixed"
-meaning some resources may be available if your job fits within the unused resources on the nodes. Memory is measured in MB.
+The example command's output indicates:
+
+- 1 node is partially allocated (mixed) with some resources still available
+- 39 nodes each with 20 cpus and 128GB are completely allocated and not currently available (running other jobs)
+- 2 nodes each with 12 cpus each and 64GB of RAM are idle and available for new jobs
+- 40 nodes each with 16 cpus and 128GB of RAM are idle and available for new jobs
 
 ### Interactive Shell
 
