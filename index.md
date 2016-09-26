@@ -21,8 +21,8 @@ Also consider [FileZilla](http://portableapps.com/apps/internet/filezilla_portab
 
 The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) for scheduling jobs on the cluster.
 
-- [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf)
-- [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - for individuals who have prior experience in other HPC scheduling systems.
+- [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
+- [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
 
 ### Partitions
 
@@ -68,3 +68,28 @@ svc-3024-5-6$ exit
 
 The session will terminate when you exit the shell or the time limit you set expires. Please be considerate with your time and resources as we have a limited number of interactive nodes.
 
+### Submitting Jobs
+
+The following example script (`basic-test.sh`) specifies a partition (`--partition=<partition>`),
+time limit (`--time=<days-HH:MM>`) and memory allocation (`--mem=<mem_spec>`)
+
+```
+#!/bin/bash
+
+#SBATCH --job-name=basic-test                # Slurm job name
+#SBATCH --partition=hii-test                 # Partition (queue)
+#SBATCH --time=0-2:00                        # Time (D-HH:MM) (2 hours)
+#SBATCH --mem 1G                             # Memory required
+
+#SBATCH --output basic-test.log              # STDOUT/STDERR
+#SBATCH --mail-type=END,FAIL                 # Notifications for job done & fail
+#SBATCH --mail-user=jsmith@not-a-domain.foo  # Send-to address
+
+for i in {1..100000}; do
+  echo $RANDOM >> SomeRandomNumbers.txt
+done
+
+sort SomeRandomNumbers.txt
+```
+
+Submit by running: `sbatch basic-test.sh`
