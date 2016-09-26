@@ -1,3 +1,10 @@
+---
+layout: page
+title: USF-HII HPC Info
+tagline: Information for USF-HII HPC Resources
+description: Information for USF-HII HPC Resources
+---
+
 # USF Health Informatics Institute HPC Environment Documentation
 
 Welcome to the USF Health Informatics Institute HPC Environment.
@@ -41,6 +48,33 @@ Although our partition is part of the USF Research Computing environment, we are
 The main partition is `hii02` and should be provided as a command line option (`--partition=hii02` or `-phii02`) for any of your Slurm commands, e.g.:
 
 ```
-srun --partition=hii02 uname -n
+$ srun --partition=hii02 uname -n
 svc-3024-4-20.rc.usf.edu
 ```
+
+The additional partitions available are `hii-test` for testing batch jobs and `hii-interactive` for testing interactively on a compute node.
+
+Example to gain an interactive session on a compute node with 4 cpus and 24GB of RAM for 8 hours:
+
+```
+hii$ srun --pty --partition=hii-interactive --cpus=4 --mem=24G --time=0-8:00:00 /bin/bash
+
+svc-3024-5-6$ # now on a compute node in an interactive bash shell
+svc-3024-5-6$ exit
+```
+
+The session will terminate when you exit the shell or the time limit you set expires. Please be considerate with your time and resources as we have a limited number of interactive nodes.
+
+You can set the following environmental variables in your `~/.bashrc` so you don't have to provide the `--partition|-p` option:
+
+```sh
+export SLURM_PARTITION=hii02
+export SALLOC_PARTITION=$SLURM_PARTITION
+export SBATCH_PARTITION=$SLURM_PARTITION
+export SINFO_PARTITION=$SLURM_PARTITION
+export SQUEUE_PARTITION=$SLURM_PARTITION
+```
+
+Your personal filesystems include:
+- Home: `/home/<NetID First Letter>/<NetID>/`
+- Work: `/hii/work/<NedID First Letter>/<NetID>/`
