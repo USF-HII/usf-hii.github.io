@@ -12,7 +12,7 @@ for Bioinformatical research.
 
 ### usf-rc-hii
 
-The USF RC HII cluster is a subset of the [CIRCE](https://www.rc.usf.edu/circe.php) USF Research Computing Infrastructure
+The USF RC HII cluster is a subset of the USF Research Computing [CIRCE](https://www.rc.usf.edu/circe.php) infrastructure
 which provides computing resources to HII faculty, staff, and external partners.
 
 The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) for scheduling jobs on the cluster.
