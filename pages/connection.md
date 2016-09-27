@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Connection Information
 
 **Note**: You must obtain a USF NetID, visit the
