@@ -13,14 +13,14 @@ provides a specialized High Performance Computing Cluster to its research partne
 maintains the overall infrastructure of the cluster system and HII presents its resources as a specialized
 computing resource available to faculty, staff, and external partners.
 
-## HII HPC Cluster
+## HPC Cluster
 
 The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) for scheduling jobs on the cluster.
 
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
 
-## HII Slurm Partitions
+## Slurm Partitions
 
 Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 
