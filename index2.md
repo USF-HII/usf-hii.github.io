@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Overview
+## Overview
 
 In partnership with [USF Research Computing](http://www.rc.usf.edu/) the Health Informatics Institute
 provides "Big Scale / Big Data" resources to its analytical partners. USF Research Computing
@@ -11,25 +11,25 @@ maintains the overall infrastructure and HII presents a subset of these resource
 <br/>
 
 
-# Documentation
+## Documentation
 
 - [Connection Information](pages/connection.html)
 - [Frequently Asked Questions](pages/faq.html)
 
 <br/>
 
-# Clusters
+## Clusters
 
-## USF RC HII
+### USF RC HII
 
-### The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) for scheduling jobs on the cluster.
+#### The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) for scheduling jobs on the cluster.
 
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
 
 <br/>
 
-### Partitions
+#### Partitions
 
 Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 
@@ -40,12 +40,10 @@ Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 
 <br/>
 
-# Filesystems
+## Filesystems
 
 Each external analytical partner will have the following directories allocated to them:
 
 - `/home/<fi>/<netid>` - Your `$HOME` directory for local work (e.g. `/home/j/jsmith`).
 - `/hii/work/<fi>/<netid>` - Your work directory for temporary, large filesets
 - `/shares/hii-<group_name>/` - Your group directory for shared collaboration with your team (e.g. `/shares/hii-broad`)
-
-<br/>
