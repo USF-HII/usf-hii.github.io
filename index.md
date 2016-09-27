@@ -23,7 +23,6 @@ for scheduling computational workloads for HII faculty, staff and external partn
 
 - [Connection Information](pages/usf-rc-hii/connection.html)
 - [Interactive Sessions](pages/usf-rc-hii/interactive.html)
-- [Frequently Asked Questions](pages/usf-rc-hii/faq.html)
 
 #### Partitions
 
