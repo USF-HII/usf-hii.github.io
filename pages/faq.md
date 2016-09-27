@@ -15,7 +15,7 @@ to its faculty, staff, and external partners.
 
 CIRCE is an acronym for the "Central Instructional and Research Computing Environment" at the University of South Florida.
 Although HII relies on a large part of the CIRCE infrastructure, internal and external partners
-of HII do not have direct access to the campus-wide computing resources it provides.
+of HII do not have access to CIRCE partitions which are often located in different proximity to the HII computational core.
 
 
 
