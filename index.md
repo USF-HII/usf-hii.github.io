@@ -31,7 +31,7 @@ Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 - `hii02` - Large production partition for running computationally-intensive jobs
 - `hii-test` - Small test partition to develop and test batch jobs
 - `hii-interactive` - Small partition allocated to provide an interactive shell on a compute node for quick-feedback development.
-   Please **DO NOT** run batch jobs on this cluster - use `hii-test` or `hii02` for batch jobs.
+   Please **DO NOT** run batch jobs on this partition - use `hii-test` or `hii02` for batch jobs.
 
 To view detailed information on a partition, we suggest the following invocation of the Slurm `sinfo` command:
 
@@ -100,6 +100,30 @@ Submit the job:
 
 ```
 hii$ sbatch basic-test.sh
+Submitted batch job 4488654
 ```
+
+View the progress - on the `hii-test` partition the job will take about 3 minutes:
+
+```
+hii$ squeue -u $USER
+JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+4488701  hii-test hello-wo  kcounts CG       3:04      1 svc-3024-5-30
+```
+
+View the output:
+
+```
+hii$ cat hello-world.log
+2700632797176220
+```
+
+### Quick Commands
+
+- Cancel all of my jobs<br/>
+  `scancel -u $USER`
+
+- Show the status of all jobs for the last 24 hours:<br/>
+  `sacct -S $(date -d '24 hours ago' '+%FT%T' ) --format "jobid%-20,start,jobname%-42,elapsed,state"`
 
 
