@@ -15,4 +15,4 @@ to its faculty, staff, and external partners.
 
 CIRCE is an acronym for the "Central Instructional and Research Computing Environment."
 Although HII relies on a large part of the underlying CIRCE infrastructure, internal and external partners
-of HII do not have direct access to CIRCE partitions and may only utilize HII [Partitions](pages/partitions.html).
+of HII do not have direct access to CIRCE partitions and may only utilize HII [Partitions](partitions.html).
