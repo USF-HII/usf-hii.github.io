@@ -14,5 +14,5 @@ to its faculty, staff, and external partners.
 #### What is CIRCE and can I use its resources?
 
 CIRCE is an acronym for the "Central Instructional and Research Computing Environment" at the University of South Florida.
-Although HII relies on a large part of the CIRCE infrastructure, internal and external partners
+Although HII relies on a large part of the underlying CIRCE infrastructure, internal and external partners
 of HII do not have direct access to CIRCE partitions and may only utilize HII Partitions.
