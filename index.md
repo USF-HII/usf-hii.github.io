@@ -7,9 +7,6 @@ layout: page
 In partnership with [USF Research Computing](http://www.rc.usf.edu/) the Health Informatics Institute
 provides BigScale/BigData resources to its faculty, staff, and external partners.
 
-
-<br/>
-
 ## Clusters
 
 ### usf-rc-hii
@@ -22,14 +19,10 @@ The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) 
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
 
-<br/>
-
 #### Documentation
 
 - [Connection Information](pages/connection.html)
 - [Frequently Asked Questions](pages/faq.html)
-
-<br/>
 
 #### Partitions
 
@@ -39,8 +32,6 @@ Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 - `hii-test` - Small test partition to develop and test batch jobs
 - `hii-interactive` - Small partition allocated to provide an interactive shell on a compute node for quick-feedback development.
    Please **DO NOT** run batch jobs on this partition - use `hii-test` or `hii02` for batch jobs.
-
-<br/>
 
 #### Filesystems
 
