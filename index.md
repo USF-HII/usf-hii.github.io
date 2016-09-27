@@ -15,7 +15,7 @@ for Bioinformatical research.
 The USF RC HII cluster is a subset of the USF Research Computing [CIRCE](https://www.rc.usf.edu/circe.php) infrastructure
 which provides computing resources to HII faculty, staff, and external partners.
 
-The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) for scheduling jobs on the cluster.
+The USF RC HII Cluster utilizes [Slurm Workload Manager](http://slurm.schedmd.com) for scheduling computational work on the cluster.
 
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
