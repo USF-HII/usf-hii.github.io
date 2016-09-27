@@ -5,7 +5,7 @@ layout: page
 ## Overview
 
 In partnership with [USF Research Computing](http://www.rc.usf.edu/) the [Health Informatics Institute](http://www.hii.usf.edu)
-presents a USF Research Rail Portal offering BigScale/BigData computational resources for Bioinformatics research.
+offers BigScale/BigData computational resources for Bioinformatics research.
 
 ## Clusters
 
