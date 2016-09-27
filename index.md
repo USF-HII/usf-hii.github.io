@@ -33,10 +33,20 @@ Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 - `hii-interactive` - Small partition allocated to provide an interactive shell on a compute node for quick-feedback development.
    Please **DO NOT** run batch jobs on this partition - use `hii-test` or `hii02` for batch jobs.
 
+#### Identification
+
+To reference your NetID, Primary Group, and Team Group:
+
+```
+hii$ id
+uid=1000(jsmith) gid=1000(jsmith) groups=1000(jsmith),1001(hii-broad)
+```
+
+
 #### Filesystems
 
 Each external analytical partner will have the following directories allocated to them:
 
 - `/home/<fi>/<netid>` - Home directory for an individual's own work (e.g. `/home/j/jsmith`).
 - `/hii/work/<fi>/<netid>` Computational work directory for temporary, large filesets generated through research and analysis.
-- `/shares/hii-<group_name>/` - Shared collaboration with the individual's team (e.g. `/shares/hii-broad`)
+- `/shares/hii-<group_name>/` - Shared team directory (e.g. `/shares/hii-broad`)
