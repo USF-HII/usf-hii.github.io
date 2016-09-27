@@ -7,9 +7,8 @@ layout: page
 #### What is the relationship between USF Research Computing and the Health Informatics Institute?
 
 In partnership with [USF Research Computing](http://www.rc.usf.edu/) the Health Informatics Institute
-provides a specialized High Performance Computing Cluster to its research partners. USF Research Computing
-maintains the overall infrastructure of the cluster ecosystem and HII presents a subset of these resources
-to its faculty, staff, and external partners.
+provides "Big Scale / Big Data" resources to its analytical partners. USF Research Computing
+maintains the overall infrastructure and HII presents a subset of these resources to faculty, staff, and external partners.
 
 #### What is CIRCE and can I use its resources?
 
