@@ -35,6 +35,15 @@ Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 
 <br/>
 
+## Filesystems
+
+Each external analytical partner will have the following directories allocated to them:
+
+- `/home/<first-initial-netid>/<netid>` - Your `$HOME` directory for local work (e.g. `/home/j/jsmith`).
+- `/hii/work/<first-initial>/<netid>` - Your work directory for temporary, large filesets
+- `/shares/<group>/` - Your group directory for shared collaboration with your team (e.g. `/shares/hii-eap`)
+
+
 ## Documentation
 
 - [Connection Information](pages/connection.html)
