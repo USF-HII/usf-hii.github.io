@@ -20,6 +20,8 @@ provides BigScale/BigData resources to its faculty, staff, and external partners
 
 ### USF RC HII
 
+USF RC HII is a specialized partition contributing to the overall [CIRCE](https://www.rc.usf.edu/circe.php) USF Research Computing Infrastructure.
+
 The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) for scheduling jobs on the cluster.
 
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
