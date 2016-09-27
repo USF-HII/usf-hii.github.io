@@ -14,6 +14,7 @@ maintains the overall infrastructure of the cluster system and HII presents its 
 computing resource available to faculty, staff, and external partners.
 
 <br/>
+
 ## HPC Cluster
 
 The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) for scheduling jobs on the cluster.
@@ -22,6 +23,7 @@ The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) 
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
 
 <br/>
+
 ## Slurm Partitions
 
 Compute nodes in the cluster are grouped into Slurm "partitions" which include:
@@ -32,6 +34,7 @@ Compute nodes in the cluster are grouped into Slurm "partitions" which include:
    Please **DO NOT** run batch jobs on this partition - use `hii-test` or `hii02` for batch jobs.
 
 <br/>
+
 ## Documentation
 
 - [Connection Information](pages/connection.html)
