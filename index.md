@@ -11,7 +11,7 @@ offers BigScale/BigData computational resources for Bioinformatics research.
 
 ### usf-rc-hii
 
-The USF RC HII Cluster is a subset of the USF Research Computing [CIRCE](http://www.rc.usf.edu/) infrastructure.
+The USF RC HII Cluster is a subset of the USF Research Computing CIRCE Infrastructure.
 
 The USF RC HII Cluster utilizes the [Slurm Workload Manager](http://slurm.schedmd.com)
 for scheduling BigScale/BigData computational workloads for its faculty, staff and external partners.
