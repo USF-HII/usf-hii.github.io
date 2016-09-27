@@ -21,8 +21,8 @@ for scheduling BigScale/BigData computational workloads for its faculty, staff a
 
 #### Cluster Documentation
 
-- [Connection Information](pages/usf-rc-hii-connection.html)
-- [Frequently Asked Questions](pages/usf-rc-hii-faq.html)
+- [Connection Information](pages/usf-rc-hii/connection.html)
+- [Frequently Asked Questions](pages/usf-rc-hii/faq.html)
 
 #### Partitions
 
