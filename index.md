@@ -5,7 +5,7 @@ layout: page
 ## Overview
 
 In partnership with [USF Research Computing](http://www.rc.usf.edu/) the [Health Informatics Institute](http://www.hii.usf.edu)
-offers BigScale/BigData computational resources for Bioinformatics research.
+offers large-scale, distributed, high-performance computational resources for Bioinformatics research.
 
 ## Clusters
 
