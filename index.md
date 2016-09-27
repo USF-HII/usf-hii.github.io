@@ -7,12 +7,6 @@ layout: page
 In partnership with [USF Research Computing](http://www.rc.usf.edu/) the Health Informatics Institute
 provides BigScale/BigData resources to its faculty, staff, and external partners.
 
-<br/>
-
-## Documentation
-
-- [Connection Information](pages/connection.html)
-- [Frequently Asked Questions](pages/faq.html)
 
 <br/>
 
@@ -29,6 +23,11 @@ The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) 
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
 
 <br/>
+
+#### Documentation
+
+- [Connection Information](pages/connection.html)
+- [Frequently Asked Questions](pages/faq.html)
 
 #### Partitions
 
