@@ -2,8 +2,6 @@
 layout: page
 ---
 
-<br/>
-
 # Overview
 
 In partnership with [USF Research Computing](http://www.rc.usf.edu/) the Health Informatics Institute
