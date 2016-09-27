@@ -4,10 +4,6 @@ layout: page
 
 # Overview
 
-In partnership with [USF Research Computing](http://www.rc.usf.edu/) the Health Informatics Institute
-provides a specialized High Performance Computing Cluster to its research partners. USF Research Computing
-maintains the overall infrastructure of the cluster ecosystem and HII presents a subset of these resources
-to internal faculty, staff, and external partners.
 
 <br/>
 
@@ -19,16 +15,18 @@ to internal faculty, staff, and external partners.
 
 <br/>
 
-# HPC Cluster
+# Clusters
 
-The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) for scheduling jobs on the cluster.
+## USF RC HII
+
+### The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) for scheduling jobs on the cluster.
 
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
 
 <br/>
 
-# Slurm Partitions
+### Partitions
 
 Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 
@@ -39,7 +37,7 @@ Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 
 <br/>
 
-# Filesystems
+## Filesystems
 
 Each external analytical partner will have the following directories allocated to them:
 
