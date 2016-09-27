@@ -8,10 +8,12 @@ layout: page
 
 In partnership with [USF Research Computing](http://www.rc.usf.edu/) the Health Informatics Institute
 provides a specialized High Performance Computing Cluster to its research partners. USF Research Computing
-maintains the overall infrastructure of the cluster system and HII presents its resources as a specialized
-computing resource only available to internal faculty and external partners.
+maintains the overall infrastructure of the cluster ecosystem and HII presents its resources as a specialized
+subset of resources available exclusively to internal faculty, staff, and external partners.
 
 #### What is CIRCE and can I use its resources?
 
-CIRCE
+CIRCE is an acronym for the "Central Instructional and Research Computing Environment" at the University of South Florida.
+Although HII relies on a large part of the CIRCE infrastructure, internal and external partners
+of HII do not have access to the general computing resources it provides.
 
