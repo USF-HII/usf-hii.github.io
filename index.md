@@ -28,9 +28,10 @@ The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) 
 
 Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 
-- `hii-test` - Small test partition to develop and test batch jobs
-- `hii-interactive` - Small partition allocated to provide an interactive shell on a compute node for quick-feedback development
 - `hii02` - Large production partition for running computationally-intensive jobs
+- `hii-test` - Small test partition to develop and test batch jobs
+- `hii-interactive` - Small partition allocated to provide an interactive shell on a compute node for quick-feedback development.
+   Please **DO NOT** run batch jobs on this cluster - use `hii-test` or `hii02` for batch jobs.
 
 To view detailed information on a partition, we suggest the following invocation of the Slurm `sinfo` command:
 
@@ -97,9 +98,8 @@ rm basic-test.data
 
 Submit the job:
 
+```
 hii$ sbatch basic-test.sh
-
-
-hii$ squeue --partition=hii-test --user $USER --format="%.18i %82j %.22T %.10M %.9l %.6D %20R %E"
+```
 
 
