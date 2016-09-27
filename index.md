@@ -18,7 +18,7 @@ provides BigScale/BigData resources to its faculty, staff, and external partners
 
 ## Clusters
 
-### A. USF RC HII
+### USF-RC-HII
 
 USF RC HII is a specialized partition contributing to the overall [CIRCE](https://www.rc.usf.edu/circe.php) USF Research Computing Infrastructure.
 
