@@ -22,6 +22,7 @@ for scheduling BigScale/BigData computational workloads for HII faculty, staff a
 #### Cluster Documentation
 
 - [Connection Information](pages/usf-rc-hii/connection.html)
+- [Interactive Sessions](pages/usf-rc-hii/interactive.html)
 - [Frequently Asked Questions](pages/usf-rc-hii/faq.html)
 
 #### Partitions
