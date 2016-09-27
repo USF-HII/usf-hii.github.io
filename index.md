@@ -29,6 +29,8 @@ The HII HPC Cluster uses the [Slurm Workload Manager](http://slurm.schedmd.com) 
 - [Connection Information](pages/connection.html)
 - [Frequently Asked Questions](pages/faq.html)
 
+<br/>
+
 #### Partitions
 
 Compute nodes in the cluster are grouped into Slurm "partitions" which include:
