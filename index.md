@@ -9,7 +9,7 @@ offers large-scale, distributed, high-performance computational resources for Bi
 
 ## Clusters
 
-### USF RC HII High Performance Computing Environment
+### USF RC HII Cluster
 
 The USF RC HII Cluster is a subset of the USF Research Computing CIRCE Infrastructure.
 
