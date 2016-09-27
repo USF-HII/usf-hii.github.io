@@ -11,9 +11,10 @@ presents a USF Research Rail Portal offering BigScale/BigData computational reso
 
 ### usf-rc-hii
 
-The USF RC HII cluster is a subset of the USF Research Computing [CIRCE](https://www.rc.usf.edu/circe.php) infrastructure.
+The USF RC HII Cluster is a subset of the USF Research Computing [CIRCE](https://www.rc.usf.edu/circe.php) infrastructure.
 
-The USF RC HII Cluster utilizes the [Slurm Workload Manager](http://slurm.schedmd.com) for scheduling computational work on the cluster.
+The USF RC HII Cluster utilizes the [Slurm Workload Manager](http://slurm.schedmd.com)
+for scheduling BigScale/BigData computational workloads for its faculty, staff and external partners.
 
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
