@@ -5,7 +5,7 @@ layout: page
 ## Overview
 
 In partnership with [USF Research Computing](http://www.rc.usf.edu/) the Health Informatics Institute
-provides a USF "Research Rail" destination providing BigScale/BigData computational assets
+provides a USF "Research Rail" terminal providing BigScale/BigData computational assets
 for Bioinformatical research including a large NIH-sponsored study of Type-1 Child Diabetes.
 
 ## Clusters
