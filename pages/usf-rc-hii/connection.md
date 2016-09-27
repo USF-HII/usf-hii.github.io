@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Connection Information
+# USF RC HII Connection Information
 
 - SSH: `<netid>@hii.rc.usf.edu` (e.g. `ssh jsmith@hii.rc.usf.edu`)
 
