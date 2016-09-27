@@ -19,10 +19,10 @@ for scheduling BigScale/BigData computational workloads for its faculty, staff a
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
 
-#### Documentation
+#### Cluster Documentation
 
-- [Connection Information](pages/connection.html)
-- [Frequently Asked Questions](pages/faq.html)
+- [Connection Information](pages/usf-rc-hii/connection.html)
+- [Frequently Asked Questions](pages/usf-rc/hii/faq.html)
 
 #### Partitions
 
