@@ -43,6 +43,7 @@ Each external analytical partner will have the following directories allocated t
 - `/hii/work/<fi>/<netid>` - Your work directory for temporary, large filesets
 - `/shares/hii-<group_name>/` - Your group directory for shared collaboration with your team (e.g. `/shares/hii-broad`)
 
+<br/>
 
 ## Documentation
 
