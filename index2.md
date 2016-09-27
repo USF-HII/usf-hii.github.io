@@ -10,8 +10,8 @@ layout: page
 
 In partnership with [USF Research Computing](http://www.rc.usf.edu/) the Health Informatics Institute
 provides a specialized High Performance Computing Cluster to its research partners. USF Research Computing
-maintains the overall infrastructure of the cluster system and HII presents its resources as a specialized
-computing resource available to faculty, staff, and external partners.
+maintains the overall infrastructure of the cluster ecosystem and HII presents a subset of these resources
+to internal faculty, staff, and external partners.
 
 <br/>
 
