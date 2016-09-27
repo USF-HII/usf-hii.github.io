@@ -35,13 +35,12 @@ Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 
 #### Identification
 
-To reference your NetID, Primary Group, and Team Group:
+To reference your NetID, Primary Group, and Group affiliation:
 
 ```
 hii$ id
 uid=1000(jsmith) gid=1000(jsmith) groups=1000(jsmith),1001(hii-broad)
 ```
-
 
 #### Filesystems
 
