@@ -6,7 +6,7 @@ layout: page
 
 In partnership with [USF Research Computing](http://www.rc.usf.edu/) the Health Informatics Institute
 provides BigScale/BigData resources to its analytical partners. USF Research Computing
-maintains the overall infrastructure and HII presents a subset of these resources to faculty, staff, and external partners.
+maintains the overall infrastructure and HII presents a subset of these resources to select faculty, staff, and external partners.
 
 <br/>
 
