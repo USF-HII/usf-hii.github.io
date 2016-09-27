@@ -5,7 +5,7 @@ layout: page
 ## Overview
 
 In partnership with [USF Research Computing](http://www.rc.usf.edu/) the Health Informatics Institute
-provides BigScale/BigData resources to to select faculty, staff, and external partners.
+provides BigScale/BigData resources to its faculty, staff, and external partners.
 
 <br/>
 
