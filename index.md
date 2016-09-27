@@ -14,7 +14,7 @@ offers BigScale/BigData computational resources for Bioinformatics research.
 The USF RC HII Cluster is a subset of the USF Research Computing CIRCE Infrastructure.
 
 The USF RC HII Cluster utilizes the [Slurm Workload Manager](http://slurm.schedmd.com)
-for scheduling BigScale/BigData computational workloads for its faculty, staff and external partners.
+for scheduling BigScale/BigData computational workloads for HII faculty, staff and external partners.
 
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
