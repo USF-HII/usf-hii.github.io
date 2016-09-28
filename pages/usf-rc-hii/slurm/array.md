@@ -15,7 +15,7 @@ For a job which has a small number of variations (e.g. 10 different input files)
 
 Although you will submit a single sbatch script for a Slurm job array, Slurm will generate
 multiple tasks off of the sbatch script which only differ in the environmental variable
-`SLURM_ARRAY_TASK_ID` which allows the job to know "which one of the many it is."
+`SLURM_ARRAY_TASK_ID` which allows the job to know "Which one of the many I am."
 
 ### Example
 
