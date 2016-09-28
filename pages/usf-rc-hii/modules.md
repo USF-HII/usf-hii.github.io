@@ -53,7 +53,6 @@ To list the modules you currently have loaded:
 
 ```
 hii$ module list
-
 Currently Loaded Modulefiles:
   1) compilers/intel/2015_cluster_xe   3) apps/jdk/1.6.0_22.x86_64
   2) apps/openbugs/3.2.2               4) apps/R/3.2.3
@@ -80,7 +79,6 @@ hii$ module rm apps/R/3.1.2
 
 hii$ which R
 /usr/bin/which: no R in (/usr/bin:/usr/local/bin)
-
 ```
 
 ## Purge all Modules
