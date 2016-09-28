@@ -4,16 +4,16 @@ layout: page
 
 ## HII-RC Interactive
 
-The head node of the HII-RC Cluster is `hii.rc.usf.edu`.
-The purpose of this node is providing an entry-point to develop and submit
-code to an HPC queue which distributes the computational work across a partition of compute nodes.
+The head node of the HII-RC Cluster, `hii.rc.usf.edu`, provides the entry-point to develop and submit
+computational work across a number of compute nodes.
 
 Although it is possible to perform work on the head node, this is strongly discouraged
 as it may affect the experience of others who are utilizing the system for its intended purpose.
 
-To achieve the best of both worlds, HII provides a special partition,
-`hii-interactive` which provides resources to run interactive sessions
-on a compute-farm with the necessary resources available.
+HII maintains a special partition, `hii-interactive` whic delivers
+interactive sessions on high-performance compute nodes.
+
+---
 
 To obtain an interactive session, run the following command modifying your CPU, memory, and time requirements as necessary.
 
