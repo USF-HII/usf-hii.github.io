@@ -9,7 +9,7 @@ Slurm job arrays offer a mechanism for submitting and managing collections of si
 The most common application is for applying the same processing routine to a collection of multiple input data files
 without having to submit multiple jobs which could be well beyond the thousands depending on the problem at hand.
 
-By submitting a single sbatch script, a specified number of "array-tasks” will be created based on this “master” sbatch script.
+Although you submit a single sbatch script, a specified number of "array-tasks” will be created based on this “master” sbatch script.
 
 As an example, consider the following sbatch script `hello-world-array.sh`:
 
@@ -29,6 +29,13 @@ task_number=${SLURM_ARRAY_TASK_ID}
 # Now run a program with ${task_number} as an argument to vary its input file, behavior, etc.
 
 /bin/echo "task_number=${task_number}"
+```
+
+Submit the script as follows:
+
+```
+hii$ sbatch hello-world-array.sh
+Submitted batch job 4504001
 ```
 
 Once completed, the output from the task job can be enumerated via the `head` program:
