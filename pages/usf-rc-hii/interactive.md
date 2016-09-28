@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## HII-RC Cluster / Interactive
+## HII-RC Interactive
 
 The head node of the HII-RC Cluster is `hii.rc.usf.edu`.
 
