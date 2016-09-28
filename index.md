@@ -15,8 +15,8 @@ Scheduler utilized by many national laboratories including [LLNL](https://www.ll
 
 #### Cluster Documentation
 
-- [Connection Information](pages/usf-rc-hii/connection.html)
-- [Interactive Sessions](pages/usf-rc-hii/interactive.html)
+- [Connection](pages/usf-rc-hii/connection.html)
+- [Interactive](pages/usf-rc-hii/interactive.html)
 - [UNIX](pages/usf-rc-hii/linux.html)
 - [Slurm](pages/usf-rc-hii/slurm.html)
 - [Modules](pages/usf-rc-hii/modules.html)
