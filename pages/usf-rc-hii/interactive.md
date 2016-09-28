@@ -5,18 +5,15 @@ layout: page
 ## HII-RC Interactive
 
 The head node of the HII-RC Cluster is `hii.rc.usf.edu`.
-
-The purpose of the head node is to provide an entry-point to develop code and submit it
-via a queue to nodes which perform the computational work and render artifacts. 
+The purpose of this node is providing an entry-point to develop and submit
+code to an HPC queue which distributes the computational work across a cluster of compute nodes.
 
 Although it is possible to perform work on the head node, this is strongly discouraged
 as it may affect the experience of others who are utilizing the system for its intended purpose.
 
-A conflict arises, however, when the interactive nature of the head node is preferable to submitting work to a queue
-which inherently lengthens the time of job feedback.
-
-To counter, HII provides a special partition, `hii-interactive` which gives you the ability to create an interactive session that
-executes on a compute node providing the best of both worlds.
+To achieve the best of both worlds, HII provides a special partition,
+`hii-interactive` which provides resources to run interactive sessions
+on a compute-farm with the necessary resources available.
 
 To obtain an interactive session, run the following command modifying your CPU, memory, and time requirements as necessary.
 
@@ -42,9 +39,9 @@ The interactive session will terminate when you exit the shell or the time limit
 
 ---
 
-Please be considerate and only request what resources you think are necessary for your work
-as we have a limited amount of compute nodes and resources in this partition.
+Please try to be considerate and request the approximate resources necessary
+as there are a limited amount of resources allocated to the `hii-interactive` partition.
 
-Please **DO NOT** run sbatch jobs on the `hii-interactive` partition as this may prevent others from gaining an
-interactive session in a timely manner.
+Please submit batch jobs on another partitions besides `hii-interactive` as these jobs may
+prevent others from gaining an interactive session in a timely manner.
 
