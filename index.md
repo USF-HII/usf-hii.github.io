@@ -10,8 +10,7 @@ The [Health Informatics Institute](http://www.hii.usf.edu) offers large-scale, d
 
 In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/) HII offers
 a High Performance Computing Cluster for Bioinformatics research to its faculty, staff and external partners.
-
-The cluster utilizies the [Slurm Workload Manager](http://slurm.schedmd.com), a popular High Performance
+The cluster utilizes the [Slurm Workload Manager](http://slurm.schedmd.com), a popular High Performance
 Scheduler utilized by many national laboratories including [LLNL](https://www.llnl.gov/).
 
 #### Cluster Documentation
