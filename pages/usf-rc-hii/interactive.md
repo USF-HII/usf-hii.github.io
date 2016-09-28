@@ -2,9 +2,9 @@
 layout: page
 ---
 
-## RC-HII Cluster / Interactive
+## HII-RC Cluster / Interactive
 
-The head node of the RC-HII Cluster is `hii.rc.usf.edu`.
+The head node of the HII-RC Cluster is `hii.rc.usf.edu`.
 
 The purpose of the head node is to provide an entry-point to develop code and submit it
 via a queue to nodes which perform the computational work and render artifacts available for review

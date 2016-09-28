@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## USF RC HII / Connection Information
+## HII-RC: Connection Information
 
 To connect to the cluster, you will need to use an `SSH` (Secure Shell) client.
 
