@@ -2,8 +2,6 @@
 layout: page
 ---
 
-## Overview
-
 The [Health Informatics Institute](http://www.hii.usf.edu) offers large-scale, distributed, high-performance computational resources for Bioinformatics research.
 
 ## Resources
