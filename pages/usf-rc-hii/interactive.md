@@ -7,7 +7,7 @@ layout: page
 The head node of the RC/HII Cluster is `hii.rc.usf.edu`.
 
 The purpose of the head node is to provide an entry-point to transfer/develop code and submit work
-to high-performance nodes which perform high-performance computing and render the artifacts back to the filesystem.
+to nodes which perform the actual computing rendering artifacts available for review or futher computing.
 
 Although it is possible to perform work on the head node, this is strongly discouraged
 as it may affect the experience of others who are utilizing the system for its intended purpose.
