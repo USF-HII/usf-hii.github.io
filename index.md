@@ -4,7 +4,7 @@ layout: page
 
 ## Overview
 
-In partnership with [USF Research Computing](http://www.rc.usf.edu/) the [Health Informatics Institute](http://www.hii.usf.edu)
+In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/) the [Health Informatics Institute](http://www.hii.usf.edu)
 offers large-scale, distributed, high-performance computational resources for Bioinformatics research.
 
 ## Resources
