@@ -9,8 +9,9 @@ Slurm job arrays offer a mechanism for submitting and managing collections of si
 The most common application is for applying the same processing routine to a collection of multiple input data files
 without having to submit multiple jobs.
 
-For a job which has a small number of variations (e.g. 10 different input files), a series
-of singleton Slurm job may be adequate, but when variations number in the hundreds to hundreds, thousands, or beyond a Slurm job array is the preferred solution.
+For a project which has a small number of variations (e.g. 10 different input files), a series
+of singleton Slurm jobs may be adequate, but when variations number in the hundreds or greater a Slurm
+job array is the preferred solution.
 
 ### Overview
 
