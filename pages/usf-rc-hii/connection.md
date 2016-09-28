@@ -29,7 +29,7 @@ File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) usin
 
 ## Windows SSH/SFTP Applications
 
-- SSH: [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+- SSH: [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
 - SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
 - SSH: [Putty Portable](http://portableapps.com/apps/internet/putty_portable)
 - SFTP: [FileZilla Portable](http://portableapps.com/apps/internet/putty_portable)
