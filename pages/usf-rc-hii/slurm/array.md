@@ -12,11 +12,13 @@ without having to submit multiple jobs.
 For a job which has a few variations, a normal Slurm job may be appropriate, but when variations number in the hundreds to
 hundreds of thousands, a Slurm job array is the ideal solution.
 
-### EXample
+### Overview
 
 Although you will submit a single sbatch script for a Slurm job array, Slurm will generate
 multiple tasks off of the sbatch script which only differ in the environmental variable
 `SLURM_ARRAY_TASK_ID` which allows the job to know "which one of the many it is."
+
+### Example
 
 As an example, consider the following sbatch script `hello-world-array.sh`:
 
