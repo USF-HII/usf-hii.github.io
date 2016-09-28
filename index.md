@@ -4,17 +4,17 @@ layout: page
 
 ## Overview
 
-In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/) the [Health Informatics Institute](http://www.hii.usf.edu)
-offers large-scale, distributed, high-performance computational resources for Bioinformatics research.
+The [Health Informatics Institute](http://www.hii.usf.edu) offers large-scale, distributed, high-performance computational resources for Bioinformatics research.
 
 ## Resources
 
 ### USF RC HII Cluster
 
-The USF RC HII Cluster is a subset of the USF Research Computing CIRCE Infrastructure.
+In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/) HII offers
+a High Performance Computing Cluster for Bioinformatics research conducted by its faculty, staff and external partners.
 
-The USF RC HII Cluster utilizes the [Slurm Workload Manager](http://slurm.schedmd.com)
-for scheduling computational workloads for HII faculty, staff and external partners.
+The USF RC HII Cluster is a subset of the USF Research Computing CIRCE Infrastructure and utilizes the
+[Slurm Workload Manager](http://slurm.schedmd.com)
 
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
