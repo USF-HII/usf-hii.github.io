@@ -14,19 +14,6 @@ a High Performance Computing Cluster for Bioinformatics research to its faculty,
 The cluster utilizies the [Slurm Workload Manager](http://slurm.schedmd.com), a popular High Performance
 Scheduler utilized by many national laboratories including [LLNL](https://www.llnl.gov/).
 
-Here are some recommended
-resources:
-
-- [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
-- [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
-
-In addition to learning Slurm, it is important to have some basic knowledge of Linux or UNIX.
-Here are some recommended resources:
-
-- [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
-- [UNIX/Linux Command Reference](https://files.fosswire.com/2007/08/fwunixref.pdf)
-- [Vi Quick Reference](https://earthsci.stanford.edu/computing/unix/editing/viquickref.pdf)
-
 #### Cluster Documentation
 
 - [Connection Information](pages/usf-rc-hii/connection.html)
