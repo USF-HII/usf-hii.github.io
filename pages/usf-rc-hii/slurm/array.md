@@ -7,9 +7,16 @@ layout: page
 Slurm job arrays offer a mechanism for submitting and managing collections of similar jobs in a cohesive manner.
 
 The most common application is for applying the same processing routine to a collection of multiple input data files
-without having to submit multiple jobs which could be well beyond the thousands depending on the problem at hand.
+without having to submit multiple jobs.
 
-Although you submit a single sbatch script, a specified number of "array-tasks” will be created based on this “master” sbatch script.
+For a job which has a few variations, a normal Slurm job may be appropriate, but when variations number in the hundreds to
+hundreds of thousands, a Slurm job array is the ideal solution.
+
+### EXample
+
+Although you will submit a single sbatch script for a Slurm job array, Slurm will generate
+multiple tasks off of the sbatch script which only differ in the environmental variable
+`SLURM_ARRAY_TASK_ID` which allows the job to know "which one of the many it is."
 
 As an example, consider the following sbatch script `hello-world-array.sh`:
 
