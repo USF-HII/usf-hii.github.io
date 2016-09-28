@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# USF RC HII Cluster Modules
+## USF RC HII Cluster Modules
 
 Most applications available on the cluster are accessible via [modules](http://modules.sourceforge.net/).
 
@@ -12,7 +12,7 @@ without manually configuring and cleaning up paths and environmental variables.
 **Note:** Whether you are running an application as a batch job or an interactive shell,
 you must have the appropriate module loaded into your environment in order to get access to your application.
 
-## Listing Available Applications
+### List Available Applications
 
 To list all applications available via the module command:
 
@@ -47,7 +47,7 @@ apps/R/3.1.2
 apps/R/3.2.3
 ```
 
-## List Loaded Modules
+### List Loaded Modules
 
 To list the modules you currently have loaded:
 

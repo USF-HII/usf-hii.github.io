@@ -2,14 +2,14 @@
 layout: page
 ---
 
-## USF RC HII Cluster Interactive Session
+## USF RC HII Cluster Interactive Sessions
 
 
-The head node `hii.rc.usf.edu` is meant to provide access the cluster in order to develop and submit batch jobs
-which are distributed to compute nodes which can handle computationally-intensive workloads.
+The head node `hii.rc.usf.edu` is meant to provide access to the cluster in order to develop and submit batch jobs
+which are queued and distributed to compute nodes capable of handling computationally-intensive workloads.
 
-Although it is possible to perform work on this head node, this is strongly discouraged
-as it can affect other users from utilizing the system for its primary purpose.
+Although it is possible to perform work on the head node, this is strongly discouraged
+as it can affect other users from utilizing the system for its intended purpose.
 
 A conflict arises, however, when the interactive nature of the head node is preferable to submitting work to a queue
 which lengthens the time of receiving job feedback.
@@ -24,7 +24,7 @@ srun --pty --partition=hii-interactive --cpus=2 --mem=24G --time=0-8:00:00 /bin/
 ```
 
 In this example, we request an interactive shell which lands us on compute node `svc-3024-5-6` and
-provides 2 CPUS and 24GB of RAM to run an R session:
+provides 2 CPUS and 24GB of RAM in which we run an R session:
 
 ```
 hii$ srun --pty --partition=hii-interactive --cpus=2 --mem=24G --time=0-8:00:00 /bin/bash
@@ -32,7 +32,7 @@ hii$ srun --pty --partition=hii-interactive --cpus=2 --mem=24G --time=0-8:00:00 
 svc-3024-5-6$ module load apps/R/3.2.3
 
 svc-3024-5-6$ R
-> (run R commands)
+> (run R commands and quit)
 
 svc-3024-5-6$ exit
 ```
