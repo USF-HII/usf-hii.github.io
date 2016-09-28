@@ -4,13 +4,17 @@ layout: page
 
 ## USF RC HII Cluster Interactive Session
 
-Although you may access resources from the USF RC HII head node, `hii.rc.usf.edu`, its main purpose is for
-submitting jobs to a compute node which has dedicated resources to run computational workloads.
+Although it is possible to perform work on the USF RC HII head node, `hii.rc.usf.edu`, this is strongly discouraged
+as it can affect other user's experience.
 
-Often, when developing batch jobs or running adhoc computation, an interactive session is preferable to a batch system.
+The head node's main purpose is to access the cluster in order to develop and submit batch jobs
+which are then distributed to compute nodes which can handle computationally-intensive workloads.
 
-HII provides a special partition, `hii-interactive`, intended for interactive sessions for real-time development
-and testing of computational jobs.
+A conflict arises, however, when the interactive nature of the head node is preferable to submitting work to a queue
+which lenghtens the time to gain feedback.
+
+HII provides a special partition, `hii-interactive` which gives you the benefits of an interactive session but
+executes a compute node which will not affect other user's on the head node.
 
 To obtain an interactive session, run the following command modifying your CPU, memory, and time requirements as necessary.
 
@@ -18,15 +22,8 @@ To obtain an interactive session, run the following command modifying your CPU, 
 srun --pty --partition=hii-interactive --cpus=4 --mem=24G --time=0-8:00:00 /bin/bash
 ```
 
-Please be considerate and only request what is necessary as we have a limited amount of resources in this partition.
-
-Please **DO NOT** run sbatch jobs on the `hii-interactive` partition as this may prevent others from gaining an
-interactive session in a timely manner.
-
-The above command will provide you with an interactive shell on a compute node (`svc-3024-5-6` in the example below)
-where you may run nteractive jobs to quickly iterate and get feedback on an interactive run of R, Python, etc.
-
-For example:
+In this example, we request an interactive shell which lands us on compute node `svc-3024-5-6` and guarantees us
+24GB of RAM and 4 CPUS. It will remain open for 8 hours or until you choose to exit the session.
 
 ```
 hii$ srun --pty --partition=hii-interactive --cpus=4 --mem=24G --time=0-8:00:00 /bin/bash
@@ -40,3 +37,11 @@ svc-3024-5-6$ exit
 ```
 
 The interactive session will terminate when you exit the shell or the time limit you set expires.
+
+---
+
+Please be considerate and only request what is necessary as we have a limited amount of resources in this partition.
+
+Please **DO NOT** run sbatch jobs on the `hii-interactive` partition as this may prevent others from gaining an
+interactive session in a timely manner.
+
