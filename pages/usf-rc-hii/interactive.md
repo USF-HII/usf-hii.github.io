@@ -32,7 +32,6 @@ svc-3024-5-6$ R
 > ... run some R commands
 
 svc-3024-5-6$ exit
-
 ```
 
 The interactive session will terminate when you exit the shell or the time limit you set expires.
