@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## HII-RC: Connection Information
+# Connection Information
 
 To connect to the cluster, you will need to use an `SSH` (Secure Shell) client.
 
