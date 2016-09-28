@@ -9,16 +9,19 @@ The [Health Informatics Institute](http://www.hii.usf.edu) offers large-scale, d
 ### USF RC HII Cluster
 
 In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/) HII offers
-a High Performance Computing Cluster for Bioinformatics research conducted by its faculty, staff and external partners.
+a High Performance Computing Cluster for Bioinformatics research to its faculty, staff and external partners.
 
-The USF RC HII Cluster is a subset of the USF Research Computing CIRCE Infrastructure and utilizes the
-[Slurm Workload Manager](http://slurm.schedmd.com)
+The cluster utilizies the [Slurm Workload Manager](http://slurm.schedmd.com), a popular High Performance
+Scheduler utilized by many national laboratories including [LLNL](https://www.llnl.gov/).
+
+Here are some recommended
+resources:
 
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
 
-In addition to understanding Slurm, it is important to have some basic knowledge of Linux or UNIX. Here are some recommended
-resources:
+In addition to learning Slurm, it is important to have some basic knowledge of Linux or UNIX.
+Here are some recommended resources:
 
 - [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 - [UNIX/Linux Command Reference](https://files.fosswire.com/2007/08/fwunixref.pdf)
@@ -28,6 +31,8 @@ resources:
 
 - [Connection Information](pages/usf-rc-hii/connection.html)
 - [Interactive Sessions](pages/usf-rc-hii/interactive.html)
+- [Slurm](pages/usf-rc-hii/slurm.html)
+- [UNIX/Linux](pages/usf-rc-hii/linux.html)
 - [Modules](pages/usf-rc-hii/modules.html)
 
 #### Partitions

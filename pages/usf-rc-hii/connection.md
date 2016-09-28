@@ -2,11 +2,35 @@
 layout: page
 ---
 
-# USF RC HII Connection Information
+## USF RC HII / Connection Information
 
-- SSH: `<netid>@hii.rc.usf.edu` (e.g. `ssh jsmith@hii.rc.usf.edu`)
+To connect to the cluster, you will need to use an `SSH` (Secure Shell) client.
 
-- SFTP: `<netid>@hii.rc.usf.edu` (e.g. `sftp jsmith@hii.rc.usf.edu`)<br/>
+The following information will be needed When connecting:
 
-Also consider [FileZilla](https://filezilla-project.org/) or [FileZilla Portable](http://portableapps.com/apps/internet/filezilla_portable) for a graphical file-transfer client.
+- User: `Your USF NetID`
+- Password: `Your USF NetID Password`
+- Hostname: `hii.rc.usf.edu
+- SSH Port: `22` (this is usually the default)
+
+File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) using the `SSH` connection information above.
+
+## Linux SSH/SFTP Applications
+
+- SSH: `ssh` (native)
+- SFTP: `sftp` (native)
+- SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
+
+## Mac OS X SSH/SFTP Applications
+
+- SSH: `ssh` (native)
+- SFTP: `sftp` (native)
+- SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
+
+## Windows SSH/SFTP Applications
+
+- SSH: [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+- SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
+- SSH: [Putty Portable](http://portableapps.com/apps/internet/putty_portable)
+- SFTP: [FileZilla Portable](http://portableapps.com/apps/internet/putty_portable)
 

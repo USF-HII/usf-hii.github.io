@@ -33,7 +33,7 @@ apps/R/3.2.3
 The `module avail` command outputs to STDERR rather than STDOUT so any program you send the output to will not capture it unless you use shell redirection (`2>&1`). For example to pipe the output of `module avail` into the pager `less`:
 
 ```
-hii$ module -t avail 2>&1 | less
+hii$ module avail -t 2>&1 | less
 ```
 
 You may also search for an application using `grep` with shell redirection, for example:
