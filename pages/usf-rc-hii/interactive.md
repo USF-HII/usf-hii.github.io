@@ -7,8 +7,7 @@ layout: page
 The head node of the HII-RC Cluster is `hii.rc.usf.edu`.
 
 The purpose of the head node is to provide an entry-point to develop code and submit it
-via a queue to nodes which perform the computational work and render artifacts available for review
-and/or as input for further computational work.
+via a queue to nodes which perform the computational work and render artifacts. 
 
 Although it is possible to perform work on the head node, this is strongly discouraged
 as it may affect the experience of others who are utilizing the system for its intended purpose.

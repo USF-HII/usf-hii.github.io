@@ -28,7 +28,7 @@ Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 - `hii02` - Large production partition for running computationally-intensive jobs
 - `hii-test` - Small test partition to develop and test batch jobs
 - `hii-interactive` - Small partition allocated to provide an interactive shell on a compute node for quick-feedback development.
-   Please **DO NOT** run batch jobs on this partition - use `hii-test` or `hii02` for batch jobs.
+   Please **DO NOT** run batch jobs on this partition but feel free to use `hii-test` or `hii02` for these batch jobs.
 
 #### Filesystems
 
