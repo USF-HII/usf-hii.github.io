@@ -14,10 +14,10 @@ you must have the appropriate module loaded into your environment in order to ge
 
 ### List Available Applications
 
-To list all applications available via the module command:
+To list all applications available via the module command (we add the `-t` option to display as a single column):
 
 ```
-hii$ module -t avail
+hii$ module avail -t
 /etc/modulefiles:
 admin/genders
 admin/module-cvs
@@ -39,7 +39,7 @@ hii$ module -t avail 2>&1 | less
 You may also search for an application using `grep` with shell redirection, for example:
 
 ```
-hii$ module -t avail 2>&1 | grep R
+hii$ module avail -t 2>&1 | grep R
 apps/R/2.11.1
 apps/R/2.15.3
 apps/R/3.0.3-pbdR
