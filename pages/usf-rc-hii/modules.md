@@ -58,7 +58,7 @@ Currently Loaded Modulefiles:
   2) apps/openbugs/3.2.2               4) apps/R/3.2.3
 ```
 
-## Load a Module
+### Load a Module
 
 This loads a module into the current environment by modifying environment variables such as `PATH`, `MANPATH` and `LD_LIBRARY_PATH`
 to include locations that are necessary for running a particular application. *Note these changes are lost on subsequent logins.*
@@ -70,7 +70,7 @@ hii$ which R
 /apps/R/3.2.3/bin/R
 ```
 
-## Remove a Module
+### Remove a Module
 
 Sometimes you need to remove support for an application from the current environment.
 
@@ -81,7 +81,7 @@ hii$ which R
 /usr/bin/which: no R in (/usr/bin:/usr/local/bin)
 ```
 
-## Purge all Modules
+### Purge all Modules
 
 To unload all modules, issue the following command:
 
