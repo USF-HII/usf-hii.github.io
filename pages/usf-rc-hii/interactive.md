@@ -2,19 +2,20 @@
 layout: page
 ---
 
-## USF RC HII Cluster Interactive Sessions
+## RC/HII Cluster Interactive Sessions
 
+The head node of the RC/HII Cluster is `hii.rc.usf.edu`.
 
-The head node `hii.rc.usf.edu` is meant to provide access to the cluster in order to develop and submit batch jobs
-which are queued and distributed to compute nodes capable of handling computationally-intensive workloads.
+The purpose of the head node is to provide an entry-point to transfer/develop code and submit jobs based on that
+code to a partition of high-performance nodes which compute and render the artifacts in a scaleable fashion.
 
 Although it is possible to perform work on the head node, this is strongly discouraged
-as it can affect other users from utilizing the system for its intended purpose.
+as it may affect the experience of others who are utilizing the system for its intended purpose.
 
 A conflict arises, however, when the interactive nature of the head node is preferable to submitting work to a queue
-which lengthens the time of receiving job feedback.
+which inherently lengthens the time of job feedback.
 
-HII provides a special partition, `hii-interactive` which gives you the ability to create an interactive session that
+To counter, HII provides a special partition, `hii-interactive` which gives you the ability to create an interactive session that
 executes on a compute node providing the best of both worlds.
 
 To obtain an interactive session, run the following command modifying your CPU, memory, and time requirements as necessary.
