@@ -18,7 +18,7 @@ As an example, consider the following sbatch script `hello-world-array.sh`:
 
 #SBATCH --job-name=hello-world-array
 #SBATCH --output=hello-world-array-%a.log
-#SBATCH --array=1-8
+#SBATCH --array=1-4
 #SBATCH --time=0-00:10
 #SBATCH --partition=hii-test
 #SBATCH --ntasks=1
@@ -26,10 +26,12 @@ As an example, consider the following sbatch script `hello-world-array.sh`:
 
 task_number=${SLURM_ARRAY_TASK_ID}
 
-# Now you could run the same program but give it a different value
+# Now run a program with ${task_number} as an argument to vary its input file, behavior, etc.
 
 /bin/echo "task_number=${task_number}"
 ```
+
+Once completed, the output from the task job can be enumerated via the `head` program:
 
 ```
 hii$ head hello-world-array*.log
@@ -45,19 +47,4 @@ task_number=3
 
 ==> hello-world-array-4.log <==
 task_number=4
-
-==> hello-world-array-4503599.log <==
-task_number=8
-
-==> hello-world-array-5.log <==
-task_number=5
-
-==> hello-world-array-6.log <==
-task_number=6
-
-==> hello-world-array-7.log <==
-task_number=7
-
-==> hello-world-array-8.log <==
-task_number=8
 ```
