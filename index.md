@@ -21,6 +21,7 @@ The USF RC HII Cluster is a subset of the USF Research Computing CIRCE Infrastru
 
 - [Connection Information](pages/usf-rc-hii/connection.html)
 - [Interactive Sessions](pages/usf-rc-hii/interactive.html)
+- [Modules](pages/usf-rc-hii/modules.html)
 
 #### Partitions
 
