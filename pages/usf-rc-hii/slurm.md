@@ -19,7 +19,6 @@ layout: page
 
 - [sinfo](slurm/sinfo.html)
 
-
-## Advanced
+### Advanced Examples
 
 - [Slurm Array](slurm/array.html)
