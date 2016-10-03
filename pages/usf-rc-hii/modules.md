@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## USF RC HII Cluster Modules
+## RC-HII Cluster Modules
 
 Most applications available on the cluster are accessible via [modules](http://modules.sourceforge.net/).
 

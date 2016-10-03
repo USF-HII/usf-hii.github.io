@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## USF RC HII Cluster / Slurm Array
+## RC-HII Cluster / Slurm Array
 
 Slurm job arrays offer a mechanism for submitting and managing collections of similar jobs in a cohesive manner.
 
