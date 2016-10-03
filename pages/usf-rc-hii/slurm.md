@@ -11,7 +11,7 @@ layout: page
 
 - `sinfo` - Reports the state of partitions and nodes managed by Slurm.
 - `srun` - Used to submit a job for execution or initiate job steps in real time.
-- `sbatch` - Submits a job script for execution. The script typically contains one or more srun commands to launch parallel tasks.
+- `sbatch` - Submits a job script for execution typically containing srun commands to launch parallel tasks.
 - `squeue` - Reports the state of jobs or job steps.
 - `scancel` - Used to stop a job before it completes.
 
