@@ -13,7 +13,7 @@ Although it is possible to run interactive work on the head node, this may adver
 who are utilizing the system for its core functionality.
 
 In order to provide the best of both worlds, HII maintains a special partition,
-`hii-interactive` which provides interactive sessions on a high-performance compute node.
+`hii-interactive` which provides real-time sessions on a high-performance compute node.
 
 ---
 
