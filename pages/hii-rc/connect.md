@@ -13,7 +13,7 @@ The following information will be needed When connecting:
 - User: `Your USF NetID`
 - Password: `Your USF NetID Password`
 - Hostname: `hii.rc.usf.edu`
-- SSH Port: `22` (this is usually the default)
+- SSH Port: `22`
 
 File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) using the `SSH` connection information above.
 
