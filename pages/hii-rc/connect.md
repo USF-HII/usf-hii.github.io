@@ -14,26 +14,34 @@ and please use the following information when connecting:
 - Hostname: `hii.rc.usf.edu`
 - Port: `22`
 
-
 #### Linux
 
 - SSH: `ssh` (native)
+
+#### Mac OS
+
+- SSH: `ssh` (native)
+
+#### Windows
+
+- SSH: [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+- SSH: [Putty Portable](http://portableapps.com/apps/internet/putty_portable)
+
+### File Transfers
+
+File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) using the same `SSH` connection information above.
+
+#### Linux
+
 - SFTP: `sftp` (native)
 - SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
 
 #### Mac OS
 
-- SSH: `ssh` (native)
 - SFTP: `sftp` (native)
 - SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
 
 #### Windows
 
-- SSH: [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
 - SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
-- SSH: [Putty Portable](http://portableapps.com/apps/internet/putty_portable)
 - SFTP: [FileZilla Portable](http://portableapps.com/apps/internet/putty_portable)
-
-### File Transfers
-
-File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) using the same `SSH` connection information above.
