@@ -11,8 +11,8 @@ computational workloads on behalf of faculty, staff, and external analytical par
 
 #### Slurm Documentation
 
-- [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
-- [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
+- [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - Quickref of major Slurm commands.
+- [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - Translation for individuals familiar with a similar scheduling systems.
 - `man slurm`, `man sinfo`, `man sbatch`, `man srun`, `man squeue`, `man scancel`, `man sacct`
 
 #### Slurm Commands
