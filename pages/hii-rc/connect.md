@@ -18,7 +18,7 @@ and please use the following information when connecting:
 
 - SSH: `ssh` (native)
 
-#### Mac OS
+#### Mac
 
 - SSH: `ssh` (native)
 
@@ -36,7 +36,7 @@ File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) usin
 - SFTP: `sftp` (native)
 - SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
 
-#### Mac OS
+#### Mac
 
 - SFTP: `sftp` (native)
 - SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
