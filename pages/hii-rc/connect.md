@@ -22,7 +22,7 @@ File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) usin
 - SFTP: `sftp` (native)
 - SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
 
-#### Mac OS X
+#### Mac OS
 
 - SSH: `ssh` (native)
 - SFTP: `sftp` (native)
