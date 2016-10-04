@@ -6,8 +6,8 @@ layout: page
 
 ### Interact
 
-The head node of the HII-RC Cluster, `hii.rc.usf.edu`, provides the entry-point to develop and submit
-computational work across a number of compute nodes.
+The head node of the HII-RC Cluster, `hii.rc.usf.edu`, provides an entry-point to develop and submit
+computational work across an array of computing resources.
 
 Although it is possible to perform work on the head node, this is strongly discouraged
 as it may affect the experience of others who are utilizing the system for its primary purpose.
