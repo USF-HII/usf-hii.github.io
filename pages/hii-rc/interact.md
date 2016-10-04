@@ -10,7 +10,7 @@ The head node of the HII-RC Cluster, `hii.rc.usf.edu`, provides an entry-point t
 computational work across an array of computing resources.
 
 Although it is possible to perform interactive work on the head node, this may adversely affect the experience of others
-who are utilizing the system for its primary purpose.
+who are utilizing the system for its core functionality.
 
 To provide the interactive experience, HII maintains a special partition,
 `hii-interactive` which provides interactive sessions on a high-performance compute node.
