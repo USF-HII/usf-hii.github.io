@@ -4,9 +4,7 @@ layout: page
 
 ## HII-RC
 
-### Connect
-
-#### Shell Access
+### Shell Access
 
 To connect to the cluster, please use a Secure Shell (`SSH`) Client with the following connection information:
 
@@ -15,34 +13,34 @@ To connect to the cluster, please use a Secure Shell (`SSH`) Client with the fol
 - Hostname: `hii.rc.usf.edu`
 - Port: `22`
 
-##### Linux
+#### Linux
 
 - `ssh` (native)
 
-##### Mac
+#### Mac
 
 - `ssh` (native)
 
-##### Windows
+#### Windows
 
 - [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
 - [Putty Portable](http://portableapps.com/apps/internet/putty_portable)
 
-#### File Transfer
+### File Transfer
 
 File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) using the same `SSH` connection information above.
 
-##### Linux
+#### Linux
 
 - `sftp` (native)
 - [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
 
-##### Mac
+#### Mac
 
 - `sftp` (native)
 - [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
 
-##### Windows
+#### Windows
 
 - [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
 - [FileZilla Portable](http://portableapps.com/apps/internet/putty_portable)
