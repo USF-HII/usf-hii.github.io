@@ -6,22 +6,23 @@ layout: page
 
 ### Overview
 
-The HII-RC cluster utilizes the [Slurm Workload Manager](http://slurm.schedmd.com) for scheduling
-computational workloads for its faculty, staff, and external analytical partners.
+The HII-RC cluster utilizes [Slurm](http://slurm.schedmd.com) for scheduling
+computational workloads on behalf of faculty, staff, and external analytical partners.
 
 #### Slurm Documentation
 
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
-- `man slurm`, `man sacct`, `man sbatch`, `man scancel`, `man scontrol`, `man sinfo`, `man squeue`, `man srun`
+- `man slurm`, `man sinfo`, `man sbatch`, `man srun`, `man squeue`, `man scancel`, `man sacct`
 
 #### Slurm Commands
 
 - `sinfo` - Reports the state of partitions and nodes managed by Slurm.
-- `srun` - Used to submit a job for execution or initiate job steps in real time.
 - `sbatch` - Submits a job script for execution typically containing srun commands to launch parallel tasks.
+- `srun` - Used to submit a job for execution or initiate job steps in real time.
 - `squeue` - Reports the state of jobs or job steps.
 - `scancel` - Used to stop a job before it completes.
+- `sacct` - Show what has been run.
 
 #### Slurm Partitions
 
