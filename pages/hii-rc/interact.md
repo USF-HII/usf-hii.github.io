@@ -22,6 +22,8 @@ To obtain an interactive session, run the following command modifying your CPU, 
 srun --pty --partition=hii-interactive --cpus=4 --mem=30G --time=0-8 /bin/bash
 ```
 
+---
+
 In this example, we request an interactive shell which lands us on compute node `svc-3024-5-6` and
 provides 4 CPUS and 30GB of RAM in which we run an R session:
 
