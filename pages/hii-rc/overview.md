@@ -27,7 +27,7 @@ Each user will have the following directories allocated to them:
 
 - `/hii/work/<fi>/<netid>` - Computational work directory for temporary, large filesets generated through research and analysis.
 
-- `/shares/hii-<group_name>/` - Shared team directory (e.g. `/shares/hii-broad`).
+- `/shares/hii-<group_name>/` - Shared team directory (e.g. `/shares/hii-alpha`).
 
 #### Identification
 
@@ -35,5 +35,5 @@ To reference your NetID, Primary Group, and Group affiliation run the `id` comma
 
 ```
 hii$ id
-uid=1000(jsmith) gid=1000(jsmith) groups=1000(jsmith),1001(hii-broad)
+uid=1000(jsmith) gid=1000(jsmith) groups=1000(jsmith),1001(hii-alpha)
 ```
