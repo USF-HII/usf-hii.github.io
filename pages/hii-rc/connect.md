@@ -26,7 +26,7 @@ To connect to the cluster, please use a Secure Shell (`SSH`) Client with the fol
 - [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
 - [Putty Portable](http://portableapps.com/apps/internet/putty_portable)
 
-### File Transfers
+### File Transfer
 
 File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) using the same `SSH` connection information above.
 
