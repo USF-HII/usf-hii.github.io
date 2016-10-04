@@ -8,10 +8,10 @@ layout: page
 
 To connect to the cluster, you will need to use an `SSH` (Secure Shell) client.
 
-The following information will be needed When connecting:
+USe the following information when connecting:
 
-- User: `Your USF NetID`
-- Password: `Your USF NetID Password`
+- User: `(USF NetID)`
+- Password: `(USF NetID Password)`
 - Hostname: `hii.rc.usf.edu`
 - Port: `22`
 
