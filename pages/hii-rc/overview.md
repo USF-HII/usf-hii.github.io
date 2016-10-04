@@ -17,11 +17,11 @@ Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 
 - `hii-test` - Small test partition to develop and test batch jobs
 
-- `hii-interactive` - Small partition allocated to provide an interactive shell on a compute node for quick-feedback development.
+- `hii-interactive` - Small partition providing compute node shells for quick, interactive feedback.
 
 #### Filesystems
 
-Each external analytical partner will have the following directories allocated to them:
+Each user will have the following directories allocated to them:
 
 - `/home/<fi>/<netid>` - Home directory for an individual's own work (e.g. `/home/j/jsmith`).
 
