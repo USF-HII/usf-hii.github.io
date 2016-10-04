@@ -17,19 +17,19 @@ The following information will be needed When connecting:
 
 File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) using the `SSH` connection information above.
 
-## Linux
+#### Linux
 
 - SSH: `ssh` (native)
 - SFTP: `sftp` (native)
 - SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
 
-## Mac OS X
+#### Mac OS X
 
 - SSH: `ssh` (native)
 - SFTP: `sftp` (native)
 - SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
 
-## Windows
+#### Windows
 
 - SSH: [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
 - SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
