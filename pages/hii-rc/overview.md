@@ -6,8 +6,8 @@ layout: page
 
 ### Overview
 
-The HII-RC cluster utilizes the [Slurm Workload Manager](http://slurm.schedmd.com), a popular High Performance Scheduler,
-as one of its core infrastructure components.
+The HII-RC cluster utilizes the [Slurm Workload Manager](http://slurm.schedmd.com) for scheduling
+computational workloads for its faculty, staff, and external analytical partners.
 
 #### Slurm Documentation
 
