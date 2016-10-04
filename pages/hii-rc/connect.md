@@ -2,7 +2,9 @@
 layout: page
 ---
 
-# HII-RC Connection Information
+## HII-RC
+
+### Connect
 
 To connect to the cluster, you will need to use an `SSH` (Secure Shell) client.
 
@@ -15,19 +17,19 @@ The following information will be needed When connecting:
 
 File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) using the `SSH` connection information above.
 
-## Linux SSH/SFTP Applications
+## Linux
 
 - SSH: `ssh` (native)
 - SFTP: `sftp` (native)
 - SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
 
-## Mac OS X SSH/SFTP Applications
+## Mac OS X
 
 - SSH: `ssh` (native)
 - SFTP: `sftp` (native)
 - SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
 
-## Windows SSH/SFTP Applications
+## Windows
 
 - SSH: [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
 - SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
