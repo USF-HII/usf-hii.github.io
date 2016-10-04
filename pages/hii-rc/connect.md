@@ -15,16 +15,16 @@ To connect to the cluster, please use a Secure Shell (`SSH`) Client with the fol
 
 #### Linux
 
-- SSH: `ssh` (native)
+- `ssh` (native)
 
 #### Mac
 
-- SSH: `ssh` (native)
+- `ssh` (native)
 
 #### Windows
 
-- SSH: [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
-- SSH: [Putty Portable](http://portableapps.com/apps/internet/putty_portable)
+- [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+- [Putty Portable](http://portableapps.com/apps/internet/putty_portable)
 
 ### File Transfers
 
@@ -32,15 +32,15 @@ File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) usin
 
 #### Linux
 
-- SFTP: `sftp` (native)
-- SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
+- `sftp` (native)
+- [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
 
 #### Mac
 
-- SFTP: `sftp` (native)
-- SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
+- `sftp` (native)
+- [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
 
 #### Windows
 
-- SFTP: [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
-- SFTP: [FileZilla Portable](http://portableapps.com/apps/internet/putty_portable)
+- [FileZilla](https://filezilla-project.org/) - A graphical file-transfer client.
+- [FileZilla Portable](http://portableapps.com/apps/internet/putty_portable)
