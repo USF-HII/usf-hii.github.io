@@ -14,7 +14,6 @@ and please use the following information when connecting:
 - Hostname: `hii.rc.usf.edu`
 - Port: `22`
 
-File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) using the same `SSH` connection information above.
 
 #### Linux
 
@@ -35,3 +34,6 @@ File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) usin
 - SSH: [Putty Portable](http://portableapps.com/apps/internet/putty_portable)
 - SFTP: [FileZilla Portable](http://portableapps.com/apps/internet/putty_portable)
 
+### File Transfers
+
+File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) using the same `SSH` connection information above.
