@@ -25,7 +25,7 @@ srun --pty --partition=hii-interactive --cpus=4 --mem=30G --time=0-8 /bin/bash
 ---
 
 In this example, we request an interactive shell which allocates the compute node `svc-3024-5-6` with
-4 CPUS and 30GB of RAM in which we run an R session:
+4 CPUS, 30GB of RAM , for 8 hours in which we may run an R session:
 
 ```
 hii$ srun --pty --partition=hii-interactive --cpus=4 --mem=30G --time=0-8 /bin/bash
