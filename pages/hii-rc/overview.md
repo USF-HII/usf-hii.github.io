@@ -34,7 +34,7 @@ Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 
 - `hii-interactive` - Small partition providing compute node shells for quick, interactive feedback.
 
-#### Cluster Filesystems
+#### Filesystems
 
 Each user will have the following directories available:
 
