@@ -6,7 +6,7 @@ layout: page
 
 ### Connect
 
-To connect to the cluster, you will need to use an `SSH` (Secure Shell) client.
+To connect to the cluster, please use an SSH (Secure Shell) Client.
 
 USe the following information when connecting:
 
