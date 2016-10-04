@@ -8,7 +8,7 @@ layout: page
 
 To connect to the cluster, please use an SSH (Secure Shell) Client.
 
-USe the following information when connecting:
+Please use the following information when connecting:
 
 - User: `(USF NetID)`
 - Password: `(USF NetID Password)`
