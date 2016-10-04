@@ -15,7 +15,7 @@ The following information will be needed When connecting:
 - Hostname: `hii.rc.usf.edu`
 - Port: `22`
 
-File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) using the `SSH` connection information above.
+File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) using the same `SSH` connection information above.
 
 #### Linux
 
