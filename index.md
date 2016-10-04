@@ -2,6 +2,8 @@
 layout: page
 ---
 
+## Overview
+
 The [Health Informatics Institute](http://www.hii.usf.edu) offers large-scale, distributed, high-performance computational resources for Bioinformatics research.
 
 ## Resources
@@ -11,7 +13,15 @@ The [Health Informatics Institute](http://www.hii.usf.edu) offers large-scale, d
 In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/), HII offers
 a High Performance Computing (HPC) Cluster to its faculty, staff and external partners.
 The cluster utilizes the [Slurm Workload Manager](http://slurm.schedmd.com), a popular High Performance
-Scheduler utilized by many national laboratories including [LLNL](https://www.llnl.gov/).
+Scheduler utilized by many national laboratories including [LLNL](https://www.llnl.gov/),
+[ORNL](https://www.ornl.gov/).
+
+As of November 2015, TOP500 list of most powerful computers in the world indicates that Slurm is the workload manager on six of the
+top ten systems. Some of the systems in the top ten running Slurm include Tianhe-2, a 33.86 PetaFlop system at NUDT, IBM Sequoia, an
+IBM Bluegene/Q with 1.57 million cores and 17.2 Petaflops at Lawrence Livermore National Laboratory; Piz Daint a 7.78 PetaFlop Cray
+computer at Swiss National Supercomputing Centre, Stampede, a 5.17 PetaFlop Dell computer at the Texas Advance Computing Center;[4]
+and Vulcan, a 4.29 Petaflop IBM Bluegene/Q at Lawrence Livermore National Laboratory;.[5]
+
 
 #### Cluster Documentation
 
