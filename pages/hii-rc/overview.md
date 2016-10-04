@@ -26,13 +26,13 @@ computational workloads on behalf of faculty, staff, and external analytical par
 
 #### Slurm Partitions
 
-Compute nodes in the cluster are grouped into partitions of compute nodes which include:
+Compute nodes in the cluster are grouped into partitions of compute nodes which provide the following classes of service:
 
-- `hii02` - Production-class computationally-intensive jobs.
+- `hii02` - Production computationally-intensive jobs.
 
-- `hii-test` - Development-class jobs before submitting to production.
+- `hii-test` - Developmental level of resources prior to submitting to a computationally-intensive cluster.
 
-- `hii-interactive` - A high-powered but single compute-node shell to develop or run a job with real-time feedback.
+- `hii-interactive` - High-powered single compute node interactive shell to develop or run a single job with real-time feedback.
 
 #### Filesystems
 
