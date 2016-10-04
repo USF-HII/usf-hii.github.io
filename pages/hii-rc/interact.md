@@ -25,7 +25,7 @@ srun --pty --partition=hii-interactive --cpus=4 --mem=30G --time=0-8 /bin/bash
 
 ---
 
-In this example, we request an shell on a compute node providing
+In this example, we request a shell on a compute node providing
 4 Cores and 30GB of RAM for 8 hours from which we may run an interactive R session:
 
 ```
