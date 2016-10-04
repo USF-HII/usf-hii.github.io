@@ -2,14 +2,27 @@
 layout: page
 ---
 
-## RC-HII
+## HII-RC
 
 ### Overview
 
-The RC-HII High Performance Computing Cluster The cluster utilizes the [Slurm Workload Manager](http://slurm.schedmd.com),
-a popular High Performance Scheduler utilized by some of the most powerful supercomputers in the world.
+The HII-RC cluster utilizes the [Slurm Workload Manager](http://slurm.schedmd.com), a popular High Performance Scheduler,
+as one of its core infrastructure components.
 
-#### Partitions
+#### Slurm Documentation
+
+- [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
+- [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
+
+### Slurm Commands
+
+- `sinfo` - Reports the state of partitions and nodes managed by Slurm.
+- `srun` - Used to submit a job for execution or initiate job steps in real time.
+- `sbatch` - Submits a job script for execution typically containing srun commands to launch parallel tasks.
+- `squeue` - Reports the state of jobs or job steps.
+- `scancel` - Used to stop a job before it completes.
+
+#### Slurm Partitions
 
 Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 
@@ -19,9 +32,9 @@ Compute nodes in the cluster are grouped into Slurm "partitions" which include:
 
 - `hii-interactive` - Small partition providing compute node shells for quick, interactive feedback.
 
-#### Filesystems
+#### Cluster Filesystems
 
-Each user will have the following directories allocated to them:
+Each user will have the following directories available:
 
 - `/home/<fi>/<netid>` - Home directory for an individual's own work (e.g. `/home/j/jsmith`).
 
