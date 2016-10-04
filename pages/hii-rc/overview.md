@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## RC-HII / Overview
+## RC-HII Overview
 
 The RC-HII High Performance Computing Cluster The cluster utilizes the [Slurm Workload Manager](http://slurm.schedmd.com),
 a popular High Performance Scheduler utilized by some of the most powerful supercomputers in the world.
