@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## RC-HII Cluster / Linux
+## HII-RC Cluster / Linux
 
 In addition to learning Slurm, it is important to have some basic knowledge of Linux or UNIX.
 Here are some recommended resources:

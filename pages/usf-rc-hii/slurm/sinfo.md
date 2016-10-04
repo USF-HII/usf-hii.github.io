@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## RC-HII Cluster / Slurm
+## HII-RC Cluster / Slurm
 
 ### sinfo
 
