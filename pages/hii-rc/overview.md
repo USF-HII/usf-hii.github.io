@@ -14,7 +14,7 @@ as one of its core infrastructure components.
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - A quickref PDF of all the main Slurm commands.
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - A quickref PDF for individuals familiar with other HPC scheduling systems.
 
-### Slurm Commands
+#### Slurm Commands
 
 - `sinfo` - Reports the state of partitions and nodes managed by Slurm.
 - `srun` - Used to submit a job for execution or initiate job steps in real time.
