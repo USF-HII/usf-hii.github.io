@@ -15,7 +15,7 @@ computational workloads on behalf of faculty, staff, and external analytical par
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - Translation for individuals familiar with similar HPC scheduling systems.
 - `man slurm` ([online](http://slurm.schedmd.com/slurm.html)),
   `man sinfo`
-  `man sbatch`([online](http://slurm.schedmd.com/sinfo.html)),
+  `man sbatch`
   `man srun` ([online](http://slurm.schedmd.com/sinfo.html)),
   `man squeue` ([online](http://slurm.schedmd.com/sinfo.html)),
   `man scancel` ([online](http://slurm.schedmd.com/sinfo.html)),
@@ -23,8 +23,8 @@ computational workloads on behalf of faculty, staff, and external analytical par
 
 #### Slurm Commands
 
-- `sinfo` ([manual](http://slurm.schedmd.com/sinfo.html)/([overview](sinfo.html)) - Reports the state of partitions and nodes managed by Slurm.
-- `sbatch` ([overview](sbatch.html)) - Submits a job script for execution typically containing srun commands to launch parallel tasks.
+- `sinfo` ([manpage](http://slurm.schedmd.com/sinfo.html)|[overview](sinfo.html)) - Reports the state of partitions and nodes managed by Slurm.
+- `sbatch` ([manpage](http://slurm.schedmd.com/sinfo.html))|[overview](sbatch.html)) - Submits a job script for execution typically containing srun commands to launch parallel tasks.
 - `srun` ([overview](srun.html)) - Used to submit a job for execution or initiate job steps in real time.
 - `squeue` ([overview](squeue.html)) - Reports the state of jobs or job steps.
 - `scancel` ([overview](scancel.html)) - Used to stop jobs before running/completing.
