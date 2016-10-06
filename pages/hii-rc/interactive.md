@@ -30,7 +30,7 @@ should be running, however if all nodes in the `hii-interactive` partition are a
 
 **Tip** - Use `sinfo -p hii-interactive` to view availability of interactive nodes.
 
-#### Examples
+#### Example
 
 In the following example, we request a shell on a compute node providing
 4 Cores and 30GB of RAM for 8 hours from which we may run an interactive R session:
@@ -48,7 +48,7 @@ svc-3024-5-6$ exit
 
 The interactive session will terminate when you exit the shell or the time limit you set expires.
 
----
+#### Exclusive Node
 
 If you feel you truly need the full resources of a node and would impact other users on the node,
 you may use the `--exclusive` option instead of specifying `--cpus` and `--mem` to ask for all resources on
@@ -57,12 +57,3 @@ a node, e.g.:
 ```
 hii$ srun --pty --partition=hii-interactive --exclusive --time=0-8 /bin/bash
 ```
-
-#### Considerations
-
-Please try to be considerate and request the approximate resources necessary
-as there are a limited amount of resources allocated to the `hii-interactive` partition.
-
-Please submit batch jobs on another partitions besides `hii-interactive` as these jobs may
-prevent others from gaining an interactive session in a timely manner.
-
