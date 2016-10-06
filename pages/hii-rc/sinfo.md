@@ -4,11 +4,11 @@ layout: page
 
 ## [HII/RC Cluster](/pages/hii-rc.html)
 
-### sinfo
-
-- [Manual](http://slurm.schedmd.com/sinfo.html))
+### sinfo ([Manual](http://slurm.schedmd.com/sinfo.html))
 
 `sinfo` reports the state of a Slurm partition its compute nodes.
+
+---
 
 For a quick overview of a partition:
 
@@ -17,8 +17,7 @@ hii$ sinfo -p hii02
 PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
 hii02        up   infinite      1    mix svc-3024-1-11
 hii02        up   infinite     39  alloc svc-3024-2-[1-8,11-15,18-24],svc-3024-4-[1-19]
-hii02        up   infinite     42   idle
-svc-3024-1-[5,7,12-17,19-30,33-39],svc-3024-1-31-e,svc-3024-1-32-e,svc-3024-2-[28-39],svc-3024-4-20
+hii02        up   infinite     42   idle svc-3024-3-[1-42]
 ```
 
 The above example shows that 42 nodes are completely available (`idle`), 1 node has some resources available
