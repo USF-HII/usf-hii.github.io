@@ -6,10 +6,31 @@ layout: page
 
 ### sinfo
 
-To view detailed information on a partition, we suggest the following invocation of the Slurm `sinfo` command:
+- [Manual](http://slurm.schedmd.com/sinfo.html))
+
+`sinfo` reports the state of a Slurm partition its compute nodes.
+
+For a quick overview of a partition:
 
 ```
-hii$ sinfo --partition=<partition> --exact --format="%20P %8D %8c %12m %12a %12T %l"
+hii$ sinfo -p hii02
+PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
+hii02        up   infinite      1    mix svc-3024-1-11
+hii02        up   infinite     39  alloc svc-3024-2-[1-8,11-15,18-24],svc-3024-4-[1-19]
+hii02        up   infinite     42   idle
+svc-3024-1-[5,7,12-17,19-30,33-39],svc-3024-1-31-e,svc-3024-1-32-e,svc-3024-2-[28-39],svc-3024-4-20
+```
+
+The above example shows that 42 nodes are completely available (`idle`), 1 node has some resources available
+(`mixed`), and 39 nodes are currently allocated and not available (`alloc`).
+
+---
+
+To view detailed information on a partition, here is a useful "power invocation" of `sinfo` giving
+additional memory and cpu information in a clean format:
+
+```
+hii$ sinfo -p=<partition> --exact --format="%20P %8D %8c %12m %12a %12T %l"
 ```
 
 For example:
