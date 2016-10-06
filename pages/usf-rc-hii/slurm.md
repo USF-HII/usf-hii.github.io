@@ -2,12 +2,5 @@
 layout: page
 ---
 
-## HII-RC Cluster / Slurm
+## [HII/RC Cluster](../hii-rc.html)
 
-### Examples
-
-- [sinfo](slurm/sinfo.html)
-
-### Advanced Examples
-
-- [Slurm Array](slurm/array.html)
