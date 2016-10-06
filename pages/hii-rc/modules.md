@@ -32,7 +32,7 @@ apps/R/3.2.3
 ... etc.
 ```
 
-The `module avail` command outputs to STDERR rather than STDOUT so any program you send the output to will not capture it unless you use shell redirection (`2>&1`). For example to pipe the output of `module avail` into the pager `less`:
+The `module avail` command outputs to STDERR rather than STDOUT so any program you send the output to will not capture it unless you use shell redirection (`2>&1`). For example to pipe the output of `module avail` into the pager `less` (press `up-arrow` / `down-arrow` to page up and down and `q` to quit):
 
 ```
 hii$ module avail -t 2>&1 | less
