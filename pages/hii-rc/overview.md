@@ -30,6 +30,10 @@ computational workloads on behalf of faculty, staff, and external analytical par
 - `scancel` - [overview](scancel.html) - Used to stop jobs before running/completing.
 - `sacct` - [overview](sacct.html) - Show what has been run.
 
+#### Examples
+
+- [Slurm Job Arrays](job-arrays.html)
+
 #### Slurm Partitions
 
 Compute nodes in the cluster are grouped into partitions of compute nodes which provide the following classes of service:
