@@ -36,3 +36,7 @@ Use the same Connect Information for Shell Access above.
   [FileZilla](https://filezilla-project.org/)
 - Windows: [FileZilla](https://filezilla-project.org/) or
   [FileZilla Portable](http://portableapps.com/apps/internet/putty_portable)
+
+#### Documentation
+
+- [FileZilla Tutorial](https://wiki.filezilla-project.org/FileZilla_Client_Tutorial_(en))
