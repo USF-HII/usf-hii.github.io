@@ -29,7 +29,7 @@ To view detailed information on a partition, here is a useful "power invocation"
 additional memory and cpu information in a clean format:
 
 ```
-hii$ sinfo -p=<partition> --exact --format="%20P %8D %8c %12m %12a %12T %l"
+hii$ sinfo --partition=<partition> --exact --format="%20P %8D %8c %12m %12a %12T %l"
 ```
 
 For example:
