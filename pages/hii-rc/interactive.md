@@ -2,9 +2,9 @@
 layout: page
 ---
 
-## HII-RC
+## [HII/RC Cluster](../hii-rc.html)
 
-### Interact
+### Obtaining an Interactive Shell
 
 The head node of the HII-RC Cluster, `hii.rc.usf.edu`, provides an entry-point to develop and submit
 computational work across an array of computing resources.
@@ -40,6 +40,17 @@ svc-3024-5-6$ exit
 ```
 
 The interactive session will terminate when you exit the shell or the time limit you set expires.
+
+---
+
+If you feel you truly need the full resources of a node and would impact other users on the node,
+you may use the `--exclusive` option instead of specifying `--cpus` and `--mem` to ask for all resources on
+a node, e.g.:
+
+```
+hii$ srun --pty --partition=hii-interactive --exclusive --time=0-8 /bin/bash
+```
+
 
 ---
 
