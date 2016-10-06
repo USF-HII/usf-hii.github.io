@@ -32,12 +32,12 @@ In the following example, we request a shell on a compute node providing
 ```
 hii$ srun --pty --partition=hii-interactive --cpus=4 --mem=30G --time=0-8 /bin/bash
 
-svc-3024-5-6$ module load apps/R/3.2.3
+svc-3024-1-1$ module load apps/R/3.2.3
 
-svc-3024-5-6$ R
+svc-3024-1-1$ R
 > (run R commands and quit)
 
-svc-3024-5-6$ exit
+svc-3024-1-1$ exit
 ```
 
 The interactive session will terminate when you exit the shell or the time limit you set expires.
