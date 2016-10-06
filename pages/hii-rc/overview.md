@@ -17,7 +17,7 @@ computational workloads on behalf of faculty, staff, and external analytical par
 
 #### Slurm Commands
 
-- `sinfo` ([manual](http://slurm.schedmd.com/sinfo.html)) / ([hii-docs)](sinfo.html)) -
+- `sinfo` ([manual](http://slurm.schedmd.com/sinfo.html)) / ([hii-docs](sinfo.html)) -
    Reports the state of partitions and nodes managed by Slurm.
 - `sbatch` ([manual](http://slurm.schedmd.com/sinfo.html)) / ([hii-docs](sbatch.html)) -
    Submits a job script for execution typically containing srun commands to launch parallel tasks.
