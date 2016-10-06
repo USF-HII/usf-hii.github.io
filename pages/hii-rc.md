@@ -2,9 +2,7 @@
 layout: page
 ---
 
-## HII/RC Cluster
-
-### Overview
+## HII/RC Cluster Overview
 
 The HII/RC cluster utilizes [Slurm](http://slurm.schedmd.com) for scheduling
 computational workloads on behalf of faculty, staff, and external analytical partners.
@@ -12,13 +10,13 @@ computational workloads on behalf of faculty, staff, and external analytical par
 - [Connection Information](hii-rc/connect.html)
 - [Interactive Shell](hii-rc/interactive.html)
 
-#### Slurm Documentation
+### Slurm Documentation
 
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - Quickref of major Slurm commands.
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - Translation for individuals familiar with similar HPC scheduling systems.
 - [Slurm Overview](http://slurm.schedmd.com/slurm.html)
 
-#### Slurm Commands
+### Slurm Commands
 
 - `sinfo` ([manual](http://slurm.schedmd.com/sinfo.html)) / ([hii-docs](hii-rc/sinfo.html)) -
    Reports the state of partitions and nodes managed by Slurm.
@@ -35,11 +33,11 @@ computational workloads on behalf of faculty, staff, and external analytical par
 
 On `hii.rc.usf.edu`, you can view documentation using the `man` command, e.g. `man sbatch`.
 
-#### Examples
+### Examples
 
 - [Slurm Job Arrays](hii-rc/slurm-arrays.html)
 
-#### Slurm Partitions
+### Slurm Partitions
 
 Compute nodes in the cluster are grouped into partitions of compute nodes which provide the following classes of service:
 
@@ -47,7 +45,7 @@ Compute nodes in the cluster are grouped into partitions of compute nodes which 
 - `hii-test` - Developmental level of resources prior to submitting to a computationally-intensive cluster.
 - `hii-interactive` - High-powered single compute node interactive shell to develop or run a single job with real-time feedback.
 
-#### Filesystems
+### Filesystems
 
 Each user will have the following directories available:
 
@@ -59,7 +57,7 @@ Each user will have the following directories available:
   is configured so files and folders created will be owned by the user and the user's group affiliation
   (e.g. `jsmith:hii-alpha` instead of `jsmith:jsmith`).*
 
-#### Identification
+### Identification
 
 To reference your username, use the `$USER` variable:
 
