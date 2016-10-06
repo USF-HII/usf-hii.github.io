@@ -44,9 +44,7 @@ The interactive session will terminate when you exit the shell or the time limit
 
 #### Exclusive
 
-If you feel you truly need the full resources of a node and would impact other users on the node,
-you may use the `--exclusive` option instead of specifying `--cpus` and `--mem` to ask for all resources on
-a node, e.g.:
+You may use the `--exclusive` option instead of specifying `--cpus` and `--mem` to ask for all resources on a node:
 
 ```
 hii$ srun --pty --partition=hii-interactive --exclusive --time=0-8 /bin/bash
