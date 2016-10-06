@@ -45,8 +45,8 @@ hii02                40       16       129018       up           idle         in
 
 The example command's output indicates:
 
-- 1 node partially allocated with some resources still available (`mixed`)
-- 39 nodes each with 20 cpus and 128GB occupied running other jobs (`allocated`)
+- 1 node is partially allocated with some resources available for jobs (`mixed`)
+- 39 nodes each with 20 cpus and 128GB are full running other jobs (`allocated`)
 - 2 nodes each with 12 cpus each and 64GB of RAM are idle and available for new jobs (`idle`)
 - 40 nodes each with 16 cpus and 128GB of RAM are idle and available for new jobs (`idle`)
 
