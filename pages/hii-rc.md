@@ -9,6 +9,8 @@ computational workloads on behalf of faculty, staff, and external analytical par
 
 - [Connection Information](hii-rc/connect.html)
 - [Interactive Shell](hii-rc/interactive.html)
+- [Modules](hii-rc/modules.html)
+- [Slurm Job Arrays](hii-rc/slurm-arrays.html) (Advanced)
 
 ### Slurm Documentation
 
@@ -35,7 +37,6 @@ On `hii.rc.usf.edu`, you can view documentation using the `man` command, e.g. `m
 
 ### Examples
 
-- [Slurm Job Arrays](hii-rc/slurm-arrays.html)
 
 ### Slurm Partitions
 
