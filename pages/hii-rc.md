@@ -53,7 +53,7 @@ Each user will have the following directories available:
 - `/hii/work/<fi>/<netid>` - Computational work directory for temporary, large filesets generated through research and analysis.
 - `/shares/hii-<group_name>/` - Shared team directory (e.g. `/shares/hii-alpha`).
 
-*Note: The shares directory (e.g. `/shares/hii-alpha`)
+*Note: Your shared team directory (e.g. `/shares/hii-alpha`)
   is configured so files and folders created will be owned by the user and the user's group affiliation
   (e.g. `jsmith:hii-alpha` instead of `jsmith:jsmith`).*
 
