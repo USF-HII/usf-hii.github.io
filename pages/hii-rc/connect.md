@@ -4,6 +4,8 @@ layout: page
 
 ## [HII/RC Cluster](../hii-rc.html)
 
+Access to the cluster is available through a "Head Node" (`hii.rc.usf.edu`).
+
 ### Shell Access
 
 #### Connect Information
