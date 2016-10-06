@@ -35,9 +35,6 @@ computational workloads on behalf of faculty, staff, and external analytical par
 
 On `hii.rc.usf.edu`, you can view documentation using the `man` command, e.g. `man sbatch`.
 
-### Examples
-
-
 ### Slurm Partitions
 
 Compute nodes in the cluster are grouped into partitions of compute nodes which provide the following classes of service:
