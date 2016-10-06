@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## HII-RC
+## [HII/RC Cluster](../hii-rc.html)
 
 ### Shell Access
 
