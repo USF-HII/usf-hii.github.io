@@ -9,6 +9,9 @@ layout: page
 The HII/RC cluster utilizes [Slurm](http://slurm.schedmd.com) for scheduling
 computational workloads on behalf of faculty, staff, and external analytical partners.
 
+- [Connection Information](hii-rc/connect.html)
+- [Interactive Shell](hii-rc/interactive.html)
+
 #### Slurm Documentation
 
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - Quickref of major Slurm commands.
