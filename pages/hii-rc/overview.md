@@ -13,13 +13,13 @@ computational workloads on behalf of faculty, staff, and external analytical par
 
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - Quickref of major Slurm commands.
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - Translation for individuals familiar with similar HPC scheduling systems.
-- [Slurm Overview]([online](http://slurm.schedmd.com/slurm.html)
+- [Slurm Overview](http://slurm.schedmd.com/slurm.html)
 
 #### Slurm Commands
 
-- `sinfo` ([manual](http://slurm.schedmd.com/sinfo.html)) / ([hii-docs)](sinfo.html) -
+- `sinfo` ([manual](http://slurm.schedmd.com/sinfo.html)) / ([hii-docs)](sinfo.html)) -
    Reports the state of partitions and nodes managed by Slurm.
-- `sbatch` ([manual](http://slurm.schedmd.com/sinfo.html)) / ([hii-docs](sbatch.html) -
+- `sbatch` ([manual](http://slurm.schedmd.com/sinfo.html)) / ([hii-docs](sbatch.html)) -
    Submits a job script for execution typically containing srun commands to launch parallel tasks.
 - `srun`  ([manual](http://slurm.schedmd.com/sinfo.html)) / ([hii-docs](srun.html)) -
    Used to submit a job for execution or initiate job steps in real time.
@@ -52,9 +52,9 @@ Each user will have the following directories available:
 - `/hii/work/<fi>/<netid>` - Computational work directory for temporary, large filesets generated through research and analysis.
 - `/shares/hii-<group_name>/` - Shared team directory (e.g. `/shares/hii-alpha`).
 
-**Note: The shares directory (e.g. `/shares/hii-alpha`)
+*Note: The shares directory (e.g. `/shares/hii-alpha`)
   is configured so files and folders created will be owned by the user and the user's group affiliation
-  (e.g. `jsmith:hii-alpha` instead of `jsmith:jsmith`).**
+  (e.g. `jsmith:hii-alpha` instead of `jsmith:jsmith`).*
 
 #### Identification
 
