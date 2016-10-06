@@ -8,14 +8,13 @@ layout: page
 
 #### Discussion
 
-The head node of the HII-RC Cluster, `hii.rc.usf.edu`, provides an entry-point to develop and submit
-computational work across an array of computing resources.
+Although it is possible to run interactive work on the head node, `hii.rc.usf.edu`,
+doing so may adversely affect others who are utilizing the system for its core functionality
+of transferring and submitting jobs to be queued and dispatched to special purpose
+compute nodes dedicated to running computationally-intensive work.
 
-Although it is possible to run interactive work on the head node, this may adversely affect the experience of others
-who are utilizing the system for its core functionality.
-
-In order to provide the best of both worlds, HII maintains a special partition,
-`hii-interactive` which provides real-time sessions on a high-performance compute node.
+When it is necessary to run work interactively please use the Slurm partition `hii-interactive` which
+provides real-time sessions on a high-performance compute node.
 
 #### Invocation
 
