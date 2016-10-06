@@ -4,7 +4,9 @@ layout: page
 
 ## [HII/RC Cluster](../hii-rc.html)
 
-### Obtaining an Interactive Shell
+### Interactive Shell
+
+#### Discussion
 
 The head node of the HII-RC Cluster, `hii.rc.usf.edu`, provides an entry-point to develop and submit
 computational work across an array of computing resources.
@@ -15,7 +17,7 @@ who are utilizing the system for its core functionality.
 In order to provide the best of both worlds, HII maintains a special partition,
 `hii-interactive` which provides real-time sessions on a high-performance compute node.
 
----
+##### Invocation
 
 To obtain an interactive session, run the following command modifying your CPU, memory, and time requirements as necessary.
 
@@ -23,9 +25,9 @@ To obtain an interactive session, run the following command modifying your CPU, 
 srun --pty --partition=hii-interactive --cpus=4 --mem=30G --time=0-8 /bin/bash
 ```
 
----
+##### Examples
 
-In this example, we request a shell on a compute node providing
+In the following example, we request a shell on a compute node providing
 4 Cores and 30GB of RAM for 8 hours from which we may run an interactive R session:
 
 ```
@@ -51,8 +53,7 @@ a node, e.g.:
 hii$ srun --pty --partition=hii-interactive --exclusive --time=0-8 /bin/bash
 ```
 
-
----
+##### Considerations
 
 Please try to be considerate and request the approximate resources necessary
 as there are a limited amount of resources allocated to the `hii-interactive` partition.
