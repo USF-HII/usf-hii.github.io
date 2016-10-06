@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## [HII/RC Cluster](/pages/hii-rc.html)
+## HII/RC Cluster
 
 ### sinfo
 
