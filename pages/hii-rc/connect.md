@@ -24,9 +24,9 @@ To connect to the cluster, please use a Secure Shell (`SSH`) Client with the fol
 
 ### File Transfer
 
-#### Connection Information
+#### Connect Information
 
-File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) using the same `SSH` connection information above.
+Use the same Connect Information for Shell Access above.
 
 #### Clients
 
