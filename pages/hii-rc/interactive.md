@@ -25,8 +25,8 @@ srun --pty --partition=hii-interactive --cpus=4 --mem=30G --time=0-8 /bin/bash
 ```
 
 *Note: `hii-interactive` was set-up to provide an interactive shell in a timely manner since no batch jobs
-are running, however if all nodes in the `hii-interactive` partition are allocated, you may use
-`hii-test` or `hii02` in that order of preference.*
+should be running, however if all nodes in the `hii-interactive` partition are allocated, feel free to subsititute
+`--partition=hii-test` or `--partition=hii02` in any example.*
 
 #### Examples
 
