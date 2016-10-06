@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<img src="images/usf-hii-logo.png" border="0" width="300" height="200" />
+<img src="images/usf-hii-logo.png" border="0" width="30%" height="30%" />
 <br/>
 
 ## Overview
