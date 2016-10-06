@@ -2,9 +2,11 @@
 layout: page
 ---
 
-## HII/RC Cluster
+## [HII/RC Cluster](/pages/hii-rc/sinfo.md)
 
 ### sinfo
+
+
 
 To view detailed information on a partition, we suggest the following invocation of the Slurm `sinfo` command:
 
