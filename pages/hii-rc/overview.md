@@ -44,9 +44,11 @@ Each user will have the following directories available:
 
 - `/home/<fi>/<netid>` - Home directory for an individual's own work (e.g. `/home/j/jsmith`).
 - `/hii/work/<fi>/<netid>` - Computational work directory for temporary, large filesets generated through research and analysis.
-- `/shares/hii-<group_name>/` - Shared team directory (e.g. `/shares/hii-alpha`). This directory will
-  have the `setguid` bit so files created will be owned by the user and the user's group affiliation
-  (e.g. `hii-alpha`).
+- `/shares/hii-<group_name>/` - Shared team directory (e.g. `/shares/hii-alpha`).
+
+**Note: The shares directory (e.g. `/shares/hii-alpha`)
+  is configured so files and folders created will be owned by the user and the user's group affiliation
+  (e.g. `jsmith:hii-alpha` instead of `jsmith:jsmith`).**
 
 #### Identification
 
