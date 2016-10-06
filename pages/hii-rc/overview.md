@@ -32,7 +32,7 @@ computational workloads on behalf of faculty, staff, and external analytical par
 
 #### Examples
 
-- [Slurm Job Arrays](job-arrays.html)
+- [Slurm Job Arrays](slurm-arrays.html)
 
 #### Slurm Partitions
 
