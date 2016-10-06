@@ -9,7 +9,7 @@ layout: page
 Most applications available on the cluster are accessible via [modules](http://modules.sourceforge.net/).
 
 Modules gives the user fine-grained control to select a set of applications as well as the specific versions they wish to use
-without manually configuring and cleaning up paths and environmental variables (e.g. `PATH` and `LD_LIBRARY_PATH`).
+without manually configuring and cleaning up necessary environmental variables such as `PATH` and `LD_LIBRARY_PATH`.
 
 **Note:** Whether you are running an application as a batch job or an interactive shell,
 you must have the appropriate module loaded into your environment in order to get access to your application.
