@@ -15,11 +15,11 @@ computational workloads on behalf of faculty, staff, and external analytical par
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - Translation for individuals familiar with similar HPC scheduling systems.
 - `man slurm` ([online](http://slurm.schedmd.com/slurm.html)),
   `man sinfo` ([online](http://slurm.schedmd.com/sinfo.html)),
-  `man sbatch`,
-  `man srun`,
-  `man squeue`,
-  `man scancel`,
-  `man sacct`
+  `man sbatch`([online](http://slurm.schedmd.com/sinfo.html)),
+  `man srun` ([online](http://slurm.schedmd.com/sinfo.html)),
+  `man squeue` ([online](http://slurm.schedmd.com/sinfo.html)),
+  `man scancel` ([online](http://slurm.schedmd.com/sinfo.html)),
+  `man sacct` ([online](http://slurm.schedmd.com/sinfo.html))`
 
 #### Slurm Commands
 
