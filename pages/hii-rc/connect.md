@@ -6,12 +6,16 @@ layout: page
 
 ### Shell Access
 
+#### Connect Information
+
 To connect to the cluster, please use a Secure Shell (`SSH`) Client with the following connection information:
 
 - User: `(USF NetID)`
 - Password: `(USF NetID Password)`
 - Hostname: `hii.rc.usf.edu`
 - Port: `22`
+
+#### Clients
 
 - Linux: `ssh` (native) via xterm
 - MacOS: `ssh` (native) via iterm
@@ -20,7 +24,11 @@ To connect to the cluster, please use a Secure Shell (`SSH`) Client with the fol
 
 ### File Transfer
 
+#### Connection Information
+
 File transfers may be conducted over `SFTP` (Secure File Transfer Protocol) using the same `SSH` connection information above.
+
+#### Clients
 
 - Linux: `sftp` (native) via xterm or
   [FileZilla](https://filezilla-project.org/)
