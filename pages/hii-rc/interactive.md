@@ -24,12 +24,6 @@ To obtain an interactive session, run the following command modifying your CPU, 
 srun --pty --partition=hii-interactive --cpus=4 --mem=30G --time=0-8 /bin/bash
 ```
 
-*Note: `hii-interactive` was set-up to provide an interactive shell in a timely manner since no batch jobs
-should be running, however if all nodes in the `hii-interactive` partition are allocated, feel free to subsititute
-`--partition=hii-test` or `--partition=hii02` in the examples.*
-
-**Tip** - Use `sinfo -p hii-interactive` to view availability of interactive nodes.
-
 #### Example
 
 In the following example, we request a shell on a compute node providing
@@ -48,7 +42,7 @@ svc-3024-5-6$ exit
 
 The interactive session will terminate when you exit the shell or the time limit you set expires.
 
-#### Exclusive Node
+#### Exclusive
 
 If you feel you truly need the full resources of a node and would impact other users on the node,
 you may use the `--exclusive` option instead of specifying `--cpus` and `--mem` to ask for all resources on
@@ -57,3 +51,11 @@ a node, e.g.:
 ```
 hii$ srun --pty --partition=hii-interactive --exclusive --time=0-8 /bin/bash
 ```
+
+#### Notes
+
+- `hii-interactive` was set-up to provide an interactive shell in a timely manner since no batch jobs
+should be running, however if all nodes in the `hii-interactive` partition are allocated, feel free to subsititute
+`--partition=hii-test` or `--partition=hii02` in the examples.
+
+- Use `sinfo -p hii-interactive` to view availability of interactive nodes.
