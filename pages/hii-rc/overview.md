@@ -23,12 +23,12 @@ computational workloads on behalf of faculty, staff, and external analytical par
 
 #### Slurm Commands
 
-- [sinfo](sinfo.html) - Reports the state of partitions and nodes managed by Slurm.
-- `sbatch` - Submits a job script for execution typically containing srun commands to launch parallel tasks.
-- `srun` - Used to submit a job for execution or initiate job steps in real time.
-- `squeue` - Reports the state of jobs or job steps.
-- `scancel` - Used to stop a job before it completes.
-- `sacct` - Show what has been run.
+- `sinfo` [overview](sinfo.html) - Reports the state of partitions and nodes managed by Slurm.
+- `sbatch` [overview](sbatch.html) - Submits a job script for execution typically containing srun commands to launch parallel tasks.
+- `srun` - [overview](srun.html) - Used to submit a job for execution or initiate job steps in real time.
+- `squeue` - [overview](squeue.html) - Reports the state of jobs or job steps.
+- `scancel` - [overview](scancel.html) - Used to stop jobs before running/completing.
+- `sacct` - [overview](sacct.html) - Show what has been run.
 
 #### Slurm Partitions
 
