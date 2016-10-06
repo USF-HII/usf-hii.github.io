@@ -2,6 +2,60 @@
 layout: page
 ---
 
+High Performance Computing (HPC)
+Generally “large” computational tasks
+Reduce run time for single job from 12 months to 1 week
+Example: Airplane aerodynamic simulation including fluid flow and structural mechanics within a single analysis
+
+High Throughput Computing (HTC)
+Generally many “small” computational tasks
+Reduce run time for 10,000 “small” jobs from 3 months to 1 week (with each “small” job taking ~ 1 hr)
+Example: Analyze performance of each stock on the NASDAQ as separate independent analyses
+
+Advanced Visualization
+See data in new ways – discover new relationships, trends, etc.
+Advanced technology resources, training and instruction.
+Example: Immersive 3D visualization
+
+scancel 1234                      # cancel job 1234
+scancel -u $USER                  # cancel all my jobs
+scancel -u $USER --state=running  # cancel all my running jobs
+scancel -u $USER --state=pending  # cancel all my pending jobs
+
+- VIM Video (Sean Biddle): https://www.youtube.com/watch?v=Nim4_f5QUxA
+
+- https://github.com/jlevy/the-art-of-command-line
+
+- http://wiki.bash-hackers.org/
+
+- https://google.github.io/styleguide/shell.xml
+
+- https://en.wikibooks.org/wiki/Bash_Shell_Scripting
+
+- https://github.com/jlevy/the-art-of-command-line
+
+- https://www.learnenough.com/command-line-tutorial
+
+- http://www.ee.surrey.ac.uk/Teaching/Unix/
+
+---
+
+In 1994, Mike Gancarz (a member of the team that designed the X Window System), drew on his own experience with Unix, as well as
+discussions with fellow programmers and people in other fields who depended on Unix, to produce The UNIX Philosophy which sums it up
+in 9 paramount precepts:
+
+- Small is beautiful.
+- Make each program do one thing well.
+- Build a prototype as soon as possible.
+- Choose portability over efficiency.
+- Store data in flat text files.
+- Use software leverage to your advantage.
+- Use shell scripts to increase leverage and portability.
+- Avoid captive user interfaces.
+- Make every program a filter.
+
+
+
 ### Slurm Commands
 
 These are the most common commands used by a user of Slurm.

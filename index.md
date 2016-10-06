@@ -2,6 +2,9 @@
 layout: page
 ---
 
+<img src="images/usf-hii-logo.png" border="0" width="300" height="200" />
+<br/>
+
 ## Overview
 
 The [Health Informatics Institute](http://www.hii.usf.edu) offers large-scale, distributed, high-performance computational resources for Bioinformatics research.
