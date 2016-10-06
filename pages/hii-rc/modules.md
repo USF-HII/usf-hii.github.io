@@ -2,7 +2,9 @@
 layout: page
 ---
 
-## HII-RC Cluster Modules
+## [HII/RC Cluster](../hii-rc.html)
+
+### Modules
 
 Most applications available on the cluster are accessible via [modules](http://modules.sourceforge.net/).
 
