@@ -10,7 +10,7 @@ layout: page
 
 Although it is possible to run interactive work on the head node, `hii.rc.usf.edu`,
 doing so may adversely affect others who are utilizing the system for its core functionality
-of transferring and submitting jobs to be queued and dispatched to special purpose
+of transferring and submitting jobs which are queued and dispatched to run on
 compute nodes dedicated to running computationally-intensive work.
 
 When it is necessary to run work interactively please use the Slurm partition `hii-interactive` which
