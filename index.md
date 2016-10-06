@@ -9,7 +9,9 @@ layout: page
 
 The [Health Informatics Institute](http://www.hii.usf.edu) offers large-scale, distributed, high-performance computational resources for Bioinformatics research.
 
-### HII-RC
+## Resources
+
+### HII/RC Cluster
 
 In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/), HII offers
 a High Performance Computing (HPC) Cluster to its faculty, staff and external partners.
