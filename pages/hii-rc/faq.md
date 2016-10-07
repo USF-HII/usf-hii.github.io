@@ -10,7 +10,7 @@ layout: page
 
 CIRCE stands for "Central Instructional and Research Computing Environment"
 provided by [USF Research Computing](http://www.usf.edu/it/research-computing/)
-for Big-Scale computational resources assisting faculty, staff, and partners of USF in their research.
+for Big-Scale computational resources assisting faculty and partners of USF in their research.
 
 The HII/RC Cluster is a special segment of CIRCE
 combining computational and storage systems via HII grants integrated into the overall CIRCE environment
