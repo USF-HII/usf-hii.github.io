@@ -8,11 +8,9 @@ layout: page
 
 #### 1. What is the relationship between CIRCE and the HII/RC Cluster?
 
-**CIRCE** is the acronym for the "Central Instructional and Research Computing Environment"
-provided by [Research Computing](http://www.usf.edu/it/research-computing/) at the University of South Florida.
-
-**CIRCE** is a general purpose, high-scale computing environment providing resources to faculty, staff, and partners of USF
-to conduct research.
+**CIRCE** stands for "Central Instructional and Research Computing Environment", which
+is a global, high-scale computing environment sponsored through [Research Computing](http://www.usf.edu/it/research-computing/)
+providing the necessary resources to faculty, staff, and partners of USF to conduct "Big-Scale Research."
 
 The HII/RC Cluster is a special segment of **CIRCE**
 combining computational and storage systems via HII grants integrated into the overall **CIRCE** environment
