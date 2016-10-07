@@ -13,7 +13,7 @@ CIRCE stands for the [USF Research Computing](http://www.usf.edu/it/research-com
 providing Big-Scale computational resources for faculty and partners of USF.
 
 The HII/RC Cluster is a special segment of CIRCE combining
-a series of HII grants into computational resources
+HII computational resources
 connected and integrated into the overall CIRCE environment providing the maximum of both expertise and assets.
 
 With this consideration, HII provides their own documentation set (https://usf-hii.github.io) for usage of the HII/RC cluster
