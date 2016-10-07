@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## [HII/RC Cluster](/pages/hii-rc.html)
+## [HII/CIRCE Cluster](/pages/hii-rc.html)
 
 ### sinfo ([Manual](http://slurm.schedmd.com/sinfo.html))
 

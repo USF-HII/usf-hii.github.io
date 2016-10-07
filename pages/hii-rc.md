@@ -2,9 +2,9 @@
 layout: page
 ---
 
-## HII/RC Cluster Overview
+## HII/CIRCE Cluster Overview
 
-The HII/RC cluster utilizes [Slurm](http://slurm.schedmd.com) for scheduling
+The HII/CIRCE cluster utilizes [Slurm](http://slurm.schedmd.com) for scheduling
 computational workloads on behalf of faculty and partners.
 
 - [Connection Information](hii-rc/connect.html)
