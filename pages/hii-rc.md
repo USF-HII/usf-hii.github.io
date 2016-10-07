@@ -7,7 +7,7 @@ layout: page
 The HII/CIRCE cluster utilizes [Slurm](http://slurm.schedmd.com) for scheduling
 computational workloads on behalf of faculty and partners.
 
-- [Connection Information](hii-rc/connect.html)
+- [Connection](hii-rc/connect.html)
 - [Interactive Shell](hii-rc/interactive.html)
 - [Modules](hii-rc/modules.html)
 - [FAQ](hii-rc/faq.html)
