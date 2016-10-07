@@ -10,7 +10,8 @@ computational workloads on behalf of faculty and partners.
 - [Connection Information](hii-rc/connect.html)
 - [Interactive Shell](hii-rc/interactive.html)
 - [Modules](hii-rc/modules.html)
-- [Slurm Job Arrays](hii-rc/slurm-arrays.html) (Advanced)
+- [FAQ](hii-rc/faq.html)
+
 
 ### Slurm Documentation
 
