@@ -11,9 +11,8 @@ layout: page
 **CIRCE** is the acronym for the "Central Instructional and Research Computing Environment"
 provided by [Research Computing](http://www.usf.edu/it/research-computing/) at the University of South Florida.
 
-**CIRCE** is a general-purpose high-performance computing environment offering high-scale computation
-to faculty, staff, and partners of USF.
-
+**CIRCE** is a general purpose, high-scale computing environment providing resources to faculty, staff, and partners of USF
+to conduct research.
 
 The HII/RC Cluster is a special segment of **CIRCE**
 combining computational and storage systems via HII grants integrated into the overall **CIRCE** environment
