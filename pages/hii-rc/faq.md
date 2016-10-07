@@ -16,8 +16,7 @@ The HII/RC Cluster is a special segment of CIRCE combining
 a series of HII grants into supplementary computational and storage
 components integrated into the overall CIRCE environment providing the maximum of both expertise and assets.
 
-The one consideration from a usage perspective is, although a large portion of the CIRCE documentation
-(available at https://cwa.rc.usf.edu/) has relevant information, the special nature of the HII/RC Cluster
-has special customizations which may confuse general reading of the documentation.
-
+With this consideration, HII provides their own documentation set for usage of the HII/RC cluster
+although general documentation is available at https://cwa.rc.usf.edu. Please understand that
+a portion of the documentation at the general site may not apply to HII Partners.
 
