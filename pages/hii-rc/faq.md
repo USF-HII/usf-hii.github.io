@@ -8,7 +8,7 @@ layout: page
 
 #### 1. What is the relationship between CIRCE and the HII/RC Cluster?
 
-CIRCE stands for [USF Research Computing](http://www.usf.edu/it/research-computing/)
+CIRCE stands for the [USF Research Computing](http://www.usf.edu/it/research-computing/)
 "Central Instructional and Research Computing Environment"
 providing Big-Scale computational resources assisting faculty and partners of USF in their research.
 
