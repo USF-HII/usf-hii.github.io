@@ -14,7 +14,7 @@ when Big-Scale computational resources are requested from faculty, staff, and pa
 
 The HII/RC Cluster is a special segment of CIRCE
 combining computational and storage systems via HII grants integrated into the overall CIRCE environment
-for the maximum of computational assets.
+to provide the maximum of computational expertise and assets.
 
 The one consideration from a usage perspective is, although a large portion of the CIRCE documentation
 (available at https://cwa.rc.usf.edu/) has relevant information, the special nature of the HII/RC Cluster
