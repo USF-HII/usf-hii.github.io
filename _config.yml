@@ -10,11 +10,9 @@ highlighter: rouge
 #
 title : USF Health Informatics Institute Compute Portal
 author :
-  name : Chris Bell
-  email : christopher.bell@epi.usf.edu
-  github : alostengineer
-  twitter : nil
-  feedburner : nil
+  name : Kevin Counts
+  email : kevin.counts@epi.usf.edu
+  github : countdigi
 
 production_url : https://usf-hii.github.io/
 
