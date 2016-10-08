@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## [HII/CIRCE Cluster](../hii-rc.html)
+## [CIRCE-HII Cluster](../hii-rc.html)
 
 WIP
 
