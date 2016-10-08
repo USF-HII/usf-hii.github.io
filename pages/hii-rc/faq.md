@@ -13,7 +13,7 @@ is the high-performance computing infrastructure provided by [USF Research Compu
 for USF faculty, students, and partners.
 
 The HII/CIRCE Cluster is a specialized subset integrating HII resources into the overall CIRCE environment.
-As a result, some documentation referring to [CIRCE](https://cwa.rc.usf.edu) may not apply to this specialized cluster.
+As a result, some documentation referring to [CIRCE](https://cwa.rc.usf.edu) may not be applicable to this specialized cluster.
 
 Please refer to the documentation on the [USF HII Compute Portal](https://usf-hii.github.io) for the most
 accurate information with regards to the HII/CIRCE Cluster.
