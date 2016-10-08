@@ -52,8 +52,11 @@ hii$ srun --pty --partition=hii-interactive --exclusive --time=0-8 /bin/bash
 
 #### Notes
 
-- `hii-interactive` was set-up to provide an interactive shell in a timely manner since no batch jobs
-should be running, however if all nodes in the `hii-interactive` partition are allocated, feel free to subsititute
-`--partition=hii-test` or `--partition=hii02` in the examples.
+- Note: `sinfo --partition=hii-interactive` to view availability of interactive nodes.
 
-- Use `sinfo -p hii-interactive` to view availability of interactive nodes.
+- Note: `hii-interactive` was set-up to provide an interactive shell in a timely manner since no batch jobs
+should be running on the `hii-interactive` partition,
+ however if all nodes in the `hii-interactive` partition are allocated, feel free to subsititute
+`--partition=hii-test` or `--partition=hii02` in the examples but realize if a partition is saturated with batch-jobs
+your interactive session may wait many minutes or hours to start.
+
