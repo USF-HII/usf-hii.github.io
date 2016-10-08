@@ -8,7 +8,7 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : USF Health Informatics Institute Compute Portal
+title : USF HII Compute Portal
 author :
   name : Kevin Counts
   email : kevin.counts@epi.usf.edu
