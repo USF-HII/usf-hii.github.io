@@ -21,17 +21,17 @@ computational workloads on behalf of faculty and partners.
 
 ### Slurm Commands
 
-- `sinfo` ([schedmd](http://slurm.schedmd.com/sinfo.html) / [hii](hii-rc/sinfo.html)) -
+- `sinfo` ([schedmd](http://slurm.schedmd.com/sinfo.html) / [hii-docs](hii-rc/sinfo.html)) -
    Reports the state of partitions and nodes managed by Slurm.
-- `sbatch` ([schedmd](http://slurm.schedmd.com/sbatch.html) / [hii](hii-rc/sbatch.html)) -
+- `sbatch` ([schedmd](http://slurm.schedmd.com/sbatch.html) / [hii-docs](hii-rc/sbatch.html)) -
    Submits a job script for execution typically containing srun commands to launch parallel tasks.
-- `srun`  ([schedmd](http://slurm.schedmd.com/srun.html) / [hii](hii-rc/srun.html)) -
+- `srun`  ([schedmd](http://slurm.schedmd.com/srun.html) / [hii-docs](hii-rc/srun.html)) -
    Used to submit a job for execution or initiate job steps in real time.
-- `squeue` ([schedmd](http://slurm.schedmd.com/squeue.html) / [hii](hii-rc/squeue.html)) -
+- `squeue` ([schedmd](http://slurm.schedmd.com/squeue.html) / [hii-docs](hii-rc/squeue.html)) -
    Reports the state of jobs or job steps.
-- `scancel` ([schedmd](http://slurm.schedmd.com/scancel.html) / [hii](hii-rc/scancel.html)) -
+- `scancel` ([schedmd](http://slurm.schedmd.com/scancel.html) / [hii-docs](hii-rc/scancel.html)) -
    Used to stop jobs before running/completing.
-- `sacct` ([schedmd](http://slurm.schedmd.com/sacct.html) / [hii](hii-rc/sacct.html)) -
+- `sacct` ([schedmd](http://slurm.schedmd.com/sacct.html) / [hii-docs](hii-rc/sacct.html)) -
    Show running as well as recently completed or failed jobs.
 
 On `hii.rc.usf.edu`, you can view documentation using the `man` command, e.g. `man sbatch`.

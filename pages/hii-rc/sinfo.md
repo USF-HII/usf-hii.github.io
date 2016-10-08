@@ -6,7 +6,7 @@ layout: page
 
 ### sinfo ([Manual](http://slurm.schedmd.com/sinfo.html))
 
-`sinfo` reports the state of a Slurm partition its compute nodes.
+`sinfo` reports the state of a Slurm partition and its compute nodes.
 
 ---
 
@@ -23,8 +23,8 @@ hii02        up   infinite     42   idle svc-3024-3-[1-42]
 States:
 
 - `idle` - nodes totally available
-- `mixed` - nodes are running other jobs but some resources are still available
-- `alloc` - nodes resources are running other jobs and not available
+- `mixed` - nodes are running other jobs but some resources are still available (non-allocated)
+- `alloc` - nodes are running other jobs and fully allocated
 
 The above example shows that 42 nodes are completely available (`idle`), 1 node has some resources available
 (`mixed`), and 39 nodes are currently allocated and not available (`alloc`).
@@ -41,7 +41,8 @@ hii$ sinfo --partition=<partition> --exact --format="%20P %8D %8c %12m %12a %12T
 For example this command shows all nodes in the 3 HII Slurm Partitions:
 
 ```
-hii$  sinfo --partition=hii02,hii-test,hii-interactive --exact --format="%20P %8D %8c %12m %12a %12T %l"
+hii$  sinfo --partition=hii02,hii-test,hii-interactive --exact \
+            --format="%20P %8D %8c %12m %12a %12T %l"
 PARTITION            NODES    CPUS     MEMORY       AVAIL        STATE        TIMELIMIT
 hii02                1        16       129018       up           mixed        infinite
 hii02                2        12       64380        up           idle         infinite
