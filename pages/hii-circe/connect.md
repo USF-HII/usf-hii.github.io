@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## [CIRCE-HII Cluster](../hii-rc.html)
+## [HII-CIRCE Cluster](../hii-circe.html)
 
 Access to the cluster is available through a "Head Node" (`hii.rc.usf.edu`).
 

@@ -2,11 +2,11 @@
 layout: page
 ---
 
-## [CIRCE-HII Cluster](/pages/hii-rc.html)
+## [HII/CIRCE Cluster](/pages/hii-circe.html)
 
-### sinfo ([Manual](http://slurm.schedmd.com/sinfo.html))
+### sinfo ([man page](http://slurm.schedmd.com/sinfo.html))
 
-`sinfo` reports the state of a Slurm partition and its compute nodes.
+`sinfo` reports on one or more Slurm partitions and its compute resources.
 
 ---
 
@@ -52,12 +52,14 @@ hii-interactive      3        12       64380        up           idle         in
 hii-test             9        12       64380        up           idle         infinite
 ```
 
-To find the total CPUs and Memory for all three partitions, this shell pipeline will give the answer:
+To find the total CPUs and Memory for all three partitions, here is a shell pipeline to assist:
 
 ```
-hii$ sinfo --partition=hii02,hii-test,hii-interactive \
-           --exact --noheader --format="%20P %8D %8c %12m %12a %12T %l" \
-     | awk '{cpus+= ($2*$3); mem+= ($2*$4)} END {print cpus " CPUs and " mem/2**20 " TB"}'
+hii$ sinfo --partition=hii02,hii-test,hii-interactive --exact --noheader \
+           --format="%20P %8D %8c %12m %12a %12T %l" \
+     | awk '{cpus+=($2*$3); mem+=($2*$4)} END {print cpus " CPUs and " mem/2**20 " TB"}'; \
+     date
 
 1608 CPUs and 10.7003 TB Memory
+Sat Oct  8 14:55:48 EDT 2016
 ```
