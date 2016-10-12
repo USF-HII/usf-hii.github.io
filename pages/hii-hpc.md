@@ -2,14 +2,10 @@
 layout: page
 ---
 
-
 ## HII-HPC Cluster Overview
 
-CIRCE is the USF Central Instructional and Research Computing Environment
-offered by [USF Research Computing](http://www.usf.edu/it/research-computing/).
-
-HII-HPC is a subset of this environment
-handling the high-throughput bioinformatics workloads of HII for its faculty and partners.
+HII-HPC is an specialized cluster managed by [USF Research Computing](http://www.usf.edu/it/research-computing/)
+on behalf of HII for high-throughput bioinformatics workloads of its faculty and partners.
 
 HII-HPC utilizes the Slurm HPC Scheduler to coordinate work over its compute resources.
 
