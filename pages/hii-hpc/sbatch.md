@@ -2,11 +2,11 @@
 layout: page
 ---
 
-## [HII/CIRCE Cluster](../hii-hpc.html)
+## [HII-HPC Cluster](../hii-hpc.html)
 
-### sbatch ([man page](http://slurm.schedmd.com/sbatch.html))
+### Submitting a Slurm Job
 
-A typical way of submitting a job to the HII/CIRCE Cluster is by writing a **submission script**.
+A typical way of submitting a job to the HII-HPC Cluster is by writing a **submission script**.
 A submission script is a shell script, e.g. a [Bash](http://mywiki.wooledge.org/BashGuide) script,
 whose comments, if they are prefixed with SBATCH,
 are understood by Slurm as parameters describing resource requests and other submission options.

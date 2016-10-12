@@ -15,6 +15,10 @@ HII-HPC utilizes the Slurm HPC Scheduler to coordinate work over its compute res
 - [Interactive Shell](hii-hpc/interactive.html)
 - [Modules](hii-hpc/modules.html)
 - [FAQ](hii-hpc/faq.html)
+- Slurm
+  - [Viewing Slurm Resources](hii-hpc/sinfo.html)
+  - [Submitting a Slurm Job](hii-hpc/sbatch.html)
+  - [Submitting a Slurm Job Array](hii-hpc/slurm-arrays.html)
 
 ### Slurm Documentation
 
@@ -24,17 +28,17 @@ HII-HPC utilizes the Slurm HPC Scheduler to coordinate work over its compute res
 
 ### Slurm Commands
 
-- `sinfo` ([schedmd](http://slurm.schedmd.com/sinfo.html) / [hii-docs](hii-hpc/sinfo.html)) -
+- `sinfo` ([docs](http://slurm.schedmd.com/sinfo.html)) -
    Reports the state of partitions and nodes managed by Slurm.
-- `sbatch` ([schedmd](http://slurm.schedmd.com/sbatch.html) / [hii-docs](hii-hpc/sbatch.html)) -
+- `sbatch` ([docs](http://slurm.schedmd.com/sbatch.html)) -
    Submits a job script for execution typically containing srun commands to launch parallel tasks.
-- `srun`  ([schedmd](http://slurm.schedmd.com/srun.html) / [hii-docs](hii-hpc/srun.html)) -
+- `srun`  ([docs](http://slurm.schedmd.com/srun.html)) -
    Used to submit a job for execution or initiate job steps in real time.
-- `squeue` ([schedmd](http://slurm.schedmd.com/squeue.html) / [hii-docs](hii-hpc/squeue.html)) -
+- `squeue` ([docs](http://slurm.schedmd.com/squeue.html)) -
    Reports the state of jobs or job steps.
-- `scancel` ([schedmd](http://slurm.schedmd.com/scancel.html) / [hii-docs](hii-hpc/scancel.html)) -
+- `scancel` ([docs](http://slurm.schedmd.com/scancel.html)) -
    Used to stop jobs before running/completing.
-- `sacct` ([schedmd](http://slurm.schedmd.com/sacct.html) / [hii-docs](hii-hpc/sacct.html)) -
+- `sacct` ([docs](http://slurm.schedmd.com/sacct.html)) -
    Show running as well as recently completed or failed jobs.
 
 On `hii.rc.usf.edu`, you can view documentation using the `man` command, e.g. `man sbatch`.

@@ -2,7 +2,9 @@
 layout: page
 ---
 
-## HII-RC Cluster / Slurm Array
+## [HII-HPC Cluster](../hii-hpc.html)
+
+### Submitting a Slurm Job Array
 
 Slurm job arrays offer a mechanism for submitting and managing collections of similar jobs in a cohesive manner.
 

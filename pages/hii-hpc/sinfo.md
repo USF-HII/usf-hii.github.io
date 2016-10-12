@@ -2,13 +2,9 @@
 layout: page
 ---
 
-## [HII/CIRCE Cluster](/pages/hii-hpc.html)
+## [HII-HPC Cluster](../hii-hpc.html)
 
-### sinfo ([man page](http://slurm.schedmd.com/sinfo.html))
-
-`sinfo` reports on one or more Slurm partitions and its compute resources.
-
----
+### Viewing Slurm Resources
 
 For a quick overview of a partition:
 
