@@ -51,11 +51,10 @@ hii-test             9        12       64380        up           idle         in
 To find the total CPUs and Memory for all three partitions, here is a shell pipeline to assist:
 
 ```
-hii$ sinfo --partition=hii02,hii-test,hii-interactive --exact --noheader \
-           --format="%20P %8D %8c %12m %12a %12T %l" \
-     | awk '{cpus+=($2*$3); mem+=($2*$4)} END {print cpus " CPUs and " mem/2**20 " TB"}'; \
-     date
+$ sinfo --partition=hii02,hii-test,hii-interactive --exact --noheader \
+        --format="%20P %8D %8c %12m %12a %12T %l" \
+    | awk '{cpus+=($2*$3); mem+=($2*$4)} END {print cpus " CPUs and " mem/2**20 " TB"}'; date
 
-1608 CPUs and 10.7003 TB Memory
-Sat Oct  8 14:55:48 EDT 2016
+1664 CPUs and 12.672 TB
+Wed Oct 12 15:54:46 EDT 2016
 ```
