@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## [HII-CIRCE Cluster](../hii-circe.html)
+## [HII-HPC Cluster](../hii-hpc.html)
 
 ### Interactive Shell
 

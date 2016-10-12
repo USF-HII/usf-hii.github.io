@@ -3,22 +3,22 @@ layout: page
 ---
 
 
-## HII-CIRCE Cluster Overview
+## HII-HPC Cluster Overview
 
 CIRCE is the USF Central Instructional and Research Computing Environment
 offered by [USF Research Computing](http://www.usf.edu/it/research-computing/).
 
-HII-CIRCE is a subset of this environment
+HII-HPC is a subset of this environment
 handling the high-throughput bioinformatics workloads of HII for its faculty and partners.
 
-HII-CIRCE utilizes the Slurm HPC Scheduler to coordinate work over its compute resources.
+HII-HPC utilizes the Slurm HPC Scheduler to coordinate work over its compute resources.
 
 ### Overview
 
-- [Connection](hii-circe/connect.html)
-- [Interactive Shell](hii-circe/interactive.html)
-- [Modules](hii-circe/modules.html)
-- [FAQ](hii-circe/faq.html)
+- [Connection](hii-hpc/connect.html)
+- [Interactive Shell](hii-hpc/interactive.html)
+- [Modules](hii-hpc/modules.html)
+- [FAQ](hii-hpc/faq.html)
 
 ### Slurm Documentation
 
@@ -28,17 +28,17 @@ HII-CIRCE utilizes the Slurm HPC Scheduler to coordinate work over its compute r
 
 ### Slurm Commands
 
-- `sinfo` ([schedmd](http://slurm.schedmd.com/sinfo.html) / [hii-docs](hii-circe/sinfo.html)) -
+- `sinfo` ([schedmd](http://slurm.schedmd.com/sinfo.html) / [hii-docs](hii-hpc/sinfo.html)) -
    Reports the state of partitions and nodes managed by Slurm.
-- `sbatch` ([schedmd](http://slurm.schedmd.com/sbatch.html) / [hii-docs](hii-circe/sbatch.html)) -
+- `sbatch` ([schedmd](http://slurm.schedmd.com/sbatch.html) / [hii-docs](hii-hpc/sbatch.html)) -
    Submits a job script for execution typically containing srun commands to launch parallel tasks.
-- `srun`  ([schedmd](http://slurm.schedmd.com/srun.html) / [hii-docs](hii-circe/srun.html)) -
+- `srun`  ([schedmd](http://slurm.schedmd.com/srun.html) / [hii-docs](hii-hpc/srun.html)) -
    Used to submit a job for execution or initiate job steps in real time.
-- `squeue` ([schedmd](http://slurm.schedmd.com/squeue.html) / [hii-docs](hii-circe/squeue.html)) -
+- `squeue` ([schedmd](http://slurm.schedmd.com/squeue.html) / [hii-docs](hii-hpc/squeue.html)) -
    Reports the state of jobs or job steps.
-- `scancel` ([schedmd](http://slurm.schedmd.com/scancel.html) / [hii-docs](hii-circe/scancel.html)) -
+- `scancel` ([schedmd](http://slurm.schedmd.com/scancel.html) / [hii-docs](hii-hpc/scancel.html)) -
    Used to stop jobs before running/completing.
-- `sacct` ([schedmd](http://slurm.schedmd.com/sacct.html) / [hii-docs](hii-circe/sacct.html)) -
+- `sacct` ([schedmd](http://slurm.schedmd.com/sacct.html) / [hii-docs](hii-hpc/sacct.html)) -
    Show running as well as recently completed or failed jobs.
 
 On `hii.rc.usf.edu`, you can view documentation using the `man` command, e.g. `man sbatch`.
@@ -81,7 +81,8 @@ uid=1000(jsmith) gid=1000(jsmith) groups=1000(jsmith),1001(hii-alpha)
 
 ### Credit
 
-Ideas and examples contained under HII-CIRCE Cluster Documentation are credited to the following sites:
+Ideas and examples contained under HII-HPC Cluster Documentation are credited to the following sites:
 
 - [https://rc.fas.harvard.edu/resources/running-jobs/](https://rc.fas.harvard.edu/resources/running-jobs/)
 - [http://www.ceci-hpc.be/slurm_tutorial.html](http://www.ceci-hpc.be/slurm_tutorial.html)
+- [https://cwa.rc.usf.edu/projects/research-computing/wiki](https://cwa.rc.usf.edu/projects/research-computing/wiki)

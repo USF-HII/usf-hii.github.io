@@ -11,7 +11,7 @@ The [Health Informatics Institute](http://www.hii.usf.edu) offers large-scale, d
 
 ## Resources
 
-### [HII-CIRCE Cluster](pages/hii-circe.html)
+### [HII-HPC Cluster](pages/hii-hpc.html)
 
 In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/), HII offers
 a High Performance Computing (HPC) Cluster to its faculty and partners.

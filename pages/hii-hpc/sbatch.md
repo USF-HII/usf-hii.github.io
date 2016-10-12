@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## [HII/CIRCE Cluster](../hii-circe.html)
+## [HII/CIRCE Cluster](../hii-hpc.html)
 
 ### sbatch ([man page](http://slurm.schedmd.com/sbatch.html))
 
