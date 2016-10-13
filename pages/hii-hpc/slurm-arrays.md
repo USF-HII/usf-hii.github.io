@@ -6,6 +6,10 @@ layout: page
 
 ### Submitting a Slurm Job Array
 
+Note: Please see the [Slurm Documentation](http://slurm.schedmd.com/job_array.html) for additional information.
+
+---
+
 Slurm job arrays offer a mechanism for submitting and managing collections of similar jobs in a cohesive manner.
 
 The most common application is for applying the same processing routine to a collection of multiple input data files
