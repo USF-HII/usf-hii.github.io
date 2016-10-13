@@ -22,9 +22,9 @@ Slurm job arrays offer a mechanism for submitting and managing collections of si
 The most common application is for applying the same processing routine to a collection of multiple input data files
 without having to submit multiple jobs.
 
-For a project which has a small number of variations (e.g. 10 different input files), a series
-of singleton Slurm jobs may be adequate, but when variations number in the hundreds or greater a Slurm
-job array is the preferred solution.
+For a project which has a small number of variations a series
+of singleton Slurm jobs may be adequate, but as the variations increase in number, a Slurm
+job array is often the preferred solution.
 
 ### Overview
 
@@ -51,7 +51,7 @@ task_number=${SLURM_ARRAY_TASK_ID}
 
 # Now run a program with ${task_number} as an argument to vary its input file, behavior, etc.
 
-/bin/echo "task_number=${task_number}"
+srun /bin/echo "task_number=${task_number}"
 ```
 
 Submit the script as follows:
