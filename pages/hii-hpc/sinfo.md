@@ -50,7 +50,7 @@ hii-interactive      3        12       64380        up           idle         in
 hii-test             9        12       64380        up           idle         infinite
 ```
 
-To find the total CPUs and Memory for all three HII partitions, here is a example command:
+To find the total CPUs and Memory for all three HII partitions, here is an example command:
 
 ```
 $ sinfo --partition=hii02,hii-test,hii-interactive --exact --noheader \
