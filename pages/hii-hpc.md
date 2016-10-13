@@ -4,8 +4,9 @@ layout: page
 
 ## HII-HPC Cluster Overview
 
-HII-HPC is an specialized cluster managed by [USF Research Computing](http://www.usf.edu/it/research-computing/)
-on behalf of HII for high-throughput bioinformatics workloads of its faculty and partners.
+In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/),
+HII offers the HII-HPC Cluster for big-scale, bioinformatics workloads from its
+faculty and partners.
 
 HII-HPC utilizes the Slurm HPC Scheduler to coordinate work over its compute resources.
 

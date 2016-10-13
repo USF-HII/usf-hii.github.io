@@ -7,11 +7,13 @@ layout: page
 
 ## Overview
 
-The [Health Informatics Institute](http://www.hii.usf.edu) offers large-scale, distributed, high-performance computational resources for Bioinformatics research.
+The [Health Informatics Institute](http://www.hii.usf.edu) offers large-scale computing and
+storage for Health Research.
 
 ## Resources
 
 ### [HII-HPC Cluster](pages/hii-hpc.html)
 
-In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/), HII offers
-a High Performance Computing (HPC) Cluster to its faculty and partners.
+In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/),
+HII offers the HII-HPC Cluster for big-scale, bioinformatics workloads from its
+faculty and partners.
