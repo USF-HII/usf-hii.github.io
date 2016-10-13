@@ -82,7 +82,7 @@ chown zoe:faculty foo.txt   # Change ownership of file 'foo.txt' to user
                             # 'zoe' and group 'faculty'
 
 chmod +x foo.sh             # Make foo.sh executable
-chmod o-rwx foo.txt         # Remove read, write, and execute permissions for anyone other than user or group
-                              (u=user, g=group, o=others, a=everyone)
+chmod o-rwx foo.txt         # Remove read, write, and execute permissions for anyone other
+                            # than user or group (u=user, g=group, o=others, a=everyone)
 
 ```
