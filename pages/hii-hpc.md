@@ -13,7 +13,7 @@ HII-HPC utilizes the Slurm HPC Scheduler to coordinate work over its compute res
 
 ---
 
-*The HII-HPC Cluster has a routine downtime scheduled for the first Thursday of the month
+*The HII-HPC Cluster has a routine downtime scheduled for the last Thursday of the month
 from 8:00 a.m. to 12:00 noon (Eastern Time Zone) so please schedule work accordingly.*
 
 ---
