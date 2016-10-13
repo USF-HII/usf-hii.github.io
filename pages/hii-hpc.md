@@ -5,8 +5,9 @@ layout: page
 ## HII-HPC Cluster Overview
 
 In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/),
-HII offers the HII-HPC Cluster for big-scale, bioinformatics workloads from its
-faculty and partners.
+the [Health Informatics Institute](http://www.hii.usf.edu)
+offers the HII-HPC Cluster for its faculty and partners requiring
+large-scale computational resources for bioinformatics workloads.
 
 HII-HPC utilizes the Slurm HPC Scheduler to coordinate work over its compute resources.
 
