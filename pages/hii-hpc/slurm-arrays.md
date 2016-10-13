@@ -6,7 +6,7 @@ layout: page
 
 ### Submitting a Slurm Job Array
 
-Note: Please see the [Slurm Documentation](http://slurm.schedmd.com/job_array.html) for additional information.
+Note: Please see the [Slurm Job Array Documentation](http://slurm.schedmd.com/job_array.html) for additional information.
 
 ---
 
