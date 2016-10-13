@@ -8,6 +8,13 @@ layout: page
 
 Note: Please see the [Slurm Job Array Documentation](http://slurm.schedmd.com/job_array.html) for additional information.
 
+To find the max array size on the HII-HPC cluster run the following:
+
+```
+hii$ scontrol show config | grep MaxArraySize
+MaxArraySize            = 12001
+```
+
 ---
 
 Slurm job arrays offer a mechanism for submitting and managing collections of similar jobs in a cohesive manner.
