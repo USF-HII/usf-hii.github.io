@@ -49,7 +49,7 @@ responds with the jobid attributed to the job.
 
 ```
 $ sbatch hello-world.sh
-sbatch: Submitted batch job 99999999
+sbatch: Submitted batch job 4834857
 ```
 
 At this point, you may use the `squeue` command to view the current state of your job:

@@ -11,6 +11,9 @@ large-scale computational resources for bioinformatics workloads.
 
 HII-HPC utilizes the Slurm HPC Scheduler to coordinate work over its compute resources.
 
+**IMPORTANT: The HII-HPC Cluster has a routine downtime scheduled for the first Thursday of the month
+from 08:00 to noon Eastern TZ. Please plan your work accordingly.**
+
 ### Overview
 
 - [Connection](hii-hpc/connect.html)

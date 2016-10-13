@@ -37,13 +37,15 @@ hii$ sinfo --partition=<partition> --exact --format="%20P %8D %8c %12m %12a %12T
 For example this command shows all nodes in the 3 HII Slurm Partitions:
 
 ```
-hii$  sinfo --partition=hii02,hii-test,hii-interactive --exact \
-            --format="%20P %8D %8c %12m %12a %12T %l"
+$  sinfo --partition=hii02,hii-test,hii-interactive --exact \
+>             --format="%20P %8D %8c %12m %12a %12T %l"
 PARTITION            NODES    CPUS     MEMORY       AVAIL        STATE        TIMELIMIT
-hii02                1        16       129018       up           mixed        infinite
-hii02                2        12       64380        up           idle         infinite
-hii02                39       16       129018       up           idle         infinite
-hii02                40       20       128951       up           idle         infinite
+hii02                2        12       64380        up           mixed        infinite
+hii02                34       16       129018       up           mixed        infinite
+hii02                2        28       1033723      up           mixed        infinite
+hii02                18       20       128951       up           allocated    infinite
+hii02                22       20       128951       up           idle         infinite
+hii02                6        16       129018       up           idle         infinite
 hii-interactive      3        12       64380        up           idle         infinite
 hii-test             9        12       64380        up           idle         infinite
 ```
