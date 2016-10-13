@@ -24,11 +24,11 @@ and any remote GUI access al desktop experience.
 CIRCE, the "Central Instructional and Research Computing Environment",
 is the high-performance computing infrastructure provided by
 [USF Research Computing](http://www.usf.edu/it/research-computing/)
-for all faculty, students, staff, and partners.
+for USF faculty and students.
 
 The [HII-HPC Cluster](../hii-hpc.html) represents a specialized subset of resources
-integrating the overall CIRCE environment while providing the unique requirements of
-high-throughput bioinformatics as a workload.
+integrated with the CIRCE environment to provide the unique requirements of
+HII big-scale, bioinformatics workloads for its faculty and partners.
 
 #### 3. What resources are available on the HII-HPC Cluster?
 
