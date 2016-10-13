@@ -30,8 +30,8 @@ X2Go software is available [HERE](http://wiki.x2go.org/doku.php)
 
 - Host: `hii.rc.usf.edu`
 - Login: `USF NetID`
-- SSH Port: 22
-- Session Type: `XFCE` (lightweight) or `Gnome`
+- SSH Port: `22`
+- Session Type: `Gnome`
 
 ##### Start a terminal from your X2Go session
 
