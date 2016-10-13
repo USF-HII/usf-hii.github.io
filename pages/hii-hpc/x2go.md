@@ -55,7 +55,7 @@ The `55.0` part will vary based on your session.
 
 ---
 
-Now start an interactive compute session modifying time and resources as necessary:
+Now start an [interactive shell](interactive.html) to access a compute node modifying time and resources as necessary:
 
 ```
 hii$ srun --pty --partition=hii-interactive --cpus=4 --mem=30G --time=0-8 /bin/bash
