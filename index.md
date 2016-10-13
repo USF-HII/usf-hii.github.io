@@ -7,8 +7,7 @@ layout: page
 
 ## Overview
 
-The [Health Informatics Institute](http://www.hii.usf.edu) offers large-scale computing and
-storage for Health Research.
+The [Health Informatics Institute](http://www.hii.usf.edu) offers large-scale computing for Health Research.
 
 ## Resources
 
