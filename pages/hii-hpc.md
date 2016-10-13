@@ -14,6 +14,7 @@ HII-HPC utilizes the Slurm HPC Scheduler to coordinate work over its compute res
 ### Overview
 
 - [Connection](hii-hpc/connect.html)
+- [Linux](hii-hpc/linux.html)
 - [Interactive Shell](hii-hpc/interactive.html)
 - [Modules](hii-hpc/modules.html)
 - [FAQ](hii-hpc/faq.html)
