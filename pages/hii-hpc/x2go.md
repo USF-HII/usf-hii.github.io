@@ -45,7 +45,7 @@ X2Go does not set the hostname on the display so first we modify this so the com
 can get back to your X2Go session on `hii.rc.usf.edu`:
 
 ```
-hii$ export DISPLAY=$(echo hii.rc.usf.edu:$DISPLAY)
+hii$ export DISPLAY=$(echo hii.rc.usf.edu$DISPLAY)
 
 hii$ echo $DISPLAY
 hii.rc.usf.edu:55.0
