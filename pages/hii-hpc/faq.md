@@ -35,4 +35,10 @@ the `sinfo` example [Show All HII-HPC ResourcesE](sinfo.html#show-all-hii-hpc-re
 
 There are a number of USF RC pre-built packages available on the HII-HPC cluster via [Modules](modules.html).
 
+If utilizing Python, consider utilizing a Python [Virtual Environment](python-virtualenv.html) so you can
+control your own python packages.
+
+If utilizing R, most packages can be installed into your local R package environment,
+following general guidlines such as those detailed at [https://www.osc.edu/documentation/howto/install-local-R-packages](https://www.osc.edu/documentation/howto/install-local-R-packages).
+
 
