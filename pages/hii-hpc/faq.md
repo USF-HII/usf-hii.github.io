@@ -44,7 +44,7 @@ following similar patterns to those detailed at [https://www.osc.edu/documentati
 For other software, there are two paths:
 
 1. Compile it yourself using `gcc` or an Intel Compiler `icc` (see [Modules](modules.html)) configuring
-   and deploying to an installation path under your `$HOME` or *preferably* your group share
+   and deploying to an installation path under your `$HOME` or preferably your group share
    (e.g. `/shares/hii-sith/opt/<program-version>/...`)
 
 2. Request the software via the USF HII-HPC Help Desk with the understanding that certain requests
