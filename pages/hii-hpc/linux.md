@@ -6,11 +6,10 @@ layout: page
 
 ### Linux
 
-The HII-HPC Cluster runs within a [Linux](https://www.linuxfoundation.org/about/about-linux) environment.
-Linux is an open-source computing environment utilized by 95% of the high performance computing sector.
+The HII-HPC Cluster runs on the [Linux](https://www.linuxfoundation.org/about/about-linux) operating system.
+Linux is an open-source computing environment utilized by a majority of the HPC community.
 
-To fully utilize the HII-HPC Cluster, a solid understanding of the Linux Command Line and comfort with
-its associated tools is highly recommended.
+To utilize the HII-HPC Cluster, facility with the Linux command line and its associated tools is recommended.
 
 #### Resources
 
@@ -30,7 +29,7 @@ its associated tools is highly recommended.
 
 
 ```
-echo !$               # !$ will subsitute the last thing on the line you previously typed
+echo !$               # !$ will substitute the last thing on the line you previously typed
 pwd                   # Print working directory
 cd                    # Change to your home directory (~) ($HOME)
 cd -                  # Change to the last directory you were in
