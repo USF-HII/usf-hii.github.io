@@ -29,5 +29,5 @@ as the authoritative source for accessing and running jobs on the HII-HPC Cluste
 
 Since resources are being added to the cluster on a continual basis, the most accurate way to determine
 available resources is by logging into the head node, `hii.rc.usf.edu`, and referring to
-the `sinfo` example [here](sinfo.html) to obtain the most current information.
+the `sinfo` example [HERE](sinfo.html#show-all-hii-hpc-resources) to obtain the most current information.
 

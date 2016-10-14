@@ -4,16 +4,7 @@ layout: page
 
 ## Resources
 
-- http://www.arc.ox.ac.uk/content/slurm-job-scheduler
-- http://www.nersc.gov/users/computational-systems/cori/running-jobs/example-batch-scripts/
-- VIM Video (Sean Biddle): https://www.youtube.com/watch?v=Nim4_f5QUxA
-- https://github.com/jlevy/the-art-of-command-line
-- http://wiki.bash-hackers.org/
-- https://google.github.io/styleguide/shell.xml
-- https://en.wikibooks.org/wiki/Bash_Shell_Scripting
-- https://github.com/jlevy/the-art-of-command-line
-- https://www.learnenough.com/command-line-tutorial
-- http://www.ee.surrey.ac.uk/Teaching/Unix/
+http://stackoverflow.com/questions/tagged/slurm
 
 
 ---

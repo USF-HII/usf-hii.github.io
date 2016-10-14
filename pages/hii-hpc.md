@@ -24,6 +24,7 @@ from 8:00 a.m. to 12:00 noon (Eastern Time Zone) so please schedule work accordi
 - [Linux](hii-hpc/linux.html)
 - [Interactive Shell](hii-hpc/interactive.html)
 - [Modules](hii-hpc/modules.html)
+- [Python Virtual Environments](hii-hpc/python-virtualenv.html)
 - [FAQ](hii-hpc/faq.html)
 - Slurm
   - [Viewing Slurm Resources](hii-hpc/sinfo.html)

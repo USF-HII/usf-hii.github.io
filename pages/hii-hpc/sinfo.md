@@ -34,11 +34,10 @@ additional memory and cpu information in a clean format:
 hii$ sinfo --partition=<partition> --exact --format="%20P %8D %8c %12m %12a %12T %l"
 ```
 
-For example this command shows all nodes in the 3 HII Slurm Partitions:
+For example this command shows all nodes in the `hii02` partition:
 
 ```
-$  sinfo --partition=hii02,hii-test,hii-interactive --exact \
->             --format="%20P %8D %8c %12m %12a %12T %l"
+hii$ sinfo --partition=hii02 --exact --format="%20P %8D %8c %12m %12a %12T %l"
 PARTITION            NODES    CPUS     MEMORY       AVAIL        STATE        TIMELIMIT
 hii02                2        12       64380        up           mixed        infinite
 hii02                34       16       129018       up           mixed        infinite
@@ -46,17 +45,17 @@ hii02                2        28       1033723      up           mixed        in
 hii02                18       20       128951       up           allocated    infinite
 hii02                22       20       128951       up           idle         infinite
 hii02                6        16       129018       up           idle         infinite
-hii-interactive      3        12       64380        up           idle         infinite
-hii-test             9        12       64380        up           idle         infinite
 ```
 
-To find the total CPUs and Memory for all three HII partitions, here is an example command:
+### Show All HII-HPC Resources
+
+Example to calculate the total CPUs and Memory for all HII partitions:
 
 ```
-$ sinfo --partition=hii02,hii-test,hii-interactive --exact --noheader \
-        --format="%20P %8D %8c %12m %12a %12T %l" \
-    | awk '{cpus+=($2*$3); mem+=($2*$4)} END {print cpus " CPUs and " mem/2**20 " TB"}'; date
+hii$ partitions=$( sinfo --format=%P | grep '^hii' | paste -sd ',' )
+
+hii$ echo; sinfo --partition=${partitions} --exact --noheader --format="%D %c %m" \
+       | awk '{cpus+=($1*$2); mem+=($1*$3)} END {print cpus " CPUs and " mem/2**20 " TB"}'
 
 1664 CPUs and 12.672 TB
-Wed Oct 12 15:54:46 EDT 2016
 ```
