@@ -15,15 +15,15 @@ for special cases requiring access to graphical applications on the cluster.
 ---
 
 **Please note other than the initial X2Go session, all graphical applications
-must be run on a compute node and not on the `hii.rc.usf.edu` head node (see #2 TIP below)
+must be run on a compute node and not on the `hii.rc.usf.edu` head node (see TIP 2 below)
 as this will cause issues with other command-line based users.**
 
-- `TIP #1`: Once you establish an interactive compute session, you can run your graphical client
+- `TIP 1`: Once you establish an interactive compute session, you can run your graphical client
   in the background so you can run an additional graphical client without having
   to open another `terminal` and obtaining another interactive compute session. The syntax
   is `<command> &>/dev/null &`, for example `xeyes &>/dev/null &`.
 
-- `TIP #2`: You may run utility programs like `terminal`, `evince` (pdf viewer), or `file manager`
+- `TIP 2`: You may run utility programs like `terminal`, `evince` (pdf viewer), or `file manager`
    on the head node but please run the bigger graphical clients (Rstudio, etc.)
    from an interactive compute node session as detailed below because they can consume
    much greater resources.
