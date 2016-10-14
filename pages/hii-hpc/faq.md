@@ -4,7 +4,7 @@ layout: page
 
 ## [HII-HPC Cluster](../hii-hpc.html)
 
-### FAQ
+### Frequently Asked Questions
 
 #### 1. What is the purpose of the HII-HPC Cluster?
 
