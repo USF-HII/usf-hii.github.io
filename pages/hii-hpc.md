@@ -8,14 +8,6 @@ In partnership with [USF Research Computing](http://www.usf.edu/it/research-comp
 the [Health Informatics Institute](http://www.hii.usf.edu)
 offers the HII-HPC Cluster for large-scale bioinformatics workloads.
 
----
-
-*The HII-HPC Cluster has a routine maintenance window each Thursday at 10:00 p.m. (Eastern Time Zone).<br/>
-Generally no downtime is necessary but occasionally maintenance may require downtimes from a few minutes up
-to a maximum of 4 hours so please plan your work with this possibility in mind.*
-
----
-
 ### Overview
 
 - [Connection](hii-hpc/connect.html)
@@ -28,6 +20,12 @@ to a maximum of 4 hours so please plan your work with this possibility in mind.*
   - [Viewing Slurm Resources](hii-hpc/sinfo.html)
   - [Submitting a Slurm Job](hii-hpc/sbatch.html)
   - [Submitting a Slurm Job Array](hii-hpc/slurm-arrays.html)
+
+### Availability
+
+*The HII-HPC Cluster has a routine maintenance window each Thursday at 10:00 p.m. (Eastern Time Zone).<br/>
+Generally no downtime is necessary but occasionally maintenance may require downtimes from a few minutes up
+to a maximum of 4 hours so please plan your work with this possibility in mind.*
 
 ### Slurm Documentation
 
