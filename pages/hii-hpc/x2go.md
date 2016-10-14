@@ -25,7 +25,8 @@ with other command-line based users.**
 
 - `TIP`: You may run programs like `terminal`, `evince` (pdf viewer), or `file manager`
    on the head node but please run the bigger graphical clients (Rstudio, etc.)
-   on the compute node as detailed below as they can consume much greater resources.
+   from an interactive compute node session as detailed below because they can consume
+   much greater resources.
 
 ---
 
