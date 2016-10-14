@@ -22,7 +22,7 @@ The [HII-HPC Cluster](../hii-hpc.html) represents a specialized subset of resour
 integrating into the overall CIRCE environment providing the unique requirements of
 high-throughput bioinformatics as a workload.
 
-As a result, please use the [HII Compute Portal Documentation](https://usf-hii.github.io/)
+Because of this specialization, please use the [HII Compute Portal Documentation](https://usf-hii.github.io/)
 as the authoritative source for accessing and running jobs on the HII-HPC Cluster.
 
 #### 3. What resources are available on the HII-HPC Cluster?
