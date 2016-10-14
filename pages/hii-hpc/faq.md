@@ -8,7 +8,7 @@ layout: page
 
 #### 1. What is the purpose of the HII-HPC Cluster?
 
-The HII-HPC Cluster is a specialized set of compute resources offerred
+The HII-HPC Cluster is a specialized set of compute resources offered
 to facilitate Bioinformatics research for large-scale workloads.
 
 #### 2. What is the relationship between the HII-HPC Cluster and CIRCE?
@@ -22,8 +22,8 @@ The [HII-HPC Cluster](../hii-hpc.html) represents a specialized subset of resour
 integrating into the overall CIRCE environment providing the unique requirements of
 high-throughput bioinformatics as a workload.
 
-Because of this specialization, please use the [HII Compute Portal Documentation](https://usf-hii.github.io/)
-as the authoritative source for accessing and running jobs on the HII-HPC Cluster.
+Due to this specialization, please use the [HII Compute Portal Documentation](https://usf-hii.github.io/)
+as the authoritative source of information for the HII-HPC Cluster.
 
 #### 3. What resources are available on the HII-HPC Cluster?
 
