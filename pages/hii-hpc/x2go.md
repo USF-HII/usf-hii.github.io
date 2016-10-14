@@ -22,7 +22,7 @@ must be run on a compute node and not on the `hii.rc.usf.edu` head node (see TIP
 as this will cause issues with other command-line based users.**
 
 - `TIP 1`: You may run utility programs like `terminal`, `evince` (pdf viewer), or `file manager`
-   on the head node but please run the bigger graphical clients (Rstudio, etc.)
+   on the `hii.rc.usf.edu` head node but please run the bigger graphical clients (Rstudio, etc.)
    from an interactive compute node session as detailed below because they can consume
    much greater resources.
 
