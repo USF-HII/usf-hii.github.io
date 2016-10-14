@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## HII-HPC Cluster Overview
+## HII-HPC Cluster
 
 In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/),
 the [Health Informatics Institute](http://www.hii.usf.edu)

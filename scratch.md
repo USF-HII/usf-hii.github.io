@@ -6,6 +6,38 @@ layout: page
 
 http://stackoverflow.com/questions/tagged/slurm
 
+---
+
+```
+hii$ srun --pty --partition=hii-interactive --time=0-1 --cpus=12 --mem=1G /bin/bash
+
+kcounts@svc-3024-5-6:~
+$ cat mclapply-example.R
+#!/usr/bin/env bash
+
+module load apps/R/3.2.3
+
+R --no-save --quiet <<EOF
+
+library('parallel')
+
+slurm.cores = Sys.getenv('SLURM_CPUS_PER_TASK')
+
+unique(unlist(mclapply(1:100, function(i) Sys.getpid(), mc.cores = slurm.cores)))
+EOF
+
+kcounts@svc-3024-5-6:~
+$ bash mclapply-example.R
+>
+> library('parallel')
+>
+> slurm.cores = Sys.getenv('SLURM_CPUS_PER_TASK')
+>
+> unique(unlist(mclapply(1:100, function(i) Sys.getpid(), mc.cores = slurm.cores)))
+ [1] 3077 3078 3079 3080 3081 3082 3083 3084 3085 3086 3087 3088
+>
+```
+
 
 ---
 

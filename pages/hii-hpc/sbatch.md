@@ -73,7 +73,7 @@ Use the `sacct` command providing it with the jobid that `sbatch` returned
 during job submission to review its exist status:
 
 ```
-hii$ sacct -j 99999999
+hii$ sacct -j 4834857
        JobID    JobName  Partition    Account  AllocCPUS      State ExitCode
 ------------ ---------- ---------- ---------- ---------- ---------- --------
 4834857      hello-wor+   hii-test        hii          1  COMPLETED      0:0
