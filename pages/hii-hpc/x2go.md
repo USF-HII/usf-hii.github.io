@@ -18,7 +18,7 @@ access a graphical application.
 ---
 
 **Please note other than the initial X2Go session, all graphical applications
-must be run on a compute node and not on the `hii.rc.usf.edu` head node (see TIP 1)
+should be run on a compute node and not on the `hii.rc.usf.edu` head node (see TIP 1)
 as this will cause issues with other command-line based users.**
 
 - `TIP 1`: You may run utility programs like `terminal`, `evince` (pdf viewer), or `file manager`
