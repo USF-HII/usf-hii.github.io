@@ -77,6 +77,8 @@ hii$ srun --pty --partition=hii-interactive --cpus=4 --mem=30G --time=0-8 /bin/b
 The above command will start an interactive session from a compute node allocating 4 cpus, 30G of RAM
 running for up to 8 hours.
 
+---
+
 Now run your graphical application and it should display on your desktop
 (use `xeyes` as the simplest graphical application to test):
 
