@@ -29,7 +29,7 @@ as the authoritative source of information for the HII-HPC Cluster.
 
 Since resources are being added to the cluster on a continual basis, the most accurate way to determine
 available resources is by logging into the head node, `hii.rc.usf.edu`, and referring to
-the `sinfo` example [Show All HII-HPC ResourcesE](sinfo.html#show-all-hii-hpc-resources) to obtain the most current information.
+the `sinfo` example [Show All HII-HPC Resources](sinfo.html#show-all-hii-hpc-resources) to obtain the most current information.
 
 #### 4. Can I get package "X" installed on the HII-HPC Cluster?
 
