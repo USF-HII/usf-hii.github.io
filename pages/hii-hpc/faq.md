@@ -19,7 +19,7 @@ is the high-performance computing infrastructure provided by
 for all faculty, students, staff, and partners.
 
 The [HII-HPC Cluster](../hii-hpc.html) represents a specialized subset of resources
-integrating into the overall CIRCE environment while providing the unique requirements of
+integrating into the overall CIRCE environment providing the unique requirements of
 high-throughput bioinformatics as a workload.
 
 As a result, please use the [HII Compute Portal Documentation](https://usf-hii.github.io/)
