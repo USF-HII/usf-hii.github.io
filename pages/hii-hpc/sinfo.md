@@ -52,10 +52,9 @@ hii02                6        16       129018       up           idle         in
 Example to calculate the total CPUs and Memory for all HII partitions:
 
 ```
-hii$ partitions=$( sinfo --format=%P | grep '^hii' | paste -sd ',' )
-
-hii$ echo; sinfo --partition=${partitions} --exact --noheader --format="%D %c %m" \
-       | awk '{cpus+=($1*$2); mem+=($1*$3)} END {print cpus " CPUs and " mem/2**20 " TB"}'
+hii$ partitions=$( sinfo --format=%P | grep '^hii' | paste -sd ',' ); \
+     sinfo --partition=${partitions} --exact --noheader --format="%D %c %m" \
+     | awk '{cpus+=($1*$2); mem+=($1*$3)} END {print cpus " CPUs and " mem/2**20 " TB"}'
 
 1664 CPUs and 12.672 TB
 ```
