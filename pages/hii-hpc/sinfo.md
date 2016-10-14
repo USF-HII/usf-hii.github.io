@@ -19,8 +19,8 @@ hii02        up   infinite     42   idle svc-3024-3-[1-42]
 States:
 
 - `idle` - nodes totally available
-- `mixed` - nodes are running other jobs but some resources are still available (non-allocated)
-- `alloc` - nodes are running other jobs and fully allocated
+- `mix[ed]` - nodes are running other jobs but some resources are still available (non-allocated)
+- `alloc[ated]` - nodes are running other jobs and fully allocated
 
 The above example shows that 42 nodes are completely available (`idle`), 1 node has some resources available
 (`mixed`), and 39 nodes are currently allocated and not available (`alloc`).
