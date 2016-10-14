@@ -26,7 +26,7 @@ to a maximum of 4 hours so please plan your work with this possibility in mind.*
 - [Interactive Shell](hii-hpc/interactive.html)
 - [Modules](hii-hpc/modules.html)
 - [Python Virtual Environments](hii-hpc/python-virtualenv.html)
-- [FAQ](hii-hpc/faq.html)
+- [Frequently Asked Questions](hii-hpc/faq.html)
 - Slurm
   - [Viewing Slurm Resources](hii-hpc/sinfo.html)
   - [Submitting a Slurm Job](hii-hpc/sbatch.html)
