@@ -14,8 +14,8 @@ HII-HPC utilizes the Slurm HPC Scheduler to coordinate work over its compute res
 ---
 
 *The HII-HPC Cluster has a routine maintenance window scheduled each Thursday at 10:00 p.m.
-(Eastern Time Zone). Although often no
-downtime is necessary, maintenance may extend up to 4 hours during any given window
+(Eastern Time Zone). Generally no downtime is necessary but occasionally
+maintenance requiring downtime may extend from a few minutes up to 4 hours
 so please plan your work with this possibility in mind.*
 
 ---
