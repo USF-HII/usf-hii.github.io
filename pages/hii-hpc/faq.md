@@ -36,15 +36,16 @@ the `sinfo` example [Show All HII-HPC ResourcesE](sinfo.html#show-all-hii-hpc-re
 There are a number of USF RC pre-built packages available on the HII-HPC cluster via [Modules](modules.html).
 
 If utilizing Python, consider utilizing a Python [Virtual Environment](python-virtualenv.html) so you can
-control your own python packages.
+control your own Python packages.
 
-If utilizing R, most packages can be installed into your local R package environment
-following patterns detailed at [https://www.osc.edu/documentation/howto/install-local-R-packages](https://www.osc.edu/documentation/howto/install-local-R-packages).
+If utilizing R, most packages can be installed into your local R environment
+following similar patterns to those detailed at [https://www.osc.edu/documentation/howto/install-local-R-packages](https://www.osc.edu/documentation/howto/install-local-R-packages).
 
-For other software, you have two options:
+For other software, there are two paths:
 
-1. Compile it yourself using GCC or an Intel Compilers (see [Modules](modules.html)) specifying an installation
-   path under your `$HOME` or preferably your group share (e.g. `/shares/hii-sith/opt/<program-version>/...`)
+1. Compile it yourself using `gcc` or an Intel Compiler `icc` (see [Modules](modules.html)) configuring
+   and deploying to an installation path under your `$HOME` or *preferably* your group share
+   (e.g. `/shares/hii-sith/opt/<program-version>/...`)
 
 2. Request the software via the USF HII-HPC Help Desk with the understanding that certain requests
    may involve a formal project engagement to implement a deployment.
