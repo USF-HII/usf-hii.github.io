@@ -23,7 +23,7 @@ with other command-line based users.**
   to open another `terminal` and obtaining another interactive compute session. The syntax
   is `<command> &>/dev/null &`, for example `xeyes &>/dev/null &`.
 
-- `TIP`: You may run programs like `terminal`, `evince` (pdf viewer), or `file manager`
+- `TIP`: You may run utility programs like `terminal`, `evince` (pdf viewer), or `file manager`
    on the head node but please run the bigger graphical clients (Rstudio, etc.)
    from an interactive compute node session as detailed below because they can consume
    much greater resources.
