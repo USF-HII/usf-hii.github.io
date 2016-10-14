@@ -18,6 +18,14 @@ for special cases requiring access to graphical applications on the cluster.
 must be run on a compute node and not the `hii.rc.usf.edu` head node as this will cause issues
 with other command-line based users.**
 
+- `TIP`: Once you establish an interactive compute session, you can run your graphical client
+  in the background so you can run an additional graphical client without having
+  to open another `terminal` and obtaining another interactive compute session. The syntax
+  is `<command> &>/dev/null &`, for example `xeyes &>/dev/null &`.
+
+- `TIP`: You may run more than one `terminal` on the head node but please run the bigger graphical
+  clients on the compute node as detailed below.
+
 ---
 
 X2Go software is available [HERE](http://wiki.x2go.org/doku.php)
