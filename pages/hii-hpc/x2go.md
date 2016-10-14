@@ -79,6 +79,13 @@ Now run your graphical application and it should display on your desktop
 svc-3024-5-6$ xeyes
 ```
 
+*or* run in the background to continue to use the `terminal` for other commands:
+
+```
+svc-3024-5-6$ xeyes &>/dev/null &
+```
+
+
 
 
 
