@@ -9,8 +9,11 @@ layout: page
 The HII-HPC Cluster is inherently a Linux Command-Line Interface (CLI) environment and
 its computational resources are best accessed via that mode.
 
-Although not generally recommended, HII provides instructions below to utilize the X2Go software
-for special cases requiring access to graphical applications on the cluster.
+Although not generally promoted, HII realizes there will be special cases
+in which access to graphical applications on the cluster is necessary.
+
+Please follow the instructions below to utilize the X2Go software to
+access a graphical application.
 
 ---
 
