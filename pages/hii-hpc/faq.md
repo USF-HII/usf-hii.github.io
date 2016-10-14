@@ -41,7 +41,7 @@ control your own Python packages.
 If utilizing R, most packages can be installed into your local R environment
 following similar patterns to those detailed at [https://www.osc.edu/documentation/howto/install-local-R-packages](https://www.osc.edu/documentation/howto/install-local-R-packages).
 
-For other software, there are two paths:
+For other software, there are two methods:
 
 1. Compile it yourself using `gcc` or an Intel Compiler `icc` (see [Modules](modules.html)) configuring
    and deploying to an installation path under your `$HOME` or preferably your group share
