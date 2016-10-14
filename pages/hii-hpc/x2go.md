@@ -23,8 +23,9 @@ with other command-line based users.**
   to open another `terminal` and obtaining another interactive compute session. The syntax
   is `<command> &>/dev/null &`, for example `xeyes &>/dev/null &`.
 
-- `TIP`: You may run more than one `terminal` on the head node but please run the bigger graphical
-  clients on the compute node as detailed below.
+- `TIP`: You may run more than one `terminal`, `evince` (pdf viewer), or `file manager`
+   on the head node but please run the bigger graphical clients (Rstudio, etc.)
+   on the compute node as detailed below.
 
 ---
 
@@ -79,7 +80,7 @@ Now run your graphical application and it should display on your desktop
 svc-3024-5-6$ xeyes
 ```
 
-*or* run in the background to continue to use the `terminal` for other commands:
+*or* run in the background to continue to use the `terminal`:
 
 ```
 svc-3024-5-6$ xeyes &>/dev/null &
