@@ -6,12 +6,11 @@ layout: page
 
 ### Python Virtual Environments
 
-A Virtual Environment is a tool to keep the dependencies required by different projects in
-separate places, by creating virtual Python environments for them.
+A Virtual Environment is a tool to keep the dependencies required by different projects in separate places.
 It solves the “Project X depends on version 1.x but, Project Y needs 4.x”
 
-In addition, it gives a non-privileged user the ability to install their own packages since they
-will have permission to do so in their own virtualenv installation.
+Just as important, it gives a non-privileged user the ability to install their own packages
+since they will have permission to do so in their local Virtual Environment installation.
 
 ---
 *Note: Since HII-HPC uses [Modules](modules.html), you must `module load` the version
