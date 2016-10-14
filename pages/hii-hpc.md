@@ -67,13 +67,13 @@ Compute nodes in the cluster are grouped into partitions of compute nodes which 
 
 Each user will have the following directories available:
 
-- `/home/<fi>/<netid>` - Home directory for an individual's own work (e.g. `/home/j/jsmith`).
+- `/home/<fi>/<netid>` - Home directory for an individual's own work (e.g. `/home/d/dvader`).
 - `/hii/work/<fi>/<netid>` - Computational work directory for temporary, large filesets generated through research and analysis.
-- `/shares/hii-<group_name>/` - Shared group directory (e.g. `/shares/hii-alpha`).
+- `/shares/hii-<group_name>/` - Shared group directory (e.g. `/shares/hii-sith`).
 
-*Note: Your shared team directory (e.g. `/shares/hii-alpha`)
+*Note: Your shared team directory (e.g. `/shares/hii-sith`)
   is configured so files and folders created will be owned by the user and the user's group affiliation
-  (e.g. `jsmith:hii-alpha` instead of `jsmith:jsmith`).*
+  (e.g. `dvader:hii-sith` instead of `dvader:dvader`).*
 
 ### Identification
 
@@ -81,14 +81,14 @@ To reference your username, use the `$USER` variable:
 
 ```
 hii$ echo $USER
-jsmith
+dvader
 ```
 
 To reference your NetID, Primary Group, and Group affiliation run the `id` command:
 
 ```
 hii$ id
-uid=1000(jsmith) gid=1000(jsmith) groups=1000(jsmith),1001(hii-alpha)
+uid=1000(dvader) gid=1000(dvader) groups=1000(dvader),1001(hii-sith)
 ```
 
 ### Credit

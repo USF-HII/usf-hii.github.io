@@ -25,7 +25,7 @@ For instance, the following script, named `hello-world.sh`,
 #SBATCH --mem=1G                             # memory per node
 #SBATCH --time=0-00:20                       # time in the form <days>-<hours>:<minutes>
 #SBATCH --mail-type=END                      # Type of email notification: BEGIN,END,FAIL,ALL
-#SBATCH --mail-user=jsmith@hii-alpha.foobar  # Email to which notifications will be sent
+#SBATCH --mail-user=dvader@sith-pad.com      # Email to which notifications will be sent
 
 srun hostname
 srun sleep 60
@@ -58,7 +58,7 @@ At this point, you may use the `squeue` command to view the current state of you
 $ squeue -l -u $USER
 Sun Oct  9 10:35:54 2016
 JOBID PARTITION     NAME     USER    STATE       TIME TIME_LIMI  NODES NODELIST(REASON)
-4834857  hii-test hello-wo  jsmith  RUNNING       0:15     20:00      1 svc-3024-5-30
+4834857  hii-test hello-wo  dvader  RUNNING       0:15     20:00      1 svc-3024-5-30
 ```
 
 
