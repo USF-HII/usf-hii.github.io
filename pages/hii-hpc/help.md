@@ -15,4 +15,4 @@ Please indicate `HII-HPC` at the beginning of the request so it may be routed in
 
 - E-mail: `help@usf.edu`
 
-- Phone: `+1 (813) 974-1222`
+- Phone: `+1 (866) 974-1222`

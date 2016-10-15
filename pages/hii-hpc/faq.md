@@ -44,7 +44,7 @@ For other software:
 
 1. Compile it yourself using `gcc` or an Intel Compiler `icc` (see [Modules](modules.html)) configuring
    and deploying to an installation path under your `$HOME` or preferably your group share
-   (e.g. `/home/d/dvader/software/<name>-<version>/...` or `/shares/hii-sith/software/<name>-<version>/...`)
+   (e.g. `/home/d/dvader/software/<name>-<version>/...` or `/shares/hii-jedi/software/<name>-<version>/...`)
 
 2. Request the software via the USF [Help Desk](help.html).
 

@@ -71,16 +71,16 @@ Each user will have the following directories available on the `hii.rc.usf.edu`
 as well as on any compute node in the HII-HPC Cluster via [GPFS](https://en.wikipedia.org/wiki/IBM_General_Parallel_File_System):
 
 - `/home/<fi>/<netid>` - Home (`$HOME`) directory for an individual's own work (e.g. `/home/d/dvader`).
-- `/hii/work/<fi>/<netid>` - Computational work directory for temporary, large filesets generated through research and analysis.
-- `/shares/hii-<group_name>/` - Shared group directory (e.g. `/shares/hii-sith`).
+- `/hii/work/<fi>/<netid>` - Computational work directory for temporary, large filesets generated through research and analysis (e.g. `/hii/work/d/dvader`).
+- `/shares/hii-<group_name>/` - Shared group directory (e.g. `/shares/hii-jedi`).
 
-*Note: Your shared team directory (e.g. `/shares/hii-sith`)
+*Note: Your shared team directory (e.g. `/shares/hii-jedi`)
   is configured so files and folders created will be owned by the user and the user's group affiliation
-  (e.g. `dvader:hii-sith` instead of `dvader:dvader`).*
+  (e.g. `dvader:hii-jedi` instead of `dvader:dvader`).*
 
 ### Identification
 
-To reference your username, use the `$USER` variable:
+To reference your username (USF NetID), use the `$USER` variable:
 
 ```
 hii$ echo $USER
@@ -91,7 +91,7 @@ To reference your NetID, Primary Group, and Group affiliation run the `id` comma
 
 ```
 hii$ id
-uid=1000(dvader) gid=1000(dvader) groups=1000(dvader),1001(hii-sith)
+uid=1000(dvader) gid=1000(dvader) groups=1000(dvader),1001(hii-jedi)
 ```
 
 ### Credit
