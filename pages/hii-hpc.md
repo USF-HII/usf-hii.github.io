@@ -16,6 +16,7 @@ offers the HII-HPC Cluster for large-scale bioinformatics workloads.
 - [Modules](hii-hpc/modules.html)
 - [Python Virtual Environments](hii-hpc/python-virtualenv.html)
 - [Frequently Asked Questions](hii-hpc/faq.html)
+- [Getting Help](hii-hpc/help.html)
 - Slurm
   - [Viewing Slurm Resources](hii-hpc/sinfo.html)
   - [Submitting a Slurm Job](hii-hpc/sbatch.html)
@@ -24,7 +25,7 @@ offers the HII-HPC Cluster for large-scale bioinformatics workloads.
 ### Availability
 
 *The HII-HPC Cluster has a routine maintenance window each Thursday at 10:00 p.m. (Eastern Time Zone).<br/>
-Generally no downtime is necessary but occasionally maintenance may require downtimes from a few minutes up
+Generally no downtime is necessary but occasionally maintenance may require downtime from a few minutes up
 to a maximum of 4 hours so please plan your work with this possibility in mind.*
 
 ### Slurm Documentation
@@ -54,15 +55,22 @@ On `hii.rc.usf.edu`, you can view documentation using the `man` command, e.g. `m
 
 Compute nodes in the cluster are grouped into partitions of compute nodes which provide the following classes of service:
 
-- `hii02` - Production computationally-intensive jobs.
-- `hii-test` - Developmental level of resources prior to submitting to a computationally-intensive cluster.
-- `hii-interactive` - High-powered single compute node interactive shell to develop or run a single job with real-time feedback.
+- `hii02` - Partition for production jobs (partition contains the majority of the compute nodes).
+- `hii-test` - Development partition.
+- `hii-interactive` - Nodes in partition reserved for [Interactive Shell](hii-hpc/interactive.html)
+  real-time feedback.
+
+*Use the option `--partition=<partition>` or `-p <partition>` for slurm commands such as `sinfo`, `srun`, `sbatch`,
+`squeue` to indicate the partition to use.*
+
+You will have access to the same GPFS filesystems regardless of the partition you choose.
 
 ### Filesystems
 
-Each user will have the following directories available:
+Each user will have the following directories available on the `hii.rc.usf.edu`
+as well as on any compute node in the HII-HPC Cluster via [GPFS](https://en.wikipedia.org/wiki/IBM_General_Parallel_File_System):
 
-- `/home/<fi>/<netid>` - Home directory for an individual's own work (e.g. `/home/d/dvader`).
+- `/home/<fi>/<netid>` - Home (`$HOME`) directory for an individual's own work (e.g. `/home/d/dvader`).
 - `/hii/work/<fi>/<netid>` - Computational work directory for temporary, large filesets generated through research and analysis.
 - `/shares/hii-<group_name>/` - Shared group directory (e.g. `/shares/hii-sith`).
 
