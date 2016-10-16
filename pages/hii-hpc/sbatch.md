@@ -36,9 +36,9 @@ would request:
 
 - On the partition `hii-test`
 - 1 Task
-- 1 CPU
-- 1 GB of Memory per CPU (1 x 1 GB = 1 GB)
-- With a maximum run time of 20 minutes before it is killed
+- with 1 CPU
+- with 1 GB of Memory per CPU (1 x 1 GB = 1 GB)
+- with a maximum run time of 20 minutes before it is killed
 
 When started, the job sould run the first job step
 `srun hostname`, which will launch the UNIX command `hostname` on the node on which the requested
