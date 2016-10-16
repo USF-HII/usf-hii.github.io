@@ -23,7 +23,7 @@ For instance, the following script, named `hello-world.sh`,
 #SBATCH --partition=hii-test                 # use "hii02" for production
 #SBATCH --ntasks=1                           # number of tasks (default: 1)
 #SBATCH --cpus-per-task=1                    # (default: 1)
-#SBATCH --mem-per-cpu=1G                     # memory per cpu (1 cpu x 1 GB = 1 GB for task)
+#SBATCH --mem-per-cpu=1G                     # memory per cpu
 #SBATCH --time=0-00:20                       # time in the form <days>-<hours>:<minutes>
 #SBATCH --mail-type=END                      # Email notification: BEGIN,END,FAIL,ALL
 #SBATCH --mail-user=dvader@hii-jedi.org      # Email address
