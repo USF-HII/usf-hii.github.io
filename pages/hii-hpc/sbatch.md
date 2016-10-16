@@ -34,11 +34,11 @@ srun sleep 60
 
 would request:
 
-- On the partition `hii-test`
-- 1 Task
-- with 1 CPU
-- with 1 GB of Memory per CPU (1 x 1 GB = 1 GB for the task)
-- with a maximum run time of 20 minutes before it is killed
+- On the partition `hii-test` (`--partition=hii-test`)
+- 1 Task (`--ntasks=1`)
+- with 1 CPU for the task (`--cpus-per-task=1`)
+- with 1 GB of Memory per CPU (`--mem-per-cpu=1G`)
+- with a maximum run time of 20 minutes (`--time=0-00:20`) before it is killed
 
 When started, the job sould run the first job step
 `srun hostname`, which will launch the UNIX command `hostname` on the node on which the requested
