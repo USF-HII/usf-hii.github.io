@@ -19,7 +19,7 @@ For instance, the following script, named `hello-world.sh`,
 #!/bin/bash
 
 #SBATCH --job-name=hello-world               # Identifies a job-name for easy reference
-#SBATCH --output=hello-world.log             # (%A: jobid / %a: array-task-id)
+#SBATCH --output=hello-world.log             # (%A: jobid)
 #SBATCH --partition=hii-test                 # use "hii02" for production
 #SBATCH --ntasks=1                           # number of tasks (default: 1)
 #SBATCH --cpus-per-task=1                    # (default: 1)
@@ -42,15 +42,17 @@ would request:
 
 ---
 
-When started, the job sould run the first job step
-`srun hostname`, which will launch the UNIX command `hostname` on the node on which the requested
-CPU was allocated. Then, a second job step will start the `sleep` command.
+When started, the job will run the first job step
+`srun hostname` launching the UNIX command `hostname` on the node on which the requested CPU was allocated.
 
-The purpose of the `--job-name` parameter is to give a meaningful name to the job
-and the `--output` parameter defines the file to which output of the job (STDERR/STDOUT) will
-be sent.
+Then, a second job step will start the `sleep` command.
 
-Since jobs may take some time to be dispatched and/or run, we provide `--mail-user` and
+The purpose of the `--job-name` parameter is to give a meaningful name to the job.
+
+The purpose of the `--output` parameter is to give a file name to record output of the job (STDERR/STDOUT).
+The special symbols `%A` may be used to add the jobid to the filename.
+
+Since jobs may take some time to be dispatched and/or run, you can provide `--mail-user` and
 `--mail-type` parameters to receive an e-mail notification when the job ends either in a
 `COMPLETED` or `FAILED` state.
 
