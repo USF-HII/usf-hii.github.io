@@ -35,7 +35,7 @@ srun sleep 60
 would request:
 
 - On the partition `hii-test` (`--partition=hii-test`)
-- 1 Task (`--ntasks=1`)
+- Run 1 Task (`--ntasks=1`)
 - with 1 CPU for the task (`--cpus-per-task=1`)
 - with 1 GB of Memory per CPU (`--mem-per-cpu=1G`)
 - with a maximum run time of 20 minutes (`--time=0-00:20`) before it is killed
@@ -51,6 +51,8 @@ be sent.
 Since jobs may take some time to be dispatched and/or run, we provide `--mail-user` and
 `--mail-type` parameters to receive an e-mail notification when the job ends either in a
 `COMPLETED` or `FAILED` state.
+
+---
 
 Once the submission script is created, submit it to Slurm through the `sbatch` command, which, upon success,
 responds with the jobid attributed to the job.
@@ -76,6 +78,8 @@ allocation is created for it and it goes to the `RUNNING` state.
 If the job completes correctly, it goes to the `COMPLETED` state, otherwise, it is set to the `FAILED` state.
 
 Once a job finishes you will no longer see it with the `squeue` command.
+
+---
 
 Use the `sacct` command providing it with the jobid that `sbatch` returned
 during job submission to review its exist status:
