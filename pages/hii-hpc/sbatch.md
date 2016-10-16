@@ -40,6 +40,8 @@ would request:
 - with 1 GB of Memory per CPU (`--mem-per-cpu=1G`)
 - with a maximum run time of 20 minutes (`--time=0-00:20`) before it is killed
 
+---
+
 When started, the job sould run the first job step
 `srun hostname`, which will launch the UNIX command `hostname` on the node on which the requested
 CPU was allocated. Then, a second job step will start the `sleep` command.
@@ -61,6 +63,8 @@ responds with the jobid attributed to the job.
 $ sbatch hello-world.sh
 sbatch: Submitted batch job 4834857
 ```
+
+---
 
 At this point, you may use the `squeue` command to view the current state of your job:
 
