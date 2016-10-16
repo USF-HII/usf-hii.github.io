@@ -29,7 +29,7 @@ as this will cause issues with other command-line based users.**
 - `TIP 2`: Once you establish an interactive compute session, you can run your graphical client
   in the background so you can run an additional graphical client without having
   to open another `terminal` and obtaining another interactive compute session. The syntax
-  is `<command> &>/dev/null &`, for example `xeyes &>/dev/null &`.
+  is `nohup <command> &>/dev/null &`, for example `nohup xeyes &>/dev/null &`.
 
 ---
 
@@ -89,7 +89,7 @@ svc-3024-5-6$ xeyes
 *or you can run in the background to continue using the* `terminal`:
 
 ```
-svc-3024-5-6$ xeyes &>/dev/null &
+svc-3024-5-6$ nohup xeyes &>/dev/null &
 ```
 
 
