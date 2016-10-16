@@ -18,21 +18,29 @@ For instance, the following script, named `hello-world.sh`,
 ```
 #!/bin/bash
 
-#SBATCH --job-name=hello-world               # identifies a job-name for easy reference
-#SBATCH --output=hello-world.log             # create a known log file name to view results
+#SBATCH --job-name=hello-world               # Identifies a job-name for easy reference
+#SBATCH --output=hello-world.log             # (%A: jobid / %a: array-task-id)
 #SBATCH --partition=hii-test                 # use "hii02" for production
-#SBATCH --ntasks=1                           # number of tasks (default is 1)
-#SBATCH --mem=1G                             # memory per node
+#SBATCH --ntasks=1                           # number of tasks (default: 1)
+#SBATCH --cpus-per-task=1                    # (default: 1)
+#SBATCH --mem-per-cpu=1G                     # memory per cpu (1 cpu x 1 GB = 1 GB for task)
 #SBATCH --time=0-00:20                       # time in the form <days>-<hours>:<minutes>
-#SBATCH --mail-type=END                      # Type of email notification: BEGIN,END,FAIL,ALL
-#SBATCH --mail-user=dvader@sith-pad.com      # Email to which notifications will be sent
+#SBATCH --mail-type=END                      # Email notification: BEGIN,END,FAIL,ALL
+#SBATCH --mail-user=dvader@hii-jedi.org      # Email address
 
 srun hostname
 srun sleep 60
 ```
 
-would request 1 CPU for 20 minutes which may utilize up to 1 GB Memory to run on the `hii-test`
-partition when resources are available. When started, the job sould run the first job step
+would request:
+
+- On the partition `hii-test`
+- 1 Task
+- 1 CPU
+- 1 GB of Memory per CPU (1 x 1 GB = 1 GB)
+- With a maximum run time of 20 minutes before it is killed
+
+When started, the job sould run the first job step
 `srun hostname`, which will launch the UNIX command `hostname` on the node on which the requested
 CPU was allocated. Then, a second job step will start the `sleep` command.
 
