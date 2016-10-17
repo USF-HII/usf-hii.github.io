@@ -12,10 +12,10 @@ research.
 
 ### Is HII-HPC right for me?
 
-High Performance Computing has:
+High Performance Computing has a:
 
-- A negative trade-off by adding more complexity.
-- A positive trade-off by providing the possibility of solving problems that
+- Negative trade-off adding more complexity.
+- Positive trade-off providing the possibility of solving problems that
   would otherwise never be achieved in reasonable time.
 
 The HII-HPC may be right for you if you fit any of these criteria:
