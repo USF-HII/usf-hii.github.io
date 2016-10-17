@@ -22,13 +22,13 @@ The HII-HPC may be right for you if you fit any of these criteria:
 
 *I need to solve problems...*
 
-- **Too large for a workstation** that can only be solved by many processes working in parallel.
-  Enough processors and memory working together can often solve a problem
+- **Too large for a workstation**. Some problems can only be solved by many processes working in parallel.
+  A large set of compute nodes working together can often solve a problem
   in hours or days that would take months or years on a workstation.
-- **Possible on a workstation**,
-  but when many combinations of inputs and parameters are
+- **Possible on a workstation**.
+  But when many combinations of inputs and parameters are
   required only a parallel approach can provide a solution
-  in a reasonable time.
+  in reasonable time.
 - **Requiring large, fast storage**. While one can buy large inexpensive disks off
   the shelf, these are not particularly fast, and they may
   not be reliable enough under long running and intense I/O.
