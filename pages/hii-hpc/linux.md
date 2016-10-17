@@ -20,7 +20,6 @@ To utilize the HII-HPC Cluster, facility with the Linux command line and its ass
 
 - [Linux: Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 - [Editor: Nano](https://wiki.gentoo.org/wiki/Nano/Basics_Guide)
-
 - [Editor: Vim Tutorial](https://blog.interlinked.org/tutorials/vim_tutorial.html)
 - [Editor: Vim Interactive Tutorial](http://www.openvim.com/)
 - [Linux: Command Line Video](https://www.safaribooksonline.com/library/view/linux-command-line/9780134445533/)
@@ -30,7 +29,7 @@ To utilize the HII-HPC Cluster, facility with the Linux command line and its ass
 
 - [Linux: The Art of the Command Line](https://github.com/jlevy/the-art-of-command-line)
 - [Bash: Shell Scripting](https://en.wikibooks.org/wiki/Bash_Shell_Scripting)
-- [Editor: Vim Video Tutorialr](https://www.youtube.com/watch?v=Nim4_f5QUxA) (EXCELLENT)
+- [Editor: Vim Video Tutorial](https://www.youtube.com/watch?v=Nim4_f5QUxA) (EXCELLENT)
 - [Bash: Bash-Hackers](http://wiki.bash-hackers.org/)
 
 #### Advanced
