@@ -28,8 +28,7 @@ large-scale computational resources for bioinformatics workloads.
 
 *The HII-HPC Cluster maintenance window falls on Thursday, 10:00 p.m. Eastern Time Zone for a duration of up to 4 hours
 during which upgrades to the cluster and proactive maintenance are performed by HII and Research Computing.
-<br/><br/>
 Although windows affecting running jobs are uncommon,
-please utilize Slurm e-mail notification and/or review status the next morning
+please utilize job e-mail notification and/or review status the next morning
 in the rare event a job-impacting maintenance was required during the window.*
 
