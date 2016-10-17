@@ -10,7 +10,7 @@ The purpose of the HII-HPC Cluster is to provide High Performance
 Computing resources to faculty and partners conducting bioinformatics
 research.
 
-Reasons to utilize the HII-HPC Cluster include:
+Use cases for the HII-HPC Cluster include:
 
 - The need to solve problems too large for a workstation
   that can only be solved by many processes working in parallel.
