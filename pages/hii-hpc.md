@@ -20,15 +20,27 @@ large-scale computational resources for bioinformatics workloads.
 - [Filesystems](hii-hpc/filesystems.html)
 - [Slurm](hii-hpc/slurm.html)
 - [Modules](hii-hpc/modules.html)
-- [Python Virtual Environments](hii-hpc/python-virtualenv.html)
 - [Getting Help](hii-hpc/help.html)
 - [Frequently Asked Questions](hii-hpc/faq.html)
+- [Other Topics](hii-hpc/other.html)
 
 ### Availability
 
-*The HII-HPC Cluster maintenance window falls on Thursday, 10:00 p.m. Eastern Time Zone for a duration of up to 4 hours
-during which upgrades to the cluster and proactive maintenance are performed by HII and Research Computing.
-Although windows affecting running jobs are uncommon,
-please utilize job e-mail notification and/or review status the next morning
-in the rare event a job-impacting maintenance was required during the window.*
+*The HII-HPC Cluster schedules maintenance windows each Thursday from 10:00 p.m. Eastern
+until Friday 2:00 a.m.  The window is utilized to perform any upgrades or proactive maintenance necessary.
+Although maintenance affecting users is uncommon, if you are running jobs during this time frame please verify
+job status after the window in the rare event a job-impacting change was required and re-submission is necessary.*
+
+### Enhancements
+
+**2016**
+
+- 2 [High Memory Nodes](hii-hpc/himem-nodes.html): 28 Xeon E5-2650 v4 @ 2.60GHz cores /
+  1 TB RAM @ 2400 MHz / 3 TB SSD Scratch
+- 40 Nodes: 20 Xeon E5-2650 v3 @ 2.30GHz cores with 128 GB RAM @ 2133 MHz
+
+**2015**
+
+- 40 Nodes: 16 Xeon E5-2650 v2 @ 2.60GHz with 128 GB RAM @ 1600 MHz
+- DDN General Parallel File System (GPFS) Storage Cluster providing Petabytes of scalable I/O
 

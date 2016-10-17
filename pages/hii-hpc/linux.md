@@ -9,16 +9,9 @@ layout: page
 The HII-HPC Cluster runs on the [Linux](https://www.linuxfoundation.org/about/about-linux) operating system.
 Linux is an open-source computing environment utilized by a majority of the HPC community.
 
-To utilize the HII-HPC Cluster, experience with Linux and its associated toolset is recommended.
+To utilize the HII-HPC Cluster, experience with Linux and its toolset is recommended.
 
-For beginners, here is a helpful [Linux Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/).
-
-Editing text files is another difficult area for beginners. One option is to use a shell
-as one window and install [Notepad++](https://notepad-plus-plus.org/) using the remote editing functionality
-and then executing the contents of the script in the Putty shell window.
-
-If you want to edit files on `hii.rc.usf.edu`, beginners can try the editor `nano`. See this
- [Nano Basics Guide](https://wiki.gentoo.org/wiki/Nano/Basics_Guide) for an overview.
+For users unfamiliar with Linux, here is a helpful [Linux Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/).
 
 #### Cheatsheets
 

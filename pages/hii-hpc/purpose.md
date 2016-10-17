@@ -22,7 +22,8 @@ The HII-HPC may be right for you if you fit any of these criteria:
 
 *I need to solve problems...*
 
-- **Too large for a workstation**. Some problems can only be solved by many processes working in parallel.
+- **Too large for a workstation**. Some problems can only be solved by many processes working in parallel
+  or by a system with very [high-memory capacity](himem-nodes.html).
   A large set of compute nodes working together can often solve a problem
   in hours or days that would take months or years on a workstation.
 - **Possible on a workstation**.

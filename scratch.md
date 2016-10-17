@@ -41,24 +41,6 @@ $ bash mclapply-example.R
 
 ---
 
-```
-Just an FYI to let you know that the new nodes are provisioned as
-svc-3024-5-[1,3].rc.usf.edu.
-
-They have been placed into the hii02 partition, and have been given a
-high weight so that jobs will attempt to be scheduled the other nodes
-first.  I've added the following features to the nodes -
-"fast_scratch" & "mem_1T".  The "/tmp" partition has been configured
-on /dev/md0 (RAID0, default settings) with ext4 as the file system
-(default settings).  We can change this if you wish, but some initial
-testing with random reads and writes via `fio` have been impressive.
-
-To request access to the nodes via SLURM, you can either:
-
-*  request the hostname(s) directly using the #SBATCH -w hostname flag;
-*  request the listed features above using SLURM's constraints, e.g.
-#SBATCH -C "fast_scratch"; *  request > 200G of RAM.
-```
 
 ---
 
