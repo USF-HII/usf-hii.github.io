@@ -11,8 +11,8 @@ on the `hii.rc.usf.edu` head node and all compute nodes within
 HII-HPC Cluster.
 
 The filesystems run on top of GPFS, the
-[General Parallel File System](https://en.wikipedia.org/wiki/IBM_General_Parallel_File_System), used by many High Performance Computer clusters
-to provide scaleable I/O for heavy computational workloads.
+[General Parallel File System](https://en.wikipedia.org/wiki/IBM_General_Parallel_File_System), used by many HPCclusters
+to provide scaleable I/O for large computational workloads.
 
 ---
 
