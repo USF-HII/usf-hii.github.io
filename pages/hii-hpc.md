@@ -30,4 +30,4 @@ large-scale computational resources for bioinformatics workloads.
 during which upgrades to the cluster and proactive maintenance are performed by HII and Research Computing.
 <br/><br/>
 Generally no downtime is necessary for running jobs but please make sure to
-verify after the window for any jobs requiring restart.*
+verify after the window for any jobs running during the window requiring restart.*
