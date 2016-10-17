@@ -7,6 +7,11 @@ layout: page
 
 ## HII-HPC Cluster
 
+In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/),
+the [Health Informatics Institute](http://www.hii.usf.edu)
+offers the HII-HPC Cluster for its faculty and partners requiring
+large-scale computational resources for bioinformatics workloads.
+
 ### Overview
 
 - [Purpose](hii-hpc/purpose.html)
@@ -21,6 +26,9 @@ layout: page
 
 ### Availability
 
-*The HII-HPC Cluster has a routine maintenance window each Thursday at 10:00 p.m. (Eastern Time Zone).<br/>
-Generally no downtime is necessary but occasional maintenance may require from a few minutes up to a maximum of 4 hours.*
+*The HII-HPC Cluster maintenance window falls on Thursday, 10:00 p.m. Eastern Time Zone for a duration of 4 hours
+during which upgrades to the cluster and proactive maintenance are performed by HII and Research Computing.
+<br/><br/>
+Generally no downtime is necessary for the compute-grid but please check any long-running jobs
+submitted recently before or during the window after the window to ensure they need not be restarted.*
 

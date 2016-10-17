@@ -20,7 +20,6 @@ and then executing the contents of the script in the Putty shell window.
 If you want to edit files on `hii.rc.usf.edu`, beginners can try the editor `nano`. See this
  [Nano Basics Guide](https://wiki.gentoo.org/wiki/Nano/Basics_Guide) for an overview.
 
-
 #### Cheatsheets
 
 - [Linux Command Reference](https://ubuntudanmark.dk/filer/fwunixref.pdf)
