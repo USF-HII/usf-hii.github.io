@@ -4,9 +4,6 @@ layout: page
 
 ## HII-HPC Cluster
 
-In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/), the [Health Informatics Institute](http://www.hii.usf.edu)
-offers the HII-HPC Cluster for bioinformatics research.
-
 ### Overview
 
 - [Purpose](hii-hpc/purpose.html)
