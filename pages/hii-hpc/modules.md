@@ -6,15 +6,25 @@ layout: page
 
 ### Modules
 
-Most applications available on the cluster are accessible via [modules](http://modules.sourceforge.net/).
+Custom software built by USF Research Computinis available via the [Modules](http://modules.sourceforge.net/) system.
 
-Modules gives the user fine-grained control to select a set of applications as well as the specific versions they wish to use
+Modules gives the user fine-grained control to select a set of applications as well
+as the specific versions they wish to use
 without manually configuring and cleaning up necessary environmental variables such as `PATH` and `LD_LIBRARY_PATH`.
 
-**Note:** Whether you are running an application as a batch job or an interactive shell,
-you must have the appropriate module loaded into your environment in order to get access to your application.
+### Load a Module
 
-### List Available Applications
+This loads a module into the current environment by modifying environment variables such as `PATH`, `MANPATH` and `LD_LIBRARY_PATH`
+to include locations that are necessary for running a particular application. *Note these changes are lost on subsequent logins.*
+
+```
+hii$ module add apps/R/3.2.3
+
+hii$ which R
+/apps/R/3.2.3/bin/R
+```
+
+### List Modules
 
 To list all applications available via the module command (we add the `-t` option to display as a single column):
 
@@ -58,18 +68,6 @@ hii$ module list
 Currently Loaded Modulefiles:
   1) compilers/intel/2015_cluster_xe   3) apps/jdk/1.6.0_22.x86_64
   2) apps/openbugs/3.2.2               4) apps/R/3.2.3
-```
-
-### Load a Module
-
-This loads a module into the current environment by modifying environment variables such as `PATH`, `MANPATH` and `LD_LIBRARY_PATH`
-to include locations that are necessary for running a particular application. *Note these changes are lost on subsequent logins.*
-
-```
-hii$ module add apps/R/3.2.3
-
-hii$ which R
-/apps/R/3.2.3/bin/R
 ```
 
 ### Remove a Module
