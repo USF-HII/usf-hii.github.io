@@ -11,15 +11,24 @@ Linux is an open-source computing environment utilized by a majority of the HPC 
 
 To utilize the HII-HPC Cluster, experience with Linux and its associated toolset is recommended.
 
+For beginners, here is a helpful [Linux Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/).
+
+Editing text files is another difficult area for beginners. One option is to use a shell
+as one window and install [Notepad++](https://notepad-plus-plus.org/) using the remote editing functionality
+and then executing the contents of the script in the Putty shell window.
+
+If you want to edit files on `hii.rc.usf.edu`, beginners can try the editor `nano`. See this
+ [Nano Basics Guide](https://wiki.gentoo.org/wiki/Nano/Basics_Guide) for an overview.
+
+
 #### Cheatsheets
 
-- [Bash: Cheatsheet](http://johnstowers.co.nz/pages/bash-cheat-sheet.html)
+- [Bash: Cheatsheet](http://johnstowers.co.nz/pages/bash-cheat-sheet.html) - Concise yet comprehensive reference
+  of Bash Programming constructs.
 - [Editor: Vim Graphical Cheatsheet](http://www.viemu.com/vi-vim-cheat-sheet.gif)
 
 #### Beginning
 
-- [Linux: Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/)
-- [Editor: Nano](https://wiki.gentoo.org/wiki/Nano/Basics_Guide)
 - [Editor: Vim Tutorial](https://blog.interlinked.org/tutorials/vim_tutorial.html)
 - [Editor: Vim Interactive Tutorial](http://www.openvim.com/)
 - [Linux: Command Line Video](https://www.safaribooksonline.com/library/view/linux-command-line/9780134445533/)
@@ -27,9 +36,9 @@ To utilize the HII-HPC Cluster, experience with Linux and its associated toolset
 
 #### Intermediate
 
+- [Editor: Vim Video Tutorial](https://www.youtube.com/watch?v=Nim4_f5QUxA) (EXCELLENT - Instructor teaches Vim "Inside Vim")
 - [Linux: The Art of the Command Line](https://github.com/jlevy/the-art-of-command-line)
 - [Bash: Shell Scripting](https://en.wikibooks.org/wiki/Bash_Shell_Scripting)
-- [Editor: Vim Video Tutorial](https://www.youtube.com/watch?v=Nim4_f5QUxA) (EXCELLENT)
 - [Bash: Bash-Hackers](http://wiki.bash-hackers.org/)
 
 #### Advanced
