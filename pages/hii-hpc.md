@@ -22,6 +22,5 @@ offers the HII-HPC Cluster for bioinformatics research.
 ### Availability
 
 *The HII-HPC Cluster has a routine maintenance window each Thursday at 10:00 p.m. (Eastern Time Zone).<br/>
-Generally no downtime is necessary but occasionally maintenance may require downtime from a few minutes up
-to a maximum of 4 hours so please plan your work with this possibility in mind.*
+Generally no downtime is necessary but occasionally maintenance may require from a few minutes up to a maximum of 4 hours.*
 
