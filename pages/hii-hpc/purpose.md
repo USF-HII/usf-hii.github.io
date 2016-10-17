@@ -35,5 +35,4 @@ The HII-HPC may be right for you if you fit any of these criteria:
 - **Local to the data.**
   Bioinformatics data can range from Gigabytes
   to many Terabytes in size. As the size of the data increases,
-  transfer times may requires weeks or months to copy to local storage
-  and compute resources.
+  transfer times may require weeks or months to copy locally.
