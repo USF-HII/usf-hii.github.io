@@ -7,24 +7,10 @@ layout: page
 ### Slurm
 
 The HII-HPC utilizes the [Slurm Workload Manager](https://en.wikipedia.org/wiki/Slurm_Workload_Manager) to submit, monitor, and manage computational
-work on its compute nodes.
+jobs running on its compute nodes.
 
-Slurm a open-source job scheduler by many of the world's
+Slurm is an open-source job scheduler by many of the world's
 supercomputers and high performance computing clusters.
-
-#### Partitions
-
-Compute nodes in the cluster are grouped into partitions of compute nodes which provide the following classes of service:
-
-- `hii02` - Partition for production jobs (partition contains the majority of the compute nodes).
-- `hii-test` - Development partition.
-- `hii-interactive` - Nodes in partition reserved for [Interactive Shell](hii-hpc/interactive.html)
-  real-time feedback.
-
-*Use the option `--partition=<partition>` or `-p <partition>` for slurm commands such as `sinfo`, `srun`, `sbatch`,
-`squeue` to indicate the partition to use.*
-
-Note: You will have access to the same GPFS filesystems regardless of the partition you choose.
 
 #### Commands
 
@@ -44,6 +30,23 @@ The following are the most common commands used when interacting with Slurm:
    Show running as well as recently completed or failed jobs.
 
 On `hii.rc.usf.edu`, you can view documentation using the `man` command, e.g. `man sbatch`.
+
+
+#### Partitions
+
+Compute nodes in the cluster are grouped into Slurm Partitions
+which provide the following classes of service:
+
+- `hii02` - Partition for production batch jobs (partition contains the majority of the compute nodes).
+- `hii-test` - Development partition for testing batch jobs.
+- `hii-interactive` - Nodes in partition reserved for [Interactive Shell](hii-hpc/interactive.html)
+  real-time feedback.
+
+*Use the option `--partition=<partition>` or `-p <partition>` for slurm commands such as `sinfo`, `srun`, `sbatch`,
+`squeue` to indicate the partition to use.*
+
+Note: You will have access to the same [GPFS Filesystems](fileystems.html)
+regardless of the partition you choose.
 
 #### HII Walkthroughs
 
