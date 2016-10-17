@@ -23,20 +23,21 @@ If you want to edit files on `hii.rc.usf.edu`, beginners can try the editor `nan
 
 #### Cheatsheets
 
-- [Bash: Cheatsheet](http://johnstowers.co.nz/pages/bash-cheat-sheet.html) - Concise yet comprehensive reference
+- [Linux Command Reference](https://ubuntudanmark.dk/filer/fwunixref.pdf)
+- [Bash Cheatsheet](http://johnstowers.co.nz/pages/bash-cheat-sheet.html) - Concise yet comprehensive reference
   of Bash Programming constructs.
-- [Editor: Vim Graphical Cheatsheet](http://www.viemu.com/vi-vim-cheat-sheet.gif)
+- [Vim Graphical Cheatsheet](http://www.viemu.com/vi-vim-cheat-sheet.gif)
 
 #### Beginning
-
-- [Editor: Vim Tutorial](https://blog.interlinked.org/tutorials/vim_tutorial.html)
-- [Editor: Vim Interactive Tutorial](http://www.openvim.com/)
-- [Linux: Command Line Video](https://www.safaribooksonline.com/library/view/linux-command-line/9780134445533/)
+- [Linux Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/).
+- [Vim Video Tutorial](https://www.youtube.com/watch?v=Nim4_f5QUxA) (EXCELLENT - Instructor teaches Vim "Inside Vim")
+- [Vim Tutorial](https://blog.interlinked.org/tutorials/vim_tutorial.html)
+- [Vim Interactive Tutorial](http://www.openvim.com/)
+- [Linux Command Line Video](https://www.safaribooksonline.com/library/view/linux-command-line/9780134445533/)
   ([Safari](https://www.safaribooksonline.com/) Subscription Required)
 
 #### Intermediate
 
-- [Editor: Vim Video Tutorial](https://www.youtube.com/watch?v=Nim4_f5QUxA) (EXCELLENT - Instructor teaches Vim "Inside Vim")
 - [Linux: The Art of the Command Line](https://github.com/jlevy/the-art-of-command-line)
 - [Bash: Shell Scripting](https://en.wikibooks.org/wiki/Bash_Shell_Scripting)
 - [Bash: Bash-Hackers](http://wiki.bash-hackers.org/)
