@@ -4,7 +4,8 @@ layout: page
 
 ## [HII-HPC Cluster](../hii-hpc.html)
 
-Access to the cluster is available through a "Head Node" (`hii.rc.usf.edu`).
+Access to the cluster is available through a "Head Node" (`hii.rc.usf.edu`)
+via SSH for shell access or SFTP for file transfers.
 
 ### Shell Access
 
