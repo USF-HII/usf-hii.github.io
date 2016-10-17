@@ -9,7 +9,7 @@ layout: page
 The HII-HPC Cluster runs on the [Linux](https://www.linuxfoundation.org/about/about-linux) operating system.
 Linux is an open-source computing environment utilized by a majority of the HPC community.
 
-To utilize the HII-HPC Cluster, facility with the Linux command line and its associated tools is recommended.
+To utilize the HII-HPC Cluster, experience with Linux and its associated toolset is recommended.
 
 #### Cheatsheets
 
