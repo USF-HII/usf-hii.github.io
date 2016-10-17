@@ -39,7 +39,7 @@ which provide the following classes of service:
 
 - `hii02` - Partition for production batch jobs (partition contains the majority of the compute nodes).
 - `hii-test` - Development partition for testing batch jobs.
-- `hii-interactive` - Nodes in partition reserved for [Interactive Shell](hii-hpc/interactive.html)
+- `hii-interactive` - Nodes in partition reserved for [Interactive Shell](interactive.html)
   real-time feedback.
 
 *Use the option `--partition=<partition>` or `-p <partition>` for slurm commands such as `sinfo`, `srun`, `sbatch`,
@@ -50,10 +50,10 @@ regardless of the partition you choose.
 
 #### HII Walkthroughs
 
-- [Slurm Interactive Shell](hii-hpc/interactive.html)
-- [Slurm Resources](hii-hpc/sinfo.html)
-- [Slurm Jobs](hii-hpc/sbatch.html)
-- [Slurm Job Arrays](hii-hpc/slurm-arrays.html)
+- [Slurm Interactive Shell](interactive.html)
+- [Slurm Resources](sinfo.html)
+- [Slurm Jobs](sbatch.html)
+- [Slurm Job Arrays](slurm-arrays.html)
 
 #### Other Resources
 
