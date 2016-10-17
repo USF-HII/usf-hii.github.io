@@ -29,7 +29,10 @@ To connect to the cluster, please use a Secure Shell (`SSH`) Client with the fol
 
 #### Connect Information
 
-Use the same Connect Information for Shell Access above.
+- User: `(USF NetID)`
+- Password: `(USF NetID Password)`
+- Hostname: `hii.rc.usf.edu` (used `sftp://hii.rc.usf.edu` for FileZilla)
+- Port: `22`
 
 #### Clients
 
