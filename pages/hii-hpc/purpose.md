@@ -27,7 +27,7 @@ Reasons to utilize the HII-HPC Cluster include:
   the shelf, these are not particularly fast, and they may
   not be reliable enough under long running and intense I/O.
 
-- The convenience of computing resources close to the data.
+- The convenience of access to computing resources close to the data.
   Bioinformatics data can range from Gigabytes
   to many Terabytes in size. As the size of the data increases,
   transfer times may requires weeks or months to complete.
