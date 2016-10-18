@@ -75,7 +75,7 @@ Currently Loaded Modulefiles:
 Sometimes you need to remove support for an application from the current environment.
 
 ```
-hii$ module rm apps/R/3.1.2
+hii$ module rm apps/R/3.2.3
 
 hii$ which R
 /usr/bin/which: no R in (/usr/bin:/usr/local/bin)
