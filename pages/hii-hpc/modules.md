@@ -6,7 +6,7 @@ layout: page
 
 ### Modules
 
-Custom software built by USF Research Computinis available via the [Modules](http://modules.sourceforge.net/) system.
+Custom software built by USF Research Computing available via the [Modules](http://modules.sourceforge.net/) system.
 
 Modules gives the user fine-grained control to select a set of applications as well
 as the specific versions they wish to use
