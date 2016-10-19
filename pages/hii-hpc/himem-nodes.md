@@ -19,4 +19,4 @@ To utilize one of the high-memory nodes add
 the option  `--constraint=mem_1T` or `--constraint=fast_scratch` to your your `sbatch` invocation.
 
 Alternatively, if you specify a high-memory requirement (e.g. `--mem=200G`), Slurm will schedule
-your job on one of these nodes since they are the only resources available to satisfy the request.
+your job on one of these nodes since they are the only resources likely available to satisfy the request.
