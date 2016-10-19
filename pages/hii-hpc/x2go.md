@@ -26,7 +26,7 @@ as this will cause issues with other command-line based users.**
    from an interactive compute node session as detailed below because they can consume
    much greater resources.
 
-- `TIP 2`: Once you establish an interactive compute session, you can run your graphical client
+- `TIP 2`: Once you establish an interactive session on a compute node, you can run your graphical client
   in the background so you can run an additional graphical client without having
   to open another `terminal` and obtaining another interactive compute session. The syntax
   is `nohup <command> &>/dev/null &`, for example `nohup xeyes &>/dev/null &`.
