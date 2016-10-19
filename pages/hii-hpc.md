@@ -35,7 +35,7 @@ job status after the window in the rare event re-submission is necessary.*
 
 **2016**
 
-- 2 [High Memory Nodes](hii-hpc/himem-nodes.html): 28 Xeon E5-2650 v4 @ 2.60GHz cores /
+- 2 [High Memory Nodes](hii-hpc/himem-nodes.html)
   1 TB RAM @ 2400 MHz / 3 TB SSD Scratch
 - 40 Nodes: 20 Xeon E5-2650 v3 @ 2.30GHz cores with 128 GB RAM @ 2133 MHz
 
