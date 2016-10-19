@@ -46,5 +46,5 @@ For other software:
    and deploying to an installation path under your `$HOME` or preferably your group share
    (e.g. `/home/d/dvader/software/<name>-<version>/...` or `/shares/hii-jedi/software/<name>-<version>/...`)
 
-2. Request the software via the USF [Help Desk](help.html).
+2. Request the software via the USF [Help Desk](help.html) to be added to the [Modules](modules.html) environment.
 
