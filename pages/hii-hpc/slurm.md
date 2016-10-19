@@ -9,8 +9,7 @@ layout: page
 The HII-HPC utilizes the [Slurm Workload Manager](https://en.wikipedia.org/wiki/Slurm_Workload_Manager) to submit, monitor, and manage computational
 jobs running on its compute nodes.
 
-Slurm is an open-source job scheduler by many of the world's
-supercomputers and high performance computing clusters.
+Slurm is an open-source job scheduler implemented by many of the world's HPC Clusters.
 
 #### Commands
 
