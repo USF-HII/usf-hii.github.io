@@ -27,9 +27,9 @@ large-scale computational resources for bioinformatics workloads.
 ### Availability
 
 *The HII-HPC Cluster schedules maintenance windows each Thursday from 10:00 p.m. Eastern
-until Friday 2:00 a.m.  The window is utilized to perform any upgrades or proactive maintenance necessary.
-Although maintenance affecting users is uncommon, if you are running jobs during this time frame please verify
-job status after the window in the rare event a job-impacting change was required and re-submission is necessary.*
+until Friday 2:00 a.m.  The window is utilized to perform pending upgrades and proactive maintenance.
+Although job-impacting changes are rare, if you are running jobs during this time frame please verify
+job status after the window in the rare event re-submission is necessary.*
 
 ### Enhancements
 
