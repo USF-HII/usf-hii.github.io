@@ -44,7 +44,7 @@ which provide the following classes of service:
 *Use the option `--partition=<partition>` or `-p <partition>` for slurm commands such as `sinfo`, `srun`, `sbatch`,
 `squeue` to indicate the partition to use.*
 
-Note: You will have access to the same [GPFS Filesystems](fileystems.html)
+Note: You will have access to the same [GPFS Filesystems](filesystems.html)
 regardless of the partition you choose.
 
 #### HII Walkthroughs
