@@ -15,7 +15,6 @@ large-scale computational resources for bioinformatics workloads.
 
 ### Latest
 
-- [1000 Genomes Data](hii-hpc/g1k.html)
 - [High Memory Nodes](hii-hpc/himem-nodes.html)
 
 ### Overview
