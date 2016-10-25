@@ -40,7 +40,7 @@ job status after the window in the rare event re-submission is necessary.*
 
 **2016**
 
-- 2 Nodes: 28 Xeon E5-2650 v4 @ 2.30GHz cores with 2048 GB RAM @ 2400 MHz
+- 2 Nodes: 28 Xeon E5-2650 v4 @ 2.30GHz cores with 1024 GB RAM @ 2400 MHz
 - 40 Nodes: 20 Xeon E5-2650 v3 @ 2.30GHz cores with 128 GB RAM @ 2133 MHz
 
 **2015**
