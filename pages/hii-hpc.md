@@ -5,12 +5,17 @@ layout: page
 <img src="/images/usf-hii-logo.png" border="0" width="30%" height="30%" />
 <br/>
 
+
 ## HII-HPC Cluster
 
 In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/),
 the [Health Informatics Institute](http://www.hii.usf.edu)
 offers the HII-HPC Cluster for its faculty and partners requiring
 large-scale computational resources for bioinformatics workloads.
+
+### Latest
+
+- [1000 Genomes Data](hii-hpc/g1k.html)
 
 ### Overview
 
@@ -31,7 +36,7 @@ until Friday 2:00 a.m.  The window is utilized to perform pending upgrades and p
 Although job-impacting changes are uncommon, if you are running jobs during this time frame please verify
 job status after the window in the rare event re-submission is necessary.*
 
-### Enhancements
+### News
 
 **2016**
 
