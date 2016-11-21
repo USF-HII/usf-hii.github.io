@@ -48,3 +48,18 @@ For other software:
 
 2. Request the software via the USF [Help Desk](help.html) to be added to the [Modules](modules.html) environment.
 
+#### 5. Can have a mysql database, postresql database, etc. set up on the HII-HPC Cluster?
+
+Stateful services are services expected to persist beyond an individual job submission on the HII-HPC cluster
+(e.g. `mysql`, `postgresql`, etc.).
+
+The HII-HPC cluster does not currently support stateful services.
+
+If stateful services are required, our current recommendation is to establish those services
+in your own environment and access them remotely from the HII-HPC cluster.
+
+If you wish to configure your firewall to allow access, please add the these source IPs:
+
+- `131.247.250.90` (Head Node Public Source IP, `hii.rc.usf.edu`)
+- `131.247.244.250` (Compute Nodes Public Source IP)
+
