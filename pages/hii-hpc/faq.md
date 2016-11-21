@@ -55,10 +55,11 @@ Stateful services are services expected to persist beyond an individual job subm
 
 Stateful services are not currently supported on the HII-HPC cluster.
 
-If stateful services are required, the current recommendation is to establish those services
-in your own environment and access them remotely from the HII-HPC cluster.
+If a stateful service is required for a pipeline, the current recommendation is to establish it
+in your own environment and access it remotely from the HII-HPC cluster.
 
-If you wish to allow access from the HII-HPC cluster, please add the the following source IPs to your firewall configuration:
+If you wish to allow access from the HII-HPC cluster
+please add the the following source IPs to your firewall configuration:
 
 - `131.247.250.90` (Head Node Public Source IP, `hii.rc.usf.edu`)
 - `131.247.244.250` (Compute Nodes Public Source IP)
