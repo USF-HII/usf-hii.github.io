@@ -61,6 +61,6 @@ in your own environment and access it remotely from the HII-HPC cluster.
 If you wish to allow access from the HII-HPC cluster
 please add the the following source IPs to your firewall configuration:
 
-- `131.247.250.90` (Public IP for `hii.rc.usf.edu`)
+- `131.247.250.90` (Public IP for the head node, `hii.rc.usf.edu`)
 - `131.247.244.250` (Public IP for all compute nodes)
 
