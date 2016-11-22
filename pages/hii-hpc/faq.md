@@ -48,9 +48,9 @@ For other software:
 
 2. Request the software via the USF [Help Desk](help.html) to be added to the [Modules](modules.html) environment.
 
-#### 5. Can we install or access a database or other stateful service on the HII-HPC Cluster?
+#### 5. Can we install or access a database or other persistent service on the HII-HPC Cluster?
 
-Stateful services are long-running software applications intended to persist state beyond the life
+Persistent services are long-running software applications intended to persist state beyond the life
 of a computational pipeline submitted to the HII-HPC cluster (e.g. `mysql`, `postgresql`, etc.).
 
 These services are not currently supported on the HII-HPC cluster however network connections
