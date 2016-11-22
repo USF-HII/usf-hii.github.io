@@ -31,7 +31,7 @@ Since resources are being added to the cluster on a continual basis, the most ac
 available resources is by logging into the head node, `hii.rc.usf.edu`, and referring to
 the `sinfo` example [Show All HII-HPC Resources](sinfo.html#show-all-hii-hpc-resources) to obtain the most current information.
 
-#### 4. Can software package "X" installed on the HII-HPC Cluster?
+#### 4. Can software package "X" be installed on the HII-HPC Cluster?
 
 There are a number of USF RC pre-built packages available on the HII-HPC cluster via [Modules](modules.html).
 
@@ -48,7 +48,7 @@ For other software:
 
 2. Request the software via the USF [Help Desk](help.html) to be added to the [Modules](modules.html) environment.
 
-#### 5. Can I install or access a database or other stateful service on the HII-HPC Cluster?
+#### 5. Can we install or access a database or other stateful service on the HII-HPC Cluster?
 
 Stateful services are long-running software applications intended to persist state beyond the life
 of a computational pipeline submitted to the HII-HPC cluster (e.g. `mysql`, `postgresql`, etc.).
