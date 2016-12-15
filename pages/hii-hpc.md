@@ -5,10 +5,7 @@ layout: page
 <img src="/images/usf-hii-logo.png" border="0" width="30%" height="30%" />
 <br/>
 
-<hr/>
-<b>IMPORTANT ANNOUNCEMENT: The HII-HPC Cluster will be down for extended
-maintenance from 2016-12-15 Thursday 17:00 EDT until 2016-12-23 Friday 12:00 (Noon).</b>
-<hr/>
+*IMPORTANT ANNOUNCEMENT: The HII-HPC Cluster will be down for extended maintenance from 2016-12-15 Thursday 17:00 EDT until 2016-12-23 Friday 12:00 (Noon).*
 
 
 ## HII-HPC Cluster
