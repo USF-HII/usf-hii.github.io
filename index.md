@@ -5,7 +5,7 @@ layout: page
 <img src="images/usf-hii-logo.png" border="0" width="30%" height="30%" />
 <br/>
 
-*[HII-HPC Cluster](pages/hii-hpc.html)*
+<h2>[HII-HPC Cluster](pages/hii-hpc.html)<h2>
 
 In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/),
 the [Health Informatics Institute](http://www.hii.usf.edu)
