@@ -6,7 +6,9 @@ layout: page
 <br/>
 
 ---
+
 **Note: Please disregard the USF Research Computing Message regaring Quotas - HII maintains separate filesystems with enhanced quotas.**
+
 ---
 
 ## HII-HPC Cluster
