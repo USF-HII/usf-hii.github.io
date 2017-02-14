@@ -7,7 +7,7 @@ layout: page
 
 ---
 
-**Note: Please disregard the USF Research Computing Message regarding Quotas - HII maintains separate filesystems with enhanced quotas.**
+**Note: Please disregard the USF Research Computing message regarding quotas - HII maintains separate filesystems with enhanced quotas.**
 
 ---
 
