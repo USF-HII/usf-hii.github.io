@@ -5,6 +5,10 @@ layout: page
 <img src="/images/usf-hii-logo.png" border="0" width="30%" height="30%" />
 <br/>
 
+---
+**Note: Please disregard the USF Research Computing Message regaring Quotas - HII maintains separate filesystems with enhanced quotas.**
+---
+
 ## HII-HPC Cluster
 
 In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/),
