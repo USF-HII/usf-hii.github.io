@@ -39,14 +39,11 @@ large-scale computational resources for bioinformatics workloads.
 The HII-HPC Cluster schedules 2 maintenance windows on the same day each week:
 
 - Change Window A: Head Nodes: Each Thursday @ 10:00 AM EDT until 11:00 AM EDT
+  - Description: Updates to the Head Nodes (e.g. `hii.rc.usf.edu`) but currently running jobs will not be affected.
+
 - Change Window B: Head Nodes/Compute Nodes: Each Thursday @ 10:00 PM EDT until 06:00 AM EDT
-
-The Change Window A is for updates to the Head Nodes (e.g. `hii.rc.usf.edu`) but currently running jobs will not be affected.
-
-The Change Window B is for updates to Head Nodes and the Compute Nodes.
-
-**Note:** *Although Change Window B events are less common, please
-verify your job status after Change Window B if you are running jobs utilizing Compute Nodes and re-submit as necessary.*
+  - Description: Updates to the Head Nodes and the Compute Nodes. **Note:** *Although Change Window B events are less common, please
+    verify your job status after Change Window B if you are running jobs utilizing Compute Nodes and re-submit as necessary.*
 
 ### News
 
