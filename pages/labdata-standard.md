@@ -53,7 +53,9 @@ A Bundle's unique namespace is built from the following elements:
 - `bundle_prefix` + `-` + `bundle_instance` (e.g. `Omics-WGS-1`)
 
 The Bundle Instance is an incremental integer associated with a Bundle Prefix.
-Starting at `1`, the next available Bundle Instance for a particular Bundle Prefix should be selected,
+Starting at `1`.
+
+The next available Bundle Instance for a particular Bundle Prefix should be selected,
 (e.g. `Omics-WGS-1`, `Omics-WGS-2`, `Lipidomics-1`, `Lipidomics-2`).
 
 When it is difficult to choose a meaningful Bundle Prefix, the default of `General` (e.g. `General-1`, `General-2`, etc..) should be used.
