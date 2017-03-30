@@ -30,9 +30,7 @@ Establish a formal process for the ingress of omics data from a Study's Provider
   - Path to one or more Folders within the Provider Inbox (e.g. `omics-transmission-2017-01-01`)
   - New Bundle to ingress the Folders under (e.g. `Omics-WGS-1`)
 - DCCA notifies DCCO of Ingress Request
-- DCCO reviews and executes Ingress Request
-- DCCO updates Ingress Log
-- DCCO notifies DCCA upon completion
+- DCCO reviews and executes Ingress Request, updates Ingress Log, and notifies DCCA
 
 ## Concepts
 
