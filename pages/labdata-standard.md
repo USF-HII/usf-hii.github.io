@@ -1,7 +1,7 @@
 # Labdata Standard (Draft)
 
-*A new concept to be introduced shortly is the Provider Airlock, an intermediary location
-providing a vacuum between a Provider Inbox and a Provider Repository.*
+*We will be introducing a Provider Airlock shortly, an intermediary location providing a "vacuum" (immutable-space)
+between a Provider Inbox and a Provider Repository.*
 
 ## Purpose
 
