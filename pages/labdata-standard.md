@@ -23,12 +23,12 @@ Establish a formal process for the ingress of omics data from a Provider into a 
 
 ## Study Ingress Lifecycle
 
-- Provider transmits one or more Datafolders to their Provider Inbox (e.g. `/labdata/teddy/abc/_ftp/inbox/omics-transmission-2017-01-01`)
+- Provider transmits one or more Folders to their Provider Inbox (e.g. `/labdata/teddy/abc/_ftp/inbox/omics-transmission-2017-01-01`)
 - Provider communicates with the DCCA who adds an Ingress Request consisting of:
   - Study (e.g. `teddy`)
   - Provider ID (e.g. `abc`)
-  - Path to one or more Datafolders within the Provider Inbox (e.g. `omics-transmission-2017-01-01`)
-  - New Bundle to ingress the Datafolders under (e.g. `Omics-WGS-1`)
+  - Path to one or more Folders within the Provider Inbox (e.g. `omics-transmission-2017-01-01`)
+  - New Bundle to ingress the Folders under (e.g. `Omics-WGS-1`)
 - DCCA notifies DCCO of Ingress Request
 - DCCO reviews and executes Ingress Request
 - DCCO updates Ingress Log
@@ -40,7 +40,7 @@ Establish a formal process for the ingress of omics data from a Provider into a 
 
 A Bundle is a granular unit of ingressed data from a Provider for a Study analogous to a lockbox.
 
-A Bundle is created by moving one or more Datafolders from a Provider Inbox
+A Bundle is created by moving one or more Folders from a Provider Inbox
 into a Provider Repository establishing a uniquely namespaced, immutable unit of data at a particular point in time.
 
 This immutability establishes provenance and simplifies future archiving and replication.
@@ -64,37 +64,37 @@ For the Study `teddy` with the Provider `abc` the full path of this example Bund
 
     /labdata/teddy/abc/Omics-WGS-1
 
-The ingressed Datafolder contents under this Bundle will be:
+The ingressed folder contents under this Bundle will be:
 
     /labdata/teddy/abc/Omics-WGS-1/omics-transmission-2017-01-01/XYZ123/XYZ123_1.fastq.bz2
     /labdata/teddy/abc/Omics-WGS-1/omics-transmission-2017-01-01/XYZ123/XYZ123_2.fastq.bz2
 
-### Datafolder
+### folder
 
-The atomic unit of ingress for a Provider is a Datafolder.
+The atomic unit of ingress for a Provider is a folder.
 
-- `datafolder_name`: `omics-transmission-2017-01-01`
-- `datafolder_path`: `XYZ123/XYZ123_1.fastq.bz2`
+- `folder_name`: `omics-transmission-2017-01-01`
+- `folder_path`: `XYZ123/XYZ123_1.fastq.bz2`
 
 #### Example
 
-In our example, the Datafolder name is `omics-transmission-2017-01-01` located under the `teddy` study in the `abc` Provider Inbox:
+In our example, the folder name is `omics-transmission-2017-01-01` located under the `teddy` study in the `abc` Provider Inbox:
 
     /labdata/teddy/abc/_ftp/inbox/omics-transmission-2017-01-01
 
-This is a Omics WGS transfer of fastq files for Study `teddy` by the Provider `abc` with the full paths of the Datafolder Files as:
+This is a Omics WGS transfer of fastq files for Study `teddy` by the Provider `abc` with the full paths of the folder Files as:
 
     /labdata/teddy/abc/_ftp/inbox/omics-transmission-2017-01-01/XYZ123/XYZ123_1.fastq.bz2
     /labdata/teddy/abc/_ftp/inbox/omics-transmission-2017-01-01/XYZ123/XYZ123_2.fastq.bz2
 
-However within the Datafolder Name `omics-transmission-2017-01-01`, the Datafolder Path for these two files is referenced as:
+However within the folder Name `omics-transmission-2017-01-01`, the folder Path for these two files is referenced as:
 
     omics-transmission-2017-01-01/XYZ123/XYZ123_1.fastq.bz2
     omics-transmission-2017-01-01/XYZ123/XYZ123_2.fastq.bz2
 
-The reason we include the Datafolder Name in the Datafolder Path is because more than one Datafolder may be ingressed into a Bundle.
+The reason we include the folder Name in the folder Path is because more than one folder may be ingressed into a Bundle.
 
-Keeping the original Datafolder Name (i.e. parent folder) allows us to ingress more than one Datafolder into a Bundle.
+Keeping the original folder Name (i.e. parent folder) allows us to ingress more than one folder into a Bundle.
 
 ### Provider
 
@@ -163,30 +163,30 @@ For example, if the `abc` laboratory transfers data for the `teddy` Study, the f
 The directory structures are listed in the sequence of ingress:
 
 - Provider Inbox
-  - Path: `/labdata/<study>/<provider_id>/_ftp/inbox/<datafolder_name>/<datafolder_path>`
+  - Path: `/labdata/<study>/<provider_id>/_ftp/inbox/<folder_name>/<folder_path>`
   - Example: `/labdata/teddy/abc/_ftp/inbox/omics-transmission-2017-01-01/XYZ123/XYZ123_1.fastq.bz2`
     - `<study>`: `teddy`
     - `<provider_id>`: `abc`
-    - `<datafolder>`: `omics-transmission-2017-01-01`
-    - `<datafolder_path>`: `XYZ123/XYZ123_1.fastq.bz2`
+    - `<folder>`: `omics-transmission-2017-01-01`
+    - `<folder_path>`: `XYZ123/XYZ123_1.fastq.bz2`
 
 - Provider Airlock
-  - Path: `/labdata/<study>/<provider_id>/_airlock/<bundle_prefix>-<bundle_instance>/<datafolder_name>/<datafolder_path>`
+  - Path: `/labdata/<study>/<provider_id>/_airlock/<bundle_prefix>-<bundle_instance>/<folder_name>/<folder_path>`
   - Example: `/labdata/teddy/abc/_airlock/Omics-WGS-1/omics-transmission-2017-01-01/XYZ123/XYZ123_1.fastq.bz2`
     - `<study>`: `teddy`
     - `<provider_id>`: `abc`
     - `<bundle_prefix>`: `Omics-WGS`
     - `<bundle_instance>`: `1`
-    - `<datafolder>`: `omics-transmission-2017-01-01`
-    - `<datafolder_path>`: `XYZ123/XYZ123_1.fastq.bz2`
+    - `<folder>`: `omics-transmission-2017-01-01`
+    - `<folder_path>`: `XYZ123/XYZ123_1.fastq.bz2`
 
 - Provider Repository
-  - Path: `/labdata/<study>/<provider_id>/<bundle_prefix>-<bundle_instance>/<datafolder_name>/<datafolder_path>`
+  - Path: `/labdata/<study>/<provider_id>/<bundle_prefix>-<bundle_instance>/<folder_name>/<folder_path>`
   - Example: `/labdata/teddy/abc/Omics-WGS-1/omics-transmission-2017-01-01/XYZ123/XYZ123_1.fastq.bz2`
     - `<study>`: `teddy`
     - `<provider_id>`: `abc`
     - `<bundle_prefix>`: `Omics-WGS`
     - `<bundle_instance>`: `1`
-    - `<datafolder_name>`: `omics-transmission-2017-01-01`
-    - `<datafolder_path>`: `XYZ123/XYZ123_1.fastq.bz2`
+    - `<folder_name>`: `omics-transmission-2017-01-01`
+    - `<folder_path>`: `XYZ123/XYZ123_1.fastq.bz2`
 
