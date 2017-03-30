@@ -5,7 +5,7 @@ between a Study's Provider Inbox and its Provider Repository.*
 
 ## Purpose
 
-Establish a formal process for the ingress of omics data from a Study's Provider into the Data Coordination Center.
+Establish a formal process for the ingress of omics data from a Study's Provider into their Data Coordination Center.
 
 ## Namespace
 
