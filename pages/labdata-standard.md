@@ -21,7 +21,7 @@ Establish a formal process for the ingress of omics data from a Study's Provider
     - DCC Operations (DCCO)
   - Provider (e.g. `abc`)
 
-## Study Ingress Lifecycle
+## Ingress Lifecycle
 
 - Provider transmits one or more Folders to their Provider Inbox (e.g. `/labdata/teddy/abc/_ftp/inbox/omics-transmission-2017-01-01`)
 - Provider communicates with the DCCA who adds an Ingress Request consisting of:
@@ -71,7 +71,7 @@ The ingressed folder contents under this Bundle will be:
     /labdata/teddy/abc/Omics-WGS-1/omics-transmission-2017-01-01/XYZ123/XYZ123_1.fastq.bz2
     /labdata/teddy/abc/Omics-WGS-1/omics-transmission-2017-01-01/XYZ123/XYZ123_2.fastq.bz2
 
-### folder
+### Folder
 
 The atomic unit of ingress for a Provider is a folder.
 
