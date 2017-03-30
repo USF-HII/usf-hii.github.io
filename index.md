@@ -12,3 +12,4 @@ layout: page
   large-scale computational resources for bioinformatics workloads.
 
 
+- **[HII Labdata Standard](pages/labdata-standard.html)**<br/><br/>
