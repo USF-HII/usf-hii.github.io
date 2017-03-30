@@ -24,14 +24,14 @@ Establish a formal process for the ingress of omics data from a Provider into a 
 ## Study Ingress Lifecycle
 
 - Provider transmits one or more Datafolders to their Provider Inbox (e.g. `/labdata/teddy/abc/_ftp/inbox/omics-transmission-2017-01-01`)
-- Provider communicates with the DCCA who adds an Ingress Request at https://github.com/usf-hii/docs/tree/master/omics/labdata.md consisting of:
+- Provider communicates with the DCCA who adds an Ingress Request consisting of:
   - Study (e.g. `teddy`)
   - Provider ID (e.g. `abc`)
   - Path to one or more Datafolders within the Provider Inbox (e.g. `omics-transmission-2017-01-01`)
   - New Bundle to ingress the Datafolders under (e.g. `Omics-WGS-1`)
 - DCCA notifies DCCO of Ingress Request
 - DCCO reviews and executes Ingress Request
-- DCCO updates Ingress Log at https://github.com/usf-hii/docs/tree/master/omics/labdata.md
+- DCCO updates Ingress Log
 - DCCO notifies DCCA upon completion
 
 ## Concepts
