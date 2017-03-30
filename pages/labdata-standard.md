@@ -1,11 +1,11 @@
 # Labdata Standard (Draft)
 
 *We will be introducing a Provider Airlock shortly, an intermediary location providing a "vacuum" (immutable, time-locked space)
-between a Provider Inbox and a Provider Repository.*
+between a Study's Provider Inbox and its Provider Repository.*
 
 ## Purpose
 
-Establish a formal process for the ingress of omics data from a Provider into a Study's Data Coordination Center.
+Establish a formal process for the ingress of omics data from a Study's Provider into its Data Coordination Center.
 
 ## Namespace
 
