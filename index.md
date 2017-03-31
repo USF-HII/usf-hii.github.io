@@ -11,5 +11,3 @@ layout: page
   offers the HII-HPC Cluster for its faculty and partners requiring
   large-scale computational resources for bioinformatics workloads.
 
-
-- **[HII Labdata Standard](pages/labdata-standard.html)**<br/><br/>
