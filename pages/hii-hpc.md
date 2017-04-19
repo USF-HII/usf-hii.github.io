@@ -44,7 +44,8 @@ The HII-HPC Cluster reserves two maintenance windows on the same day each week:
     generally be sent to logged in users on Wednesday if a downtime is expected the following day.
 
 - Every Thursday @ 10:00 PM EDT until 06:00 AM EDT
-  - Description: Updates to the Head Nodes and the Compute Nodes - Scheduled Slurm jobs _may_ be affected.
+  - Description: Updates to the Head Nodes and the Compute Nodes - SSH/Screen/Tmux sessions *and* Scheduled Slurm jobs _may_ be affected.
+    A broadcast message will generally be sent to logged in users on Wednesday if a downtime is expected the following day.
 
 If you are running any long-term jobs during the Thursday night change window, please make sure to verify your
 jobs are still running Friday morning. Job-affecting changes are rare but occasionally necessary for maintaining a healthy cluster.
