@@ -36,13 +36,17 @@ large-scale computational resources for bioinformatics workloads.
 
 ### Availability
 
-The HII-HPC Cluster schedules 2 maintenance windows on the same day each week:
+The HII-HPC Cluster reserves two maintenance windows on the same day each week:
 
-- Change Window A: Head Nodes: Each Thursday @ 10:00 AM EDT until 11:00 AM EDT
-  - Description: Updates to the Head Nodes (e.g. `hii[n].rc.usf.edu`)
+- Every Thursday @ 10:00 AM EDT until 12:00 Noon EDT
+  - Description: Updates to the Head Node (`hii.rc.usf.edu`) - SSH Logins and Screen/Tmux sessions
+    _may_ be terminated but no Slurm jobs already submitted will be affected.
 
-- Change Window B: Head Nodes/Compute Nodes: Each Thursday @ 10:00 PM EDT until 06:00 AM EDT
-  - Description: Updates to the Head Nodes and the Compute Nodes
+- Every Thursday @ 10:00 PM EDT until 06:00 AM EDT
+  - Description: Updates to the Head Nodes and the Compute Nodes - Scheduled Slurm jobs _may_ be affected.
+
+If you are running any long-term jobs during the Thursday night change window, please make sure to verify your
+jobs are still running Friday morning. Job-affecting changes are rare but occasionally necessary for maintaining a healthy cluster.
 
 ### News
 
