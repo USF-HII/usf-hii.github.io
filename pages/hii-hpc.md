@@ -5,12 +5,6 @@ layout: page
 <img src="/images/usf-hii-logo.png" border="0" width="30%" height="30%" />
 <br/>
 
----
-
-**Note: Please disregard the USF Research Computing message regarding quotas - HII maintains separate filesystems with enhanced quotas.**
-
----
-
 ## HII-HPC Cluster
 
 In partnership with [USF Research Computing](http://www.usf.edu/it/research-computing/),
@@ -18,9 +12,7 @@ the [Health Informatics Institute](http://www.hii.usf.edu)
 offers the HII-HPC Cluster for its faculty and partners requiring
 large-scale computational resources for bioinformatics workloads.
 
-### Latest
-
-- [High Memory Nodes](hii-hpc/himem-nodes.html)
+---
 
 ### Overview
 
@@ -33,6 +25,8 @@ large-scale computational resources for bioinformatics workloads.
 - [Getting Help](hii-hpc/help.html)
 - [Frequently Asked Questions](hii-hpc/faq.html)
 - [Other Topics](hii-hpc/other.html)
+
+---
 
 ### Availability
 
@@ -50,7 +44,13 @@ The HII-HPC Cluster reserves two maintenance windows on the same day each week:
 If you are running any long-term jobs during the Thursday night change window, please make sure to verify your
 jobs are still running Friday morning. Job-affecting changes are rare but occasionally necessary for maintaining a healthy cluster.
 
+---
+
 ### News
+
+**2017**
+
+- Please disregard the USF Research Computing message regarding quotas - HII maintains separate filesystems with enhanced quotas.
 
 **2016**
 
