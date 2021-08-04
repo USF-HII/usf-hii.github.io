@@ -15,7 +15,7 @@ To connect to the cluster, please use a Secure Shell (`SSH`) Client with the fol
 
 - User: `(USF NetID)`
 - Password: `(USF NetID Password)`
-- Hostname: `hii.rc.usf.edu`
+- Hostname: `hii.rc.usf.edu` or `hii2.rc.usf.edu`
 - Port: `22`
 
 #### Clients
