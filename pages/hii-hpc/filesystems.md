@@ -7,7 +7,7 @@ layout: page
 ### Filesystems
 
 Each user will have the following filesystems available to them
-on the `hii.rc.usf.edu` head node and all compute nodes within
+on the `hii.rc.usf.edu` or `hii2.rc.usf.edu` head node and all compute nodes within
 HII-HPC Cluster.
 
 The filesystems are backed by GPFS, the

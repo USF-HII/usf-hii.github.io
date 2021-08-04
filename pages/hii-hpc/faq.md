@@ -28,7 +28,7 @@ as the authoritative source of information for the HII-HPC Cluster.
 #### 3. What resources are available on the HII-HPC Cluster?
 
 Since resources are being added to the cluster on a continual basis, the most accurate way to determine
-available resources is by logging into the head node, `hii.rc.usf.edu`, and referring to
+available resources is by logging into a head node, `hii.rc.usf.edu` or `hii2.rc.usf.edu`, and referring to
 the `sinfo` example [Show All HII-HPC Resources](sinfo.html#show-all-hii-hpc-resources) to obtain the most current information.
 
 #### 4. Can software package "X" be installed on the HII-HPC Cluster?
@@ -58,6 +58,6 @@ to external services from the head and compute nodes are possible.
 
 Please add the following IP addresses to the external service's firewall ruleset to allow incoming access if necessary:
 
-- `131.247.250.90` (Public IP for the head node, `hii.rc.usf.edu`)
+- `131.247.250.90` (Public IP for head node `hii.rc.usf.edu`)
+- `131.247.250.99` (Public IP for head node `hii2.rc.usf.edu`)
 - `131.247.244.250` (Public IP for all compute nodes)
-

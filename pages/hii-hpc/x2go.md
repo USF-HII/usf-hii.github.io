@@ -18,11 +18,11 @@ access a graphical application.
 ---
 
 **Please note other than the initial X2Go session, all graphical applications
-should be run on a compute node and not on the `hii.rc.usf.edu` head node (see TIP 1)
+should be run on a compute node and not on the `hii.rc.usf.edu` or `hii2.rc.usf.edu` head nodes (see TIP 1)
 as this will cause issues with other command-line based users.**
 
 - `TIP 1`: You may run utility programs like `terminal`, `evince` (pdf viewer), or `file manager`
-   on the `hii.rc.usf.edu` head node but please run the bigger graphical clients (Rstudio, etc.)
+   on the `hii.rc.usf.edu` or `hii2.rc.usf.edu` head node but please run the bigger graphical clients (Rstudio, etc.)
    from an interactive compute node session as detailed below because they can consume
    much greater resources.
 
@@ -41,7 +41,7 @@ X2Go software is available [HERE](http://wiki.x2go.org/doku.php)
 
 ##### Connect to the cluster via an X2Go session
 
-- Host: `hii.rc.usf.edu`
+- Host: `hii.rc.usf.edu` or `hii2.rc.usf.edu`
 - Login: `USF NetID`
 - SSH Port: `22`
 - Session Type: `Gnome`
@@ -55,12 +55,12 @@ From your Gnome Desktop:
 ##### Gain an interactive session on a compute node
 
 X2Go does not set the hostname on the display so first we modify this so the compute node
-can get back to your X2Go session on `hii.rc.usf.edu`:
+can get back to your X2Go session on `hii.rc.usf.edu` or `hii2.rc.usf.edu`:
 
 ```
-hii$ export DISPLAY=$(echo hii.rc.usf.edu$DISPLAY)
+hii$ export DISPLAY=$(echo hii.rc.usf.edu$DISPLAY) # or hii2.rc.usf.edu...
 
-hii$ echo $DISPLAY
+hii$ echo $DISPLAY # output should be either hii or hii2, depending on which you are using
 hii.rc.usf.edu:55.0
 ```
 
@@ -91,18 +91,3 @@ svc-3024-5-6$ xeyes
 ```
 svc-3024-5-6$ nohup xeyes &>/dev/null &
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

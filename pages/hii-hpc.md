@@ -30,10 +30,12 @@ large-scale computational resources for bioinformatics workloads.
 
 ### Availability
 
+(Note: this section may be out of date)
+
 The HII-HPC Cluster reserves two maintenance windows on the same day each week:
 
 - Every Thursday @ 10:00 AM EDT until 12:00 Noon EDT
-  - Description: Updates to the Head Node (`hii.rc.usf.edu`) - SSH Logins and Screen/Tmux sessions
+  - Description: Updates to the Head Nodes (`hii.rc.usf.edu` and `hii2.rc.usf.edu`) - SSH Logins and Screen/Tmux sessions
     _may_ be terminated but no Slurm jobs already submitted will be affected. A broadcast message will
     generally be sent to logged in users on Wednesday if a downtime is expected the following day.
 
@@ -48,6 +50,8 @@ jobs are still running Friday morning. Job-affecting changes are rare but occasi
 
 ### News
 
+(Note: this section is be out of date)
+
 **2017**
 
 - Please disregard the USF Research Computing message regarding quotas - HII maintains separate filesystems with enhanced quotas.
@@ -61,4 +65,3 @@ jobs are still running Friday morning. Job-affecting changes are rare but occasi
 
 - 40 Nodes: 16 Xeon E5-2650 v2 @ 2.60GHz with 128 GB RAM @ 1600 MHz
 - DDN General Parallel File System (GPFS) Storage Cluster providing Petabytes of scalable I/O
-

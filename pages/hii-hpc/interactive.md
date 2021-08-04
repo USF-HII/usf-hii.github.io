@@ -8,7 +8,7 @@ layout: page
 
 #### Discussion
 
-Although it is possible to run interactive work on the head node, `hii.rc.usf.edu`,
+Although it is possible to run interactive work on a head node, `hii.rc.usf.edu` or `hii2.rc.usf.edu`,
 doing so may adversely affect others who are utilizing the system for its core functionality
 of transferring and submitting jobs which are queued and dispatched to run on
 compute nodes dedicated to running computationally-intensive work.
@@ -59,4 +59,3 @@ should be running on the `hii-interactive` partition,
  however if all nodes in the `hii-interactive` partition are allocated, feel free to subsititute
 `--partition=hii-test` or `--partition=hii02` in the examples but realize if a partition is saturated with batch-jobs
 your interactive session may wait many minutes or hours to start.
-

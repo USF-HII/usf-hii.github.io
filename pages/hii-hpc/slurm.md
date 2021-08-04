@@ -28,7 +28,7 @@ The following are the most common commands used when interacting with Slurm:
 - `sacct` ([docs](http://slurm.schedmd.com/sacct.html)) -
    Show running as well as recently completed or failed jobs.
 
-On `hii.rc.usf.edu`, you can view documentation using the `man` command, e.g. `man sbatch`.
+On `hii.rc.usf.edu` and `hii2.rc.usf.edu`, you can view documentation using the `man` command, e.g. `man sbatch`.
 
 
 #### Partitions
@@ -60,4 +60,3 @@ regardless of the partition you choose.
 - [Slurm Quick Reference](http://slurm.schedmd.com/pdfs/summary.pdf) - Quickref of major Slurm commands.
 - [Slurm Rosetta Stone](http://slurm.schedmd.com/rosetta.pdf) - Translation for individuals familiar with similar HPC scheduling systems.
 - [Stack Exchange](http://stackoverflow.com/questions/tagged/slurm)
-
